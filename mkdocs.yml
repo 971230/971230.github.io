@@ -1,0 +1,15 @@
+site_name: loong的博客
+site_url: https://github.com/971230/971230.github.io
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: 黑色主题
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 白色主题
