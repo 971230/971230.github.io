@@ -1,8 +1,18 @@
 site_name: loong的博客
 site_url: https://github.com/971230/971230.github.io
 theme:
+  # 使用的网站主题
   name: material
+  # 网站语言
   language: zh
+  # 网站标签页图标
+  favicon: images/icons/wind16.png
+  # 网站主页图标
+  logo: images/icons/wind128.png
+  # 字体--要CDN导入
+  font:
+    text: LXGW WenKai Screen
+  # 黑白主题切换
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -14,11 +24,37 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 白色主题
+  # 搜索栏开启建议/高亮/分享链接
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+  # 仓库图标
+  icon:
+    repo: fontawesome/brands/git-alt
+# 仓库地址
+repo_url: https://github.com/squidfunk/mkdocs-material
+# 额外的css和CDN字体
+extra_css:
+  - css/extra.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+# 额外的字体
+extra_javascript:
+  - js/extra.js
+  - js/mathjax.js
+  - js/tablesort.js
+# 添加中英文字体
 extra:
   alternate:
-    - name: Chinese
+    - name: 中文
       link: /zh/ 
       lang: zh
     - name: English
       link: /en/
       lang: en
+  # 社交网络
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/971230
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/491580862
