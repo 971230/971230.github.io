@@ -17,3 +17,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         ...       # Other markdown pages, images and other files.
 
 ## 高山仰止，景行行止
+欢迎来的这里，随意阅读访问哦！
