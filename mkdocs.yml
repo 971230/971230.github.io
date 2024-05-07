@@ -2,6 +2,7 @@ site_name: loong的博客
 site_url: https://github.com/971230/971230.github.io
 theme:
   name: material
+  language: zh
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -13,3 +14,11 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 白色主题
+extra:
+  alternate:
+    - name: Chinese
+      link: /zh/ 
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
