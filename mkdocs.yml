@@ -8,10 +8,11 @@ theme:
   # 网站标签页图标
   favicon: images/icons/wind16.png
   # 网站主页图标
-  logo: images/icons/wind128.png
+  logo: images/icons/wind256.svg
   # 字体--要CDN导入
   font:
     text: LXGW WenKai Screen
+    code: JetBrains Mono
   # 黑白主题切换
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -32,6 +33,12 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
   # 仓库图标
   icon:
     repo: fontawesome/brands/git-alt
@@ -61,6 +68,7 @@ extra:
       link: https://github.com/971230
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/491580862
+  generator: false
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -71,12 +79,64 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-# plugins:
-#   - blog
-  # - rss:
-  #     match_path: blog/posts/.* 
-  #     date_from_meta:
-  #       as_creation: date
-  #     categories:
-  #       - categories
-  #       - tags 
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: none
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+      auto_caption: false
+      caption_position: bottom
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - 面试题:
+    - 一些排序算法: 面试题/一些排序算法.md
+  - ArchLinux:
+    - ArchLinux安装: ArchLinux/Arch Linux安装.md
+  - 网站样式展示:
+    - 网站样式展示: 网站所有样式/demo.md
