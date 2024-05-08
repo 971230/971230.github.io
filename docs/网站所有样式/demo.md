@@ -1,3 +1,12 @@
+---
+title: 网站样式展示 
+description: 把一些常用的可能使用的样式展示一下
+# icon: material/disc-player
+status: new
+# status: deprecated
+---
+
+
 # 一切都看最原始的官网 
 [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
 
@@ -401,3 +410,5 @@ erDiagram
 
 有动画的表情包
 :octicons-heart-fill-24:{ .heart }
+
+:material-arch:

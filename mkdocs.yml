@@ -1,8 +1,14 @@
 site_name: loong的博客
 site_url: https://github.com/971230/971230.github.io
+site_author: long
+site_description: loong的博客-高山仰止，景行行止
+version: 1.0.0
+copyright: Copyright &copy; 2024 longjf<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
 theme:
   # 使用的网站主题
   name: material
+  # 开启这个重写网站首页
+  # custom_dir: overrides
   # 网站语言
   language: zh
   # 网站标签页图标
@@ -39,6 +45,7 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.tracking
+    # - toc.integrate 
   # 仓库图标
   icon:
     repo: fontawesome/brands/git-alt
@@ -53,12 +60,17 @@ extra_javascript:
   - js/extra.js
   - js/mathjax.js
   - js/tablesort.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
 # 添加中英文字体
 extra:
   alternate:
     - name: 中文
-      link: /zh/ 
+      link: /
       lang: zh
+    - name: 繁體中文
+      link: /zh-hant/
+      lang: zh-Hant
     - name: English
       link: /en/
       lang: en
@@ -69,6 +81,8 @@ extra:
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/491580862
   generator: false
+  version:
+    provider: mike
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -135,8 +149,12 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - 面试题:
+    - 面试题/index.md
     - 一些排序算法: 面试题/一些排序算法.md
   - ArchLinux:
+    - ArchLinux/index.md
     - ArchLinux安装: ArchLinux/Arch Linux安装.md
   - 网站样式展示:
+    - 网站所有样式/index.md
     - 网站样式展示: 网站所有样式/demo.md
+
