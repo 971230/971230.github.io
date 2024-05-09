@@ -1,10 +1,18 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # 欢迎来到 loong 的博客
 
-本站使用 mkdocs 建站，你也可以哦 [mkdocs.org](https://www.mkdocs.org).
+这是博客首页，本站使用 mkdocs 建站，你也可以哦 [mkdocs.org](https://www.mkdocs.org).
+
+目前只有中文
 
 ## 1️⃣相关命令
 
-- `mkdocs new [dir-name]` - 创建一过项目
+- `mkdocs new [dir-name]` - 创建一个项目
 - `mkdocs serve` - 启动项目，它支持热加载
 - `mkdocs build` - 构建文档网站
 - `mkdocs -h` - 打印帮助信息并退出
