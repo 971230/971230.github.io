@@ -2,6 +2,7 @@
 title: 引导
 hide:
   - toc
+  - footer
 ---
 
 # 引导

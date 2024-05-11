@@ -3,6 +3,7 @@ title: 首页
 hide:
   - navigation
   - toc
+  - footer
 ---
 
 <div style="text-align: center;" class=".main-guide">

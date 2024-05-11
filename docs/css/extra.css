@@ -56,6 +56,7 @@
     height: 80%;
     display: block;
     margin: 10px auto;
+
 } */
 
 /*样式 1 同默认样式*/
@@ -137,12 +138,18 @@ span.hll {
     overflow-y: hidden;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     color: #deb887;
+    text-align: center;
 }
 
 h3 {
     color: rgb(48, 151, 48);
+    
 }
 
 md-header__button md-logo {
@@ -153,25 +160,6 @@ md-header__button md-logo {
 /* 改表情包颜色 */
 .youtube {
     color: #EE0F0F;
-}
-
-@keyframes heart {
-
-    0%,
-    40%,
-    80%,
-    100% {
-        transform: scale(1);
-    }
-
-    20%,
-    60% {
-        transform: scale(1.15);
-    }
-}
-
-.heart {
-    animation: heart 1000ms infinite;
 }
 
 /* 无效 */

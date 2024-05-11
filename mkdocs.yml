@@ -58,7 +58,7 @@ repo_url: https://github.com/squidfunk/mkdocs-material
 # 额外的css和CDN字体
 extra_css:
   - css/extra.css
-  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 
 # 额外的字体
 extra_javascript:
