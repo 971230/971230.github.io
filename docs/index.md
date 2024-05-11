@@ -1,31 +1,23 @@
 ---
+title: 首页
 hide:
   - navigation
   - toc
 ---
 
-# 欢迎来到 loong 的博客
+<div style="text-align: center;" class=".main-guide">
+<h1>欢迎来到 loong 的博客</h1>
 
-这是博客首页，本站使用 mkdocs 建站，你也可以哦 [mkdocs.org](https://www.mkdocs.org).
+这是博客首页，本站使用 mkdocs 建站，你也可以哦 <a href="https://www.mkdocs.org">mkdocs.org</a>
+<br>
+<br><br><br><br><br>
+<a 
+style="border-radius: 15px;" 
+class="md-button md-button--primary" 
+href="https://971230.github.io/start/">开始阅读 <img alt="📚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f4da.svg" title=":books:"></a>
+<a style="border-radius: 15px;margin-left: 15px;" class="md-button" href="https://github.com/971230/971230.github.io">Github <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"></path></svg></span></a>
+<br>
+<br><br>
+<div class="typewriter"></div>
+</div>
 
-目前只有中文
-
-## 1️⃣相关命令
-
-- `mkdocs new [dir-name]` - 创建一个项目
-- `mkdocs serve` - 启动项目，它支持热加载
-- `mkdocs build` - 构建文档网站
-- `mkdocs -h` - 打印帮助信息并退出
-
-## 2️⃣文件布局
-
-    .github/workflows
-        ci.yml          # 默认的手动工作流，即GitHub Actions配置文件
-    mkdocs.yml          # mkdocs的配置文件，是本项目的万物之源
-    docs/
-        index.md        # 主页面，也就是您现在在看的页面
-        ...             # TODO 把文章放进去
-
-## 3️⃣高山仰止，景行行止
-
-欢迎来到这里，随意阅读访问哦！

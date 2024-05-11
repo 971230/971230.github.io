@@ -2,7 +2,7 @@ site_name: loong的博客
 site_url: https://github.com/971230/971230.github.io
 site_author: long
 site_description: loong的博客-高山仰止，景行行止
-version: 1.0.0
+# version: 1.0.0
 copyright: Copyright &copy; 2024 longjf<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
 theme:
   # 使用的网站主题
@@ -18,7 +18,7 @@ theme:
   # 字体--要CDN导入
   font:
     # text: LXGW WenKai Screen # 字体是好字体，但是作为网站的字体可能不合适
-    text: Noto Serif Simplified Chinese
+    text: Noto Serif
     code: Inconsolata Bold
   # 黑白主题切换
   palette:
@@ -59,13 +59,16 @@ repo_url: https://github.com/squidfunk/mkdocs-material
 extra_css:
   - css/extra.css
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+
 # 额外的字体
 extra_javascript:
   - js/extra.js
   - js/mathjax.js
   - js/tablesort.js
+  - js/typewriter.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+
 # 添加中英文字体
 extra:
   alternate:
@@ -87,6 +90,7 @@ extra:
   generator: false
   version:
     provider: mike
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -97,6 +101,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
 plugins:
   - search
   - glightbox:
@@ -110,6 +115,7 @@ plugins:
       draggable: false
       auto_caption: false
       caption_position: bottom
+
 markdown_extensions:
   - abbr
   - admonition
@@ -127,7 +133,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
@@ -151,6 +157,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
 nav:
   - 首页:
     - index.md
