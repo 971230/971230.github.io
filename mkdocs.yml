@@ -15,7 +15,7 @@ theme:
   favicon: images/icons/wind16.png
   # 网站主页图标
   logo: images/icons/wind256.svg
-  # 字体--要CDN导入
+  # 字体 --要CDN导入
   font:
     # text: LXGW WenKai Screen # 字体是好字体，但是作为网站的字体可能不合适
     text: Noto Serif
@@ -174,3 +174,5 @@ nav:
       - 网站样式展示: 网站所有样式/demo.md
   - 日常:
     - day/index.md
+  - 游戏:
+    - 游戏/index.md
