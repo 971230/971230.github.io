@@ -175,4 +175,7 @@ nav:
   - 日常:
     - day/index.md
   - 游戏:
-    - 游戏/index.md
+    - game/index.md
+    - 缺氧: 
+      - 游戏/index.md
+      - 存气相关: 游戏/存气相关.md

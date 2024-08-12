@@ -1,9 +1,7 @@
 ---
 title: 游戏
 hide:
-  - navigation
   - toc
-  - footer
 ---
 
 # 缺氧
