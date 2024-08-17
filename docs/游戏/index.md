@@ -1,7 +1,6 @@
 ---
 title: 游戏
 hide:
-  - navigation
   - toc
   - footer
 ---
