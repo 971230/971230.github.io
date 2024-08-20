@@ -157,6 +157,7 @@ nav:
     - 面试题:
       - 面试题/index.md
       - 一些排序算法: 面试题/一些排序算法.md
+      - 遇到的面试题: 面试题/遇到的面试题整理.md
     - ArchLinux:
       - ArchLinux/index.md
       - ArchLinux安装: ArchLinux/Arch Linux安装.md
