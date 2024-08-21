@@ -9,7 +9,7 @@ hide:
 <div style="text-align: center;" class=".main-guide">
 <h1>欢迎来到 loong 的博客</h1>
 
-这是博客首页，本站使用 mkdocs 建站，你也可以哦 <a href="https://www.mkdocs.org">mkdocs.org</a>
+这是博客首页，本站使用 mkdocs 建站，你也可以哦 <a href="https://squidfunk.github.io/mkdocs-material/">mkdocs for material</a>
 <br>
 <br><br><br><br><br>
 <a 
