@@ -34,6 +34,8 @@ status: new
 
 [这是本站的超链接](https://971230.github.io/)
 
+[Hover me](https://example.com "I'm a tooltip!")
+
 ------
 
 > 这是一段引用

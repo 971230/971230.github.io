@@ -1,7 +1,6 @@
 ---
 title: Arch Linux安装 
 description: 介绍一些Arch Linux的安装
-status: new
 ---
 
 > # Arch Linux使用archinstall安装

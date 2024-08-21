@@ -158,6 +158,9 @@ nav:
       - 面试题/index.md
       - 一些排序算法: 面试题/一些排序算法.md
       - 遇到的面试题: 面试题/遇到的面试题整理.md
+    - 设计模式:
+      - 设计模式/index.md
+      - 策略模式: 设计模式/策略模式.md
     - ArchLinux:
       - ArchLinux/index.md
       - ArchLinux安装: ArchLinux/Arch Linux安装.md

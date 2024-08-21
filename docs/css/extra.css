@@ -148,7 +148,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(48, 151, 48);
+    color: rgb(74, 174, 68);
     
 }
 
@@ -165,4 +165,16 @@ md-header__button md-logo {
 /* 无效 */
 md-footer__inner md-grid {
     height: 400px;
+}
+
+/* 代码的配色 */
+:root>* {
+    --md-code-hl-string-color: #0eb49b;
+    --md-code-hl-comment-color: #0e8941;
+    --md-code-hl-number-color: #e6695b;
+    --md-code-hl-special-color: #f06090;
+    --md-code-hl-constant-color: #9383e2;
+    --md-code-hl-variable-color: #92915b;
+    --md-code-hl-name-color: #c48a3a;
+    --md-code-hl-function-color: #c973d9;
 }
