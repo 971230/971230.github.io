@@ -155,24 +155,32 @@ nav:
   - 开始阅读:
     - start/index.md
     - 面试题:
-      - 面试题/index.md
-      - 一些排序算法: 面试题/一些排序算法.md
-      - 遇到的面试题: 面试题/遇到的面试题整理.md
+      - 开始阅读/面试题/index.md
+      - 一些排序算法: 开始阅读/面试题/一些排序算法.md
+      - 遇到的面试题: 开始阅读/面试题/遇到的面试题整理.md
     - 设计模式:
-      - 设计模式/index.md
-      - 策略模式: 设计模式/策略模式.md
+      - 开始阅读/设计模式/index.md
+      - 策略模式: 开始阅读/设计模式/策略模式.md
     - ArchLinux:
-      - ArchLinux/index.md
-      - ArchLinux安装: ArchLinux/Arch Linux安装.md
+      - 开始阅读/ArchLinux/index.md
+      - ArchLinux安装: 开始阅读/ArchLinux/Arch Linux安装.md
     - 网站样式展示:
       - 网站所有样式/index.md
       - 网站样式展示: 网站所有样式/demo.md
   - 日常:
     - day/index.md
+    - 随笔:
+      - 日常/随笔/index.md
+      - 童年-静林寺: 日常/随笔/童年-静林寺.md
+    - 厨艺:
+      - 日常/厨艺/index.md
+      - 日常/厨艺/青椒炒肉.md
   - 游戏:
     - game/index.md
     - 缺氧: 
-      - 游戏/index.md
-      - 存气相关: 游戏/存气相关.md
-      - 火椒面包: 游戏/火椒面包模块.md
-      - 水泉类开发: 游戏/水泉类开发.md
+      - 游戏/缺氧/index.md
+      - 存气相关: 游戏/缺氧/存气相关.md
+      - 火椒面包: 游戏/缺氧/火椒面包模块.md
+      - 水泉类开发: 游戏/缺氧/水泉类开发.md
+    - 戴森球计划:
+      - 游戏/戴森球计划/index.md

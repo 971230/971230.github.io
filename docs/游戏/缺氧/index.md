@@ -1,5 +1,5 @@
 ---
-title: 游戏
+title: 缺氧
 hide:
   - toc
   - footer
