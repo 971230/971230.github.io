@@ -2,7 +2,7 @@ site_name: loong的博客
 site_url: https://github.com/971230/971230.github.io
 site_author: long
 site_description: loong的博客-高山仰止，景行行止
-# version: 1.0.0
+version: 1.0.0
 copyright: Copyright &copy; 2024 longjf<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
 theme:
   # 使用的网站主题
