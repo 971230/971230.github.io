@@ -49,6 +49,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.path
+    - navigation.expand
     # - toc.integrate 
   # 仓库图标
   icon:
