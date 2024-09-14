@@ -183,13 +183,20 @@ md-footer__inner md-grid {
     --md-code-hl-function-color: #c973d9;
 }
 
-.special-effects:hover span {
-    text-decoration: underline;
+.typewriter {
+    font-weight: bold;
+    font-size: 32px;
+    filter: brightness(1.2);
 }
 
-.special-effects:hover img {
-    /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); */
-    filter: brightness(1.2);
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
+/*花哨首页的css*/
+/*.special-effects:hover span {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.special-effects:hover img {*/
+/*    !* box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); *!*/
+/*    filter: brightness(1.2);*/
+/*    transform: scale(1.05);*/
+/*    transition: transform 0.3s ease;*/
+/*}*/
