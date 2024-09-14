@@ -11,8 +11,9 @@ hide:
 <h1></h1>
 <!--Section: hero -->
 <div style="text-align: center;">
+<!-- 只解决宽度，高度就定死了，UI上实在费劲 -->
 <section data-md-color-scheme="slate" data-md-color-primary="gray" data-md-color-accent="teal" class="home-div"
-  style="height: 485px; width: 1400px; position: relative; margin-top:-2.4rem; padding: 0; overflow: hidden;">
+  style="height: 487px; position: relative; margin-top:-2.4rem; padding: 0; overflow: hidden;">
   <!-- hero image -->
   <img src="assets\hero\universe_bg.png" class="hero-bg" alt="" style="pointer-events: none; user-select: none;">
   <div class="hero-div">
@@ -42,18 +43,18 @@ hide:
     </a>
     <a class="special-effects" href="/">
       <img src="assets/hero/chapter_hashing.png" alt=""
-        style="position: absolute;height: 15.266%; left: 60.281%; top: 27.933%;">
+        style="position: absolute;height: 15.266%; left: 62.281%; top: 27.933%;">
       <span style="position: absolute;left: 62.162%; top: 46.292%;">耐心</span>
     </a>
     <a class="special-effects" href="/">
       <img src="assets/hero/chapter_tree.png" alt=""
-        style="position: absolute;height: 19.615%; left: 75.837%; top: 26.678%;">
-      <span style="position: absolute;left: 82.159%; top: 44.8%;">慷慨</span>
+        style="position: absolute;height: 19.615%; left: 77.837%; top: 26.678%;">
+      <span style="position: absolute;left: 84.159%; top: 44.8%;">慷慨</span>
     </a>
     <a class="special-effects" href="/">
       <img src="assets/hero/chapter_heap.png" alt=""
-        style="position: absolute;height: 10.566%; left: 72.226%; top: 11.559%;">
-      <span style="position: absolute;left: 77.103%; top: 13.422%;">谦逊</span>
+        style="position: absolute;height: 10.566%; left: 74.126%; top: 11.559%;">
+      <span style="position: absolute;left: 79.103%; top: 13.422%;">谦逊</span>
     </a>
     <a class="special-effects" href="/">
       <img src="assets/hero/chapter_graph.png" alt=""
