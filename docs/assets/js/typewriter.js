@@ -17,5 +17,5 @@ function text(str) {
 }
 
 window.onload = function () {
-  text("欢迎来到这里，随意阅读访问哦！");
+  text("Hello, World!");
 };
