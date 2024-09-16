@@ -58,9 +58,10 @@ status: new
 
 ------
 
-![图片的样式](..\img\pic_demo.jpg)
+![图片的样式](./img/pic_demo.jpg)
 
-[^这是一段脚注]: 这是一段脚注-不是很会使用脚注
+这是一个带有脚注的句子[^1]。
+[^1]: 这是一段脚注-不是很会使用脚注
 
 [链接引用]: 971230.github.com	"链接引用的标题"
 
@@ -321,7 +322,7 @@ $$ e^{i\pi} + 1 = 0 $$
 [这是一个大按钮](#){ .md-button .md-button--primary }
 
 -----
-[把鼠标放到这里](# https://example.com "就有一个提示信息"){ .md-button .md-button--primary }
+[把鼠标放到这里](https://example.com "就有一个提示信息"){ .md-button .md-button--primary }
 [把鼠标放到这里](https://example.com "就有一个提示信息")
 
 -----

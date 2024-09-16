@@ -38,7 +38,7 @@ description: 介绍一些Arch Linux的安装
 ip link
 ```
 
-![](..\img\ip_link.png)
+![](./img/ip_link.png)
 
 ​	这个是虚拟机里面的截图，没有真实的网卡，而且虚拟机还一进去就是联网的。一般的物理机子的网卡名字都是wlan0，放个图只是给个印象。要是搞不懂自己网卡的名字什么的，只能先搞清楚先，也可以iwctl里面device list看看。
 
@@ -94,7 +94,7 @@ sudo pacman -Syyu
 archinstall #要等一会加载，物理机还是快的
 ```
 
-![](..\img\archinstall.png)
+![](./img/archinstall.png)
 
 ​	等一会出来就是如上图的样子。然后就是设置好保存重启就行，虽然没有如其它的桌面Linux的图形化安装引导，但是archinstall已经让Arch Linux的安装变得简单了。
 
@@ -112,29 +112,29 @@ archinstall #要等一会加载，物理机还是快的
 
 ### Locales地区默认就行
 
-![](..\img\locales.png)
+![](./img/locales.png)
 
 ​	键盘布局一般都是选择美式键盘，英式键盘少一些；对应的地区就是美国，UTF-8国际化的编码
 
 ### 分区(Disk configuration)
 
-![](..\img\disk_config.png)
+![](./img/disk_config.png)
 
 #### 自动
 
 ​	第一个是自动分区(介绍使用了个best-effort，好不好因人而异，root区只有20G，对你的日常使用需求好不好，就要看情况了),下面的图是自动分区的样子，是一块致钛1TB的固态
 
-![](..\img\auto_partition_layout.png)
+![](./img/auto_partition_layout.png)
 
 #### 手动
 
 ​	第二个是手动分区，要自己手动分区就要先了解Linux的目录结构，哪些是必须的，哪些区的作用这些，不然其实默认的就行。选择Manual Partitioning。
 
-![](..\img\manual_partition.png)
+![](./img/manual_partition.png)
 
 这里之后就会出现你计算机上面的几块盘，选择你要安装arch的盘，进入
 
-![](..\img\new_partition.png)
+![](./img/new_partition.png)
 
 ​	第一个是创建新分区，第二个是使用建议的分区布局，其次确认加退出，最后是取消，要手动分区，之前的archinstall是不支持的，现在支持了但是我感觉也不好用。
 
@@ -144,11 +144,11 @@ archinstall #要等一会加载，物理机还是快的
 
 ​	之后就是选择扇区，开始在哪，结束在哪，挂载点什么的，这里没有相应的知识储备，可能会看不懂，需要额外学习。
 
-![](..\img\boot_partition_details.png)
+![](./img/boot_partition_details.png)
 
 ​	之后再按照同样的步骤创建出如下的分区。可别照搬照抄，盘的大小等，要根据自己的计算机实际情况定制，这个不大好做记录，而且这个工具在手动分区这里个人感觉真的不好用，**设置不了什么EFI、Swap这些**，大小都指定不了，指定不了就不能正常安装，会报分区错误，可能是我自己没有搞明白，真的建议要自己分区就命令行分区安装，之后自己在archinstall里面选择一下你的分区方案就行了。
 
-![](..\img\suggest_partition.png)
+![](./img/suggest_partition.png)
 
 第三个是使用已经分好的区。
 
@@ -186,15 +186,15 @@ TODO 自己分好区后在archinstall里面选择
 
 进入Type，选择Desktop，选择想要的桌面环境
 
-![](..\img\profiles_desktop_kde.png)
+![](./img/profiles_desktop_kde.png)
 
 确认后就会展示桌面环境要安装的包
 
-![](..\img\kde_packages.png)
+![](./img/kde_packages.png)
 
 同时显示显卡设置需求，按照需求选择，也可以先默认，安装完操作系统，之后再自己安装
 
-![](..\img\so_nvidia_fuck_you.png)
+![](./img/so_nvidia_fuck_you.png)
 
 ### Audio
 
@@ -204,19 +204,19 @@ TODO 自己分好区后在archinstall里面选择
 
 选择Linux内核，没有特殊需求就默认
 
-![](..\img\kernel.png)
+![](./img/kernel.png)
 
 ### 网络设置
 
 选择第二个，手动设置少一些
 
-![](..\img\net_config.png)
+![](./img/net_config.png)
 
 ### 时区
 
 进入 /shanghai 搜索出来选择即可
 
-![](..\img\timezone.png)
+![](./img/timezone.png)
 
 ### 时间同步
 
@@ -226,13 +226,13 @@ TODO 自己分好区后在archinstall里面选择
 
 可以选一下
 
-![](..\img\multilib.png)
+![](./img/multilib.png)
 
 ### 安装
 
 最后开始安装，要确认好每一个设置
 
-![](..\img\install.png)
+![](./img/install.png)
 
 点击后它会展示配置文件的每一项设置来供你确认，确认好就开始安装，[官方默认配置](https://archinstall.archlinux.page/installing/guided.html)
 

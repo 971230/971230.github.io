@@ -16,7 +16,7 @@ hide:
 这是博客首页，本站使用 mkdocs 建站，你也可以哦 <a href="https://squidfunk.github.io/mkdocs-material/">mkdocs for material</a>
 <br><br><br><br><br><br>
 
-<a style="border-radius: 15px;" class="md-button md-button--primary" href="https://971230.github.io/start/">
+<a style="border-radius: 15px;" class="md-button md-button--primary" href="开始阅读/">
 开始阅读 
 <img alt="📚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f4da.svg">
 </a>
