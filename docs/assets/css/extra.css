@@ -148,7 +148,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(74, 174, 68);
+    color: rgb(105, 186, 101);
     
 }
 
@@ -186,6 +186,23 @@ md-footer__inner md-grid {
 .typewriter {
     font-weight: bold;
     font-size: 32px;
+    filter: brightness(1.2);
+}
+
+.md-logo > img{
+    transform: scale(4.0);
+}
+
+.yellow {
+    color: orange;
+}
+
+.blue {
+    color: #87CEEB;
+}
+
+.md-typeset__table {
+    text-align: center;
     filter: brightness(1.2);
 }
 

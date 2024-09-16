@@ -12,9 +12,9 @@ theme:
   # 网站语言
   language: zh
   # 网站标签页图标
-  favicon: assets/images/favicon.png
+  favicon: assets/images/logo.svg
   # 网站主页图标
-  logo: assets/images/logo.svg
+  logo: assets/images/favicon.png
   # 字体 --要CDN导入
   font:
     # text: LXGW WenKai Screen # 字体是好字体，但是作为网站的字体可能不合适
@@ -166,6 +166,9 @@ nav:
       - 单例模式: 开始阅读/设计模式/单例模式.md
       - 模板方法模式: 开始阅读/设计模式/模板方法模式.md
       - 责任链模式: 开始阅读/设计模式/责任链模式.md
+    - 数据库:
+      - 开始阅读/数据库/index.md
+      - Mysql笔记: 开始阅读/数据库/Mysql笔记.md
     - ArchLinux:
       - 开始阅读/ArchLinux/index.md
       - ArchLinux安装: 开始阅读/ArchLinux/Arch Linux安装.md
