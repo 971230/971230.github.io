@@ -199,10 +199,6 @@ md-footer__inner md-grid {
     filter: brightness(1.2);
 }
 
-.md-logo > img{
-    transform: scale(4.0);
-}
-
 .yellow {
     color: orange;
 }
@@ -214,6 +210,15 @@ md-footer__inner md-grid {
 .md-typeset__table {
     text-align: center;
     filter: brightness(1.2);
+}
+
+.navigation {
+    text-align: center;
+    font-size: 23px;
+}
+
+.navigation:hover {
+    text-decoration: underline;
 }
 
 /*花哨首页的css*/

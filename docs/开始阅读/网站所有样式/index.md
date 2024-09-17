@@ -6,3 +6,8 @@ icon: material/disc-player
 ---
 
 # 网站样式展示
+
+!!! Abstract
+    把Mkdocs For Material项目的常用的基础的样式，展示一下，直观方便
+
+- <a class="navigation" href="demo/">① 网站样式展示</a>

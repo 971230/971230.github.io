@@ -1650,3 +1650,7 @@ update account set money=money+100 where name='B';
       update account set money=money+100 where name='B'; 1100元
       -- 结束事务(提交,回滚)
       ```
+
+![end](../../assets/images/end.png)
+
+-----

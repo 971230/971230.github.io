@@ -472,3 +472,5 @@ erDiagram
 :octicons-heart-fill-24:{ .heart }
 
 :material-arch:
+
+![end](../../assets/images/end.png)

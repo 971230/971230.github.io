@@ -236,3 +236,6 @@ TODO 自己分好区后在archinstall里面选择
 
 点击后它会展示配置文件的每一项设置来供你确认，确认好就开始安装，[官方默认配置](https://archinstall.archlinux.page/installing/guided.html)
 
+![end](../../assets/images/end.png)
+
+-----
