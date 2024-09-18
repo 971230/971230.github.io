@@ -42,11 +42,6 @@
     content: "文档更新";
 }
 
-/* @font-face {
-    font-family: "霞鹜臻楷";
-    src: "../fonts/LXGWZhenKai.ttf";
-} */
-
 /*图片格式设置*/
 /*默认样式 会修改所有的表情包*/
 /* img:not(.md-header__button.md-logo img) {
@@ -60,10 +55,10 @@
 } */
 
 /*样式 1 同默认样式*/
-img[src*="pic1"] {
+/* img[src*="pic1"] {
     box-shadow: 4px 4px 15px #666;
     border-radius: 10px;
-}
+} */
 
 /* beat like a heart */
 @keyframes heart {
@@ -149,7 +144,6 @@ h2 {
 
 h3 {
     color: rgb(105, 186, 101);
-    
 }
 
 h4 {

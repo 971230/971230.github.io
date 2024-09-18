@@ -7,8 +7,11 @@ icon: simple/oxygen
 # 缺氧
 
 !!! Abstract
-    《缺氧》 是一款太空殖民模拟游戏。 在外太空岩深处，你手下的勤劳开拓者们需要熟练掌握科技，
+    <a href="https://store.steampowered.com/app/457140/_/" style="font-size: 18px;" target="_blank">《缺氧》</a> 是一款太空殖民模拟游戏。 
+    在外太空岩深处，你手下的勤劳开拓者们需要熟练掌握科技，
     战胜新的陌生生命形式，以及利用难以置信的太空技术来生存。甚至，还有可能繁荣起来。
+
+    <img src="img/header_schinese.jpg">
 
     `殖民` `模拟` `基地建设` `生存` `资源管理` `建造` `2D`
 

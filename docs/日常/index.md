@@ -13,6 +13,7 @@ hide:
 
 - <a class="navigation" href="随笔/">一、随笔</a>
     - [x] <a class="navigation" href="随笔/童年-静林寺/">童年-静林寺</a>
+    - [x] <a class="navigation" href="随笔/盒子/">盒子</a>
 - <a class="navigation" href="厨艺/">二、黑暗料理</a>
     - [ ] <a class="navigation" href="厨艺/青椒炒肉/">青椒炒肉</a>
     - [ ] <a class="navigation" href="厨艺/红烧肉/">红烧肉</a>
