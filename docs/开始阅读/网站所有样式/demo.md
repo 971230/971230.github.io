@@ -32,9 +32,22 @@ status: new
 
 <span style="text-decoration: underline wavy;">这里是下划波浪线文本</span>
 
+<span style="border-bottom: 2px dashed;">这是带有虚线下划线的文本。1</span><br>
+<span style="border-bottom: 2px dotted;">这是带有虚线下划线的文本。2</span><br>
+<span style="border-bottom: 4px double;">这是带有虚线下划线的文本。3</span><br>
+
 [这是本站的超链接](https://971230.github.io/)
 
 [鼠标放上来](https://example.com "就会有提示，还可以点击")
+
+- ==This was marked (highlight)==
+- ^^This was inserted (underline)^^
+- ~~This was deleted (strikethrough)~~
+
+- H~2~O
+- A^T^A
+
+++ctrl+alt+del++
 
 ------
 
@@ -60,6 +73,12 @@ status: new
 
 ![图片的样式](./img/pic_demo.jpg)
 
+<!-- 想让这个图片变成它原来的样子，就设置width:auto -->
+<figure markdown="span">
+  ![Image title](./img/pic_demo.jpg){ width="300" }
+  <figcaption>图片标题</figcaption>
+</figure>
+
 这是一个带有脚注的句子[^1]。
 [^1]: 这是一段脚注-不是很会使用脚注
 
@@ -67,7 +86,7 @@ status: new
 
 ------
 
-###水平分割线就是使用五个-符号就行了 ------
+水平分割线就是使用五个-符号就行了 ------
 
 ------
 
@@ -90,9 +109,33 @@ status: new
 
 -----
 
+`Lorem ipsum dolor sit amet`
+
+:   Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus
+    tellus non sem sollicitudin, quis rutrum leo facilisis.
+
+`Cras arcu libero`
+
+:   Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin
+    ut eros sed sapien ullamcorper consequat. Nunc ligula ante.
+
+    Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
+    Nam vulputate tincidunt fringilla.
+    Nullam dignissim ultrices urna non auctor.
+
+-----
+
 代码片段
-```java
-public class Hello {
+```java title="HelloWorld.java"
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+```java title="HelloWorld.java" linenums="1" hl_lines="2 3 4"
+public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
@@ -116,6 +159,12 @@ public class demo {
 欧拉公式
 
 $$ e^{i\pi} + 1 = 0 $$
+
+傅里叶变换
+
+$$
+F(\omega) = \mathcal{F}\{f(t)\} = \int_{-\infty}^{\infty} f(t) e^{-i \omega t} \, dt
+$$
 
 
 内容目录
@@ -193,6 +242,9 @@ $$ e^{i\pi} + 1 = 0 $$
         ```
 
 !!! Abstract
+    参天大树充满生命力，根深叶茂，分枝扶疏。它为我们展现了数据分治的生动形态。
+
+!!! Abstract ""
     参天大树充满生命力，根深叶茂，分枝扶疏。它为我们展现了数据分治的生动形态。
 
 !!! Abstract "参天大树充满生命力"
