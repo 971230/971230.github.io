@@ -7,7 +7,7 @@ icon: simple/libreofficeimpress
 # 设计模式
 
 !!! Abstract
-    写一些Java技术相关的设计模式，使用Java代码样例理解，理论少一些
+    写一些Java技术相关的设计模式，使用Java代码样例理解，理论少一些，代码就是一种语言，它自己会说话。
 
 - <a class="navigation" href="策略模式/">① 策略模式</a>
 - <a class="navigation" href="建造者模式/">② 建造者模式</a>

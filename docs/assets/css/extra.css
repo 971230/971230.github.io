@@ -49,9 +49,15 @@ img {
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
-img:hover {
-    filter: brightness(1.15) saturate(1.1) 
-    drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
+img:hover:not(.zoomable) {
+    filter: brightness(1.15) saturate(1.1) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
+    transform: scale(1.03);
+}
+
+/* 导航栏排除大标题 */
+.md-ellipsis:hover:not(.md-header__topic .md-ellipsis),
+.md-tabs__link:hover {
+    filter: brightness(1.15) saturate(1.1) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
     transform: scale(1.03);
 }
 
@@ -197,11 +203,12 @@ md-footer__inner md-grid {
     color: #87CEEB;
 }
 
+/* 表格 */
 .md-typeset__table {
-    text-align: center;
     filter: brightness(1.2);
 }
 
+/* 所有目录的配置 */
 .navigation {
     font-size: 23px;
 }
