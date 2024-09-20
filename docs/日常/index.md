@@ -20,4 +20,4 @@ hide:
     - [ ] <a class="navigation" href="厨艺/番茄鸡胸肉/">番茄鸡胸肉</a>
 - <a class="navigation" href="其他/">三、其他</a>
     - [x] <a class="navigation" href="其他/输入法相关配置/">输入法相关配置</a>
-- <a class="navigation" href="守则/">守则</a>
+    - [x] <a class="navigation" href="其他/守则/">守则</a>

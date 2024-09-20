@@ -49,6 +49,42 @@ status: new
 
 ++ctrl+alt+del++
 
+<!-- 有bug，有些按钮点击后导航栏的高亮颜色不随之改变 -->
+<div class="mdx-switch">
+  <button data-md-color-primary="red"><code style="background-color: #EF5552;color: white;">red</code></button>
+  <button data-md-color-primary="pink"><code style="background-color: #E92063;color: white">pink</code></button>
+  <button data-md-color-primary="purple"><code style="background-color: #AB47BD;color: white">purple</code></button>
+  <button data-md-color-primary="deep-purple"><code style="background-color: #7E56C2;color: white">deep purple</code></button>
+  <button data-md-color-primary="indigo"><code style="background-color: #4051B5;color: white">indigo</code></button>
+  <button data-md-color-primary="blue"><code style="background-color: #2094F3;color: white">blue</code></button>
+  <button data-md-color-primary="light-blue"><code style="background-color: #02A6F2;color: white">light blue</code></button>
+  <button data-md-color-primary="cyan"><code style="background-color: #00BDD6;color: white">cyan</code></button>
+  <button data-md-color-primary="teal"><code style="background-color: #009485;color: white">teal</code></button>
+  <button data-md-color-primary="green"><code style="background-color: #4CAE4F;color: white">green</code></button>
+  <button data-md-color-primary="light-green"><code style="background-color: #8BC34B;color: white">light green</code></button>
+  <button data-md-color-primary="lime"><code style="background-color: #CBDC38;color: black">lime</code></button>
+  <button data-md-color-primary="yellow"><code style="background-color: #FFEC3D;color: black">yellow</code></button>
+  <button data-md-color-primary="amber"><code style="background-color: #FFC105;color: black">amber</code></button>
+  <button data-md-color-primary="orange"><code style="background-color: #FFA724;color: black">orange</code></button>
+  <button data-md-color-primary="deep-orange"><code style="background-color: #FF6E42;color: white">deep orange</code></button>
+  <button data-md-color-primary="brown"><code style="background-color: #795649;color: white">brown</code></button>
+  <button data-md-color-primary="grey"><code style="background-color: #757575;color: white">grey</code></button>
+  <button data-md-color-primary="blue-grey"><code style="background-color: #546D78;color: white">blue grey</code></button>
+  <button data-md-color-primary="black"><code style="background-color: #14151A;color: white">black</code></button>
+  <button data-md-color-primary="white"><code style="background-color: #FFFFFF;color: black">white</code></button>
+</div>
+<script>
+  var buttons = document.querySelectorAll("button[data-md-color-primary]")
+  buttons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      var attr = this.getAttribute("data-md-color-primary")
+      document.body.setAttribute("data-md-color-primary", attr)
+      var name = document.querySelector("#__code_1 code span.l")
+      name.textContent = attr.replace("-", " ")
+    })
+  })
+</script>
+
 ------
 
 > 这是一段引用
