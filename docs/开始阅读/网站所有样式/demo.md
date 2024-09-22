@@ -411,6 +411,13 @@ $$
 [把鼠标放到这里](https://example.com "就有一个提示信息"){ .md-button .md-button--primary }
 [把鼠标放到这里](https://example.com "就有一个提示信息")
 
+<a href="https://www.example.com" target="_blank">
+<div class="btn-animate btn-animate__around">
+    <svg><rect x="0" y="0" fill="none" width="100%" height="100%"></rect></svg>
+    按钮
+</div>
+</a>
+
 -----
 流程图
 ``` mermaid
@@ -555,7 +562,12 @@ erDiagram
 :fontawesome-brands-youtube: :fontawesome-brands-youtube:{ .youtube }
 
 有动画的表情包
+
 :octicons-heart-fill-24:{ .heart }
+
+<div class="btn-animate__stars">
+    ♡
+</div>
 
 :material-arch:
 

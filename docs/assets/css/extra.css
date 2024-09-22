@@ -61,26 +61,6 @@ img:hover:not(.zoomable) {
     transform: scale(1.03);
 }
 
-/* beat like a heart */
-@keyframes heart {
-
-    0%,
-    40%,
-    80%,
-    100% {
-        transform: scale(1);
-    }
-
-    20%,
-    60% {
-        transform: scale(1.15);
-    }
-}
-
-.heart {
-    animation: heart 1000ms infinite;
-}
-
 /* new admonitions */
 :root {
     --md-admonition-icon--definition: url('../icons/define.svg')
