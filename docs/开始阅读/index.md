@@ -26,7 +26,7 @@ hide:
     - [x] <a class="navigation" href="设计模式/建造者模式/">建造者模式</a>
     - [x] <a class="navigation" href="设计模式/单例模式/">单例模式</a>
     - [x] <a class="navigation" href="设计模式/模板方法模式/">模板方法模式</a>
-    - [ ] <a class="navigation" href="设计模式/责任链模式/">责任链模式</a>
+    - [x] <a class="navigation" href="设计模式/责任链模式/">责任链模式</a>
     - [x] <a class="navigation" href="设计模式/观察者模式/">观察者模式</a>
 - <a class="navigation" href="数据库/">三、数据库</a>
     - [x] <a class="navigation" href="数据库/Mysql笔记/">Mysql笔记</a>
