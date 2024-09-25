@@ -1,6 +1,7 @@
 ---
 title: 目录
 description: 目录
+icon: fontawesome/solid/book-open-reader
 hide:
   - toc
   - footer
@@ -32,7 +33,7 @@ hide:
     - [x] <a class="navigation" href="数据库/Mysql笔记/">Mysql笔记</a>
 - <a class="navigation" href="JVM虚拟机/">四、JVM虚拟机</a>
     - [x] <a class="navigation" href="JVM虚拟机/第一章-走进Java/">第一章-走进Java</a>
-    - [ ] <a class="navigation" href="JVM虚拟机/第二章-Java内存区域与内存溢出异常/">第二章-Java内存区域与内存溢出异常</a>
+    - [x] <a class="navigation" href="JVM虚拟机/第二章-Java内存区域与内存溢出异常/">第二章-Java内存区域与内存溢出异常</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第三章-垃圾收集器与内存分配策略/">第三章-垃圾收集器与内存分配策略</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第四章-虚拟机性能监控、故障处理工具/">第四章-虚拟机性能监控、故障处理工具</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第五章-调优案例分析与实战/">第五章-调优案例分析与实战</a>

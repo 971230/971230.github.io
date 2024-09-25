@@ -1,7 +1,7 @@
 ---
 title: 面试题
 description: 面试题相关
-icon: simple/thealgorithms
+icon: material/head-question
 ---
 
 # 面试题相关

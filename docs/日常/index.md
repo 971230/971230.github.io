@@ -1,6 +1,7 @@
 ---
 title: 目录
 description: 目录
+icon: fontawesome/regular/calendar-days
 hide:
   - toc
   - footer
