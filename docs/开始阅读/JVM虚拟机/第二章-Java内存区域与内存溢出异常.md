@@ -183,7 +183,7 @@ Java 堆是垃圾收集器管理的内存区域：
 
 <div style="text-align: center"><img src="../img/AccessLocation.png" style="zoom: 60%;"/></div>
 
-## 2.4 实战 OutOfMemoryError 异常
+## 2.3 实战 OutOfMemoryError 异常
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 这部分的实战感觉不太适合自己的实际经历，无论是用的工具还是代码样例，最多就是教你啥是啥，不够实用，

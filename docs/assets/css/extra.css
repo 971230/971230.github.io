@@ -1,3 +1,5 @@
+@import "./font.css";
+
 [data-md-color-primary=P] {
     --md-primary-fg-color: #FFACA6;
 }
@@ -159,18 +161,8 @@ md-footer__inner md-grid {
     --md-code-hl-function-color: #c973d9;
 }
 
-/* 代码字体 */
-@font-face {
-    font-family: "Longjf Nerd Font";
-    src: "../fonts/LONGJF-NF-REGULAR.OTF";
-}
-
-@font-face {
-    font-family: "LXGWZhenKai";
-    src: url("../fonts/LXGWZhenKai.ttf");
-}
-
 :root {
+    /* 代码字体 */
     --md-code-font: "Longjf Nerd Font";
 }
 
