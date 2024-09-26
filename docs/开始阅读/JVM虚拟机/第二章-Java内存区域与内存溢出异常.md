@@ -7,7 +7,7 @@ description: 第二章-Java内存区域与内存溢出异常
 
 ## 2.1 运行时数据区
 
-<div style="text-align: center"><img src="../img/JavaMemoryArea.png" style="zoom: 60%;"/></div>
+<div style="text-align: center"><img src="../img/2/JavaMemoryArea.png" style="zoom: 60%;"/></div>
 
 !!! Note "概念解释"
     <u>线程共享</u>：随着虚拟机进程的启动而一直存在<br>
@@ -181,7 +181,7 @@ Java 堆是垃圾收集器管理的内存区域：
 - 「句柄访问」：Java 堆中将可能会划分出一块内存来作为句柄池，reference 中存储的就是对象的句柄地址，而句柄中包含了对象实例数据与类型数据各自具体的地址信息
 - 「直接指针访问」：Java 堆中对象的内存布局就必须考虑如何放置访问类型数据的相关信息，reference 中存储的直接就是对象地址，如果只是访问对象本身的话，就不需要多一次间接访问的开销。最大的好处就是速度更快，它节省了一次指针定位的时间开销，也是HotSpot的实现
 
-<div style="text-align: center"><img src="../img/AccessLocation.png" style="zoom: 60%;"/></div>
+<div style="text-align: center"><img src="../img/2/AccessLocation.png" style="zoom: 60%;"/></div>
 
 ## 2.3 实战 OutOfMemoryError 异常
 
@@ -189,7 +189,7 @@ Java 堆是垃圾收集器管理的内存区域：
 这部分的实战感觉不太适合自己的实际经历，无论是用的工具还是代码样例，最多就是教你啥是啥，不够实用，
 说白了就是不适合实际项目开发，只是宽泛的说了一下概念，
 用代码样例介绍了一下 `OutOfMemoryError` 和 `StackOverflowError`可能会触发的条件，
-但是实际项目中造成这样的原因五十五花八门，他介绍的解决方法就不行了。实际项目出现这些原因，一般是代码写的有问题，
+但是实际项目中造成这样的原因五十五花八门，他介绍的解决方法就不一定行了。实际项目出现这些原因，一般是代码写的有问题，
 先排查这个，99%都是，逻辑是不是死循环了？线程之间的问题？数据结构是不是有问题，基本轮不到线上发现，自己跑一遍就知道了，
 其它的就是运维的事情，jvm参数、实际物理内存、一些专业的定位工具等。这个要详细讲就越来越复杂，就是怎么定位生产中的实际问题并解决，
 一是吃经验，二是也难讲清楚，三是和自己项目的细节强挂钩，不具有广泛的代表性。

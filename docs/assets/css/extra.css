@@ -217,7 +217,7 @@ blockquote {
     border-bottom-right-radius: 5px;
 }
 
-code:not(.ex) {
+code:not(.ex):not(.md-code__content) {
     color: #b88b22;
     font-family: "LXGWZhenKai";
 }
