@@ -34,11 +34,11 @@ hide:
 - <a class="navigation" href="JVM虚拟机/">四、JVM虚拟机</a>
     - [x] <a class="navigation" href="JVM虚拟机/第一章-走进Java/">第一章-走进Java</a>
     - [x] <a class="navigation" href="JVM虚拟机/第二章-Java内存区域与内存溢出异常/">第二章-Java内存区域与内存溢出异常</a>
-    - [ ] <a class="navigation" href="JVM虚拟机/第三章-垃圾收集器与内存分配策略/">第三章-垃圾收集器与内存分配策略</a>
+    - [x] <a class="navigation" href="JVM虚拟机/第三章-垃圾收集器与内存分配策略/">第三章-垃圾收集器与内存分配策略</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第四章-虚拟机性能监控、故障处理工具/">第四章-虚拟机性能监控、故障处理工具</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第五章-调优案例分析与实战/">第五章-调优案例分析与实战</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第六章-类文件结构/">第六章-类文件结构</a>
-    - [ ] <a class="navigation" href="JVM虚拟机/第七章-虚拟机类加载机制/">第七章-虚拟机类加载机制</a>
+    - [x] <a class="navigation" href="JVM虚拟机/第七章-虚拟机类加载机制/">第七章-虚拟机类加载机制</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第八章-虚拟机字节码执行引擎/">第八章-虚拟机字节码执行引擎</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第九章-类加载及执行子系统的案例与实战/">第九章-类加载及执行子系统的案例与实战</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第十章-前端编译与优化/">第十章-前端编译与优化</a>

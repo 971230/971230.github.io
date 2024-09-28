@@ -57,6 +57,7 @@ repo_url: https://github.com/squidfunk/mkdocs-material
 extra_css:
   - assets/css/extra.css
   - assets/css/animate.css
+  - https://unpkg.com/lenis@1.1.13/dist/lenis.css
   # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 
 # 额外的字体
@@ -67,6 +68,8 @@ extra_javascript:
   - assets/js/typewriter.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+  - https://unpkg.com/lenis@1.1.13/dist/lenis.min.js
+  - assets/js/lenis.js
 
 # 添加中英文字体
 extra:
@@ -77,8 +80,8 @@ extra:
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/491580862
   generator: false
-  version:
-    provider: mike
+  # version:
+  #   provider: mike
 
 plugins:
   - search
