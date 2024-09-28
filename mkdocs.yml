@@ -53,14 +53,13 @@ theme:
     repo: fontawesome/brands/git-alt
 # 仓库地址
 repo_url: https://github.com/squidfunk/mkdocs-material
-# 额外的css和CDN字体
+# 额外的css，顺序不可变
 extra_css:
   - assets/css/extra.css
   - assets/css/animate.css
-  - https://unpkg.com/lenis@1.1.13/dist/lenis.css
-  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - assets/css/lenis.css
 
-# 额外的字体
+# 额外的js，顺序不可变
 extra_javascript:
   - assets/js/extra.js
   - assets/js/mathjax.js
