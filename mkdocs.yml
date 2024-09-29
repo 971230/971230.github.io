@@ -19,16 +19,20 @@ theme:
     text: Roboto
   # 黑白主题切换
   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 白色主题
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-sunny
         name: 黑色主题
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/brightness-4
-        name: 白色主题
+        icon: material/weather-night
+        name: 跟随系统
   # 搜索栏开启建议/高亮/分享链接
   features:
     - search.suggest
@@ -52,19 +56,22 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
 # 仓库地址
+repo_name: squidfunk/mkdocs-material
 repo_url: https://github.com/squidfunk/mkdocs-material
 # 额外的css，顺序不可变
 extra_css:
   - assets/css/extra.css
   - assets/css/animate.css
   - assets/css/lenis.css
+  - assets/css/page.css
+  - aseets/css/main.50c56a3b.min.css
+  - assets/css/palette.06af60db.min.css
 
 # 额外的js，顺序不可变
 extra_javascript:
   - assets/js/extra.js
   - assets/js/mathjax.js
   - assets/js/tablesort.js
-  - assets/js/typewriter.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
   - https://unpkg.com/lenis@1.1.13/dist/lenis.min.js
@@ -84,17 +91,17 @@ extra:
 
 plugins:
   - search
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      slide_effect: none
-      width: 100%
-      height: auto
-      zoomable: true
-      draggable: false
-      auto_caption: false
-      caption_position: bottom
+  # - glightbox:
+  #     touchNavigation: true
+  #     loop: false
+  #     effect: zoom
+  #     slide_effect: none
+  #     width: 100%
+  #     height: auto
+  #     zoomable: true
+  #     draggable: false
+  #     auto_caption: false
+  #     caption_position: bottom
 
 markdown_extensions:
   - abbr

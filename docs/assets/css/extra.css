@@ -144,11 +144,6 @@ md-header__button md-logo {
     color: #EE0F0F;
 }
 
-/* 无效 */
-md-footer__inner md-grid {
-    height: 400px;
-}
-
 /* 代码的配色 */
 :root>* {
     --md-code-hl-string-color: #0eb49b;
@@ -164,12 +159,6 @@ md-footer__inner md-grid {
 :root {
     /* 代码字体 */
     --md-code-font: "Longjf Nerd Font";
-}
-
-.typewriter {
-    font-weight: bold;
-    font-size: 32px;
-    filter: brightness(1.2);
 }
 
 .yellow {
