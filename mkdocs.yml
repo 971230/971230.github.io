@@ -63,9 +63,9 @@ extra_css:
   - assets/css/extra.css
   - assets/css/animate.css
   - assets/css/lenis.css
-  # - assets/css/page.css
-  # - aseets/css/main.50c56a3b.min.css
-  # - assets/css/palette.06af60db.min.css
+  - assets/css/page.css
+  - aseets/css/main.50c56a3b.min.css
+  - assets/css/palette.06af60db.min.css
 
 # 额外的js，顺序不可变
 extra_javascript:
