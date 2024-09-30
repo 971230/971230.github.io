@@ -157,6 +157,8 @@ md-header__button md-logo {
 }
 
 :root {
+    /* 普通文字 */
+    --md-text-font: "PingFang-Bold";
     /* 代码字体 */
     --md-code-font: "Longjf Nerd Font";
 }

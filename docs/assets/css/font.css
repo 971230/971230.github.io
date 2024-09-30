@@ -7,3 +7,13 @@
     font-family: "LXGWZhenKai";
     src: url("../fonts/LXGWZhenKai.ttf");
 }
+
+@font-face {
+    font-family: "PingFang";
+    src: url("../fonts/PINGFANG-MEDIUM.TTF");
+}
+
+@font-face {
+    font-family: "PingFang-Bold";
+    src: url("../fonts/PINGFANG-BOLD.TTF");
+}

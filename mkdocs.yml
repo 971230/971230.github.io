@@ -15,8 +15,8 @@ theme:
   # 网站主页图标
   logo: assets/images/favicon.png
   # 字体 --可以CDN导入，但是渲染慢
-  font:
-    text: Roboto
+  # font:
+  #   text: Roboto
   # 黑白主题切换
   palette:
     - media: "(prefers-color-scheme)"

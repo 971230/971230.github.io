@@ -47,5 +47,5 @@ hide:
     - [ ] <a class="navigation" href="JVM虚拟机/第十三章-线程优化与锁优化/">第十三章-线程优化与锁优化</a>
 - <a class="navigation" href="ArchLinux/">五、Arch Linux</a>
     - [x] <a class="navigation" href="ArchLinux/Arch Linux安装/">Arch Linux安装</a>
-- <a class="navigation" href="网站样式展示/">六、网站样式展示</a>
-    - [x] <a class="navigation" href="网站样式展示/网站样式展示/">网站样式展示</a>
+- <a class="navigation" href="网站所有样式/">六、网站样式展示</a>
+    - [x] <a class="navigation" href="网站所有样式/demo/">网站样式展示</a>
