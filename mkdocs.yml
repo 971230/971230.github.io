@@ -56,16 +56,16 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
 # 仓库地址
-repo_name: squidfunk/mkdocs-material
+repo_name: 博客出自/mkdocs-material
 repo_url: https://github.com/squidfunk/mkdocs-material
 # 额外的css，顺序不可变
 extra_css:
   - assets/css/extra.css
   - assets/css/animate.css
   - assets/css/lenis.css
-  - assets/css/page.css
-  - aseets/css/main.50c56a3b.min.css
-  - assets/css/palette.06af60db.min.css
+  # - assets/css/page.css
+  # - aseets/css/main.50c56a3b.min.css
+  # - assets/css/palette.06af60db.min.css
 
 # 额外的js，顺序不可变
 extra_javascript:

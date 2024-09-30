@@ -110,7 +110,7 @@
 
 /* Markdown Header */
 /* https://github.com/squidfunk/mkdocs-material/blob/dcab57dd1cced4b77875c1aa1b53467c62709d31/src/assets/stylesheets/main/_typeset.scss */
-.md-typeset h1 {
+/* .md-typeset h1 {
   font-weight: 400;
   color: var(--md-default-fg-color);
 }
@@ -125,34 +125,34 @@
 
 .md-typeset h5 {
   text-transform: none;
-}
+} */
 
 .md-typeset a:hover {
   color: var(--md-typeset-a-color);
   text-decoration: underline;
 }
 
-.md-typeset code {
+/* .md-typeset code {
   border-radius: 0.2rem;
 }
 
 .highlight span.filename {
   font-weight: normal;
-}
+} */
 
 /* font-family setting for Win10 */
-body {
+/* body {
   --md-text-font-family: -apple-system, BlinkMacSystemFont,
     var(--md-text-font, _), Helvetica, Arial, sans-serif;
   --md-code-font-family: var(--md-code-font, _), SFMono-Regular, Consolas, Menlo,
     -apple-system, BlinkMacSystemFont, var(--md-text-font, _), monospace;
-}
+} */
 
 /* max height of code block */
 /* https://github.com/squidfunk/mkdocs-material/issues/3444 */
-.md-typeset pre > code {
+/* .md-typeset pre > code {
   max-height: 25rem;
-}
+} */
 
 /* Make the picture not glare in dark theme */
 [data-md-color-scheme="slate"] .md-typeset img,
@@ -171,7 +171,7 @@ body {
 } */
 
 /* Admonition for python tutor */
-.md-typeset .admonition.pythontutor,
+/* .md-typeset .admonition.pythontutor,
 .md-typeset details.pythontutor {
   border-color: var(--md-default-fg-color--lightest);
   margin-top: 0;
@@ -197,19 +197,19 @@ body {
 .md-typeset .admonition-title:before,
 .md-typeset summary:before {
   width: 1.25em;
-}
+} */
 
 /* code block tabs */
-.md-typeset .tabbed-labels>label {
+/* .md-typeset .tabbed-labels>label {
   font-size: 0.61rem;
 }
 
 .md-typeset .tabbed-labels--linked>label>a {
   padding: .78125em 1.0em .625em;
-}
+} */
 
 /* header banner */
-.md-banner {
+/* .md-banner {
   background-color: var(--md-code-bg-color);
   color: var(--md-default-fg-color);
   font-size: 0.75rem;
@@ -229,7 +229,7 @@ body {
   transform: scale(0.8);
   transform-origin: top left;
   border: none;
-}
+} */
 
 /* landing page container */
 .home-div {
@@ -244,11 +244,11 @@ body {
   text-align: center;
 }
 
-.section-content {
+/* .section-content {
   width: 100%;
   height: auto;
   max-width: 70vw;
-}
+} */
 
 /* rounded button */
 .rounded-button {
@@ -284,7 +284,7 @@ body {
 }
 
 /* device image */
-.device-on-hover {
+/* .device-on-hover {
   width: auto;
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
@@ -292,7 +292,7 @@ body {
 a:hover .device-on-hover {
   filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 0.15));
   transform: scale(1.02);
-}
+} */
 
 /* text button */
 .reading-media {
@@ -393,7 +393,6 @@ a:hover .text-button span {
 }
 
 .main-guide {
-  margin-bottom: -4.4rem;
   margin-top: -4.4rem;
   margin-left: -7.5rem;
   margin-right: -7.5rem;
