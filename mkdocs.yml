@@ -63,6 +63,7 @@ extra_css:
   - assets/css/extra.css
   - assets/css/animate.css
   - assets/css/lenis.css
+  - assets/css/essay_sketch_poem.css
   # - assets/css/page.css
   # - aseets/css/main.50c56a3b.min.css
   # - assets/css/palette.06af60db.min.css
@@ -190,10 +191,17 @@ nav:
       - 网站样式展示: 开始阅读/网站所有样式/demo.md
   - 日常生活:
     - 日常/index.md
-    - 随笔:
-      - 日常/随笔/index.md
-      - 《盒子》: 日常/随笔/盒子.md
-      - 《童年-静林寺》: 日常/随笔/童年-静林寺.md
+    - 文字:
+      - 日常/文字/index.md
+      - 《诗-盒子》: 日常/文字/诗-盒子.md
+      - 《童年-静林寺》: 日常/文字/童年-静林寺.md
+      - 《童年-分水》: 日常/文字/童年-分水.md
+      - 《童年-后奖》: 日常/文字/童年-后奖.md
+      - 《人物-好友-方泽》: 日常/文字/人物-好友-方泽.md
+      - 《人物-好友-钟意》: 日常/文字/人物-好友-钟意.md
+      - 《回忆-奶奶》: 日常/文字/回忆-奶奶.md
+      - 《回忆-爷爷》: 日常/文字/回忆-爷爷.md
+      - 《回忆-外公》: 日常/文字/回忆-外公.md
     - 黑暗料理:
       - 日常/厨艺/index.md
       - 青椒炒肉: 日常/厨艺/青椒炒肉.md

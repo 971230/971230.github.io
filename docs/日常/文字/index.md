@@ -4,7 +4,7 @@ description: 日常随想
 icon: material/brain
 ---
 
-# 《写随笔的原因》
+# 《写文字的原因》
 <p style="text-align: center;font-size: 23px;font-weight: bold;">
 《临江仙·送钱穆父》
 </p>

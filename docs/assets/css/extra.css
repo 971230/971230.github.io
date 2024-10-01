@@ -19,7 +19,7 @@
 }
 
 .md-grid {
-    max-width: 1400px;
+    max-width: 61rem;
 }
 
 /* make the page wider */
@@ -171,7 +171,7 @@ md-header__button md-logo {
     color: #87CEEB;
 }
 
-.green{
+.green {
     color: #1CB28A;
 }
 

@@ -38,4 +38,4 @@ Github
 <br><br>
 
 <!-- 打字机 -->
-<img alt="" src="https://readme-typing-svg.demolab.com/?font=Roboto&amp;weight=400&amp;duration=3500&amp;pause=2000&amp;color=FFF&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=200&amp;lines=Hello,World!" style="height: min(9vh, 12vw);"/>
+<img alt="" src="https://readme-typing-svg.demolab.com/?font=Roboto&amp;weight=400&amp;duration=3500&amp;pause=2000&amp;color=808080&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=200&amp;lines=Hello,World!" style="height: min(9vh, 12vw);"/>
