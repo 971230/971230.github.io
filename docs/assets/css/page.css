@@ -233,7 +233,7 @@
 
 /* landing page container */
 .home-div {
-  width: 100%;
+  width: 110%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -347,7 +347,7 @@ a:hover .text-button span {
 
 .hero-bg {
   height: 100%;
-  width: 100%;
+  width: 110%;
   object-fit: cover;
   position: absolute;
 }

@@ -7,7 +7,7 @@ theme:
   # 使用的网站主题
   name: material
   # 开启这个重写网站首页
-  # custom_dir: overrides
+  custom_dir: overrides
   # 网站语言
   language: zh
   # 网站标签页图标
