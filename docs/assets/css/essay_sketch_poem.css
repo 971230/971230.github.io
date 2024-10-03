@@ -11,7 +11,8 @@
     padding: 1.4rem 0.5rem 0.3rem 4.5rem;
 }
 
-.essay_sketch::before,
+/* 这些样式要用就要适配宽度 */
+/* .essay_sketch::before,
 .essay_sketch::after,
 .poem_page::before,
 .poem_page::after {
@@ -42,7 +43,7 @@
 .poem_page:hover::before,
 .poem_page:hover::after {
     box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
-}
+} */
 
 .poem_page_margin {
     text-align: center;
