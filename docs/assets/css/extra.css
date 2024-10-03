@@ -158,7 +158,7 @@ md-header__button md-logo {
 
 :root {
     /* 普通文字 */
-    --md-text-font: "PingFang-Bold";
+    --md-text-font: "PingFang";
     /* 代码字体 */
     --md-code-font: "Longjf Nerd Font";
 }
@@ -210,5 +210,6 @@ blockquote {
 
 code:not(.ex):not(.md-code__content) {
     color: #b88b22;
-    font-family: "LXGWZhenKai";
+    font-weight: bold;
+    font-family: "Longjf Nerd Font";
 }
