@@ -21,7 +21,8 @@ hide:
     - [ ] <a class="navigation" href="文字/人物-好友-钟意/">人物-好友-钟意</a>
     - [ ] <a class="navigation" href="文字/回忆-奶奶/">回忆-奶奶</a>
     - [ ] <a class="navigation" href="文字/回忆-爷爷/">回忆-爷爷</a>
-    - [ ] <a class="navigation" href="文字/回忆-外公/">回忆-外公盒子</a>
+    - [ ] <a class="navigation" href="文字/回忆-外公/">回忆-外公</a>
+    - [x] <a class="navigation" href="文字/文-项脊轩志/">项脊轩志</a>
 - <a class="navigation" href="厨艺/">二、黑暗料理</a>
     - [ ] <a class="navigation" href="厨艺/青椒炒肉/">青椒炒肉</a>
     - [ ] <a class="navigation" href="厨艺/红烧肉/">红烧肉</a>
