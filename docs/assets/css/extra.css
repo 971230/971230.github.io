@@ -121,19 +121,23 @@ span.hll {
 /* 各个标题样式 */
 h1 {
     text-align: center;
+    font-family: "PingFang-Bold";
 }
 
 h2 {
     color: #f8bc31;
     text-align: center;
+    font-family: "PingFang-Bold";
 }
 
 h3 {
     color: rgb(105, 186, 101);
+    font-family: "PingFang-Bold";
 }
 
 h4 {
     color: rgb(68, 102, 174);
+    font-family: "PingFang-Bold";
 }
 
 md-header__button md-logo {
