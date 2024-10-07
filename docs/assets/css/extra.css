@@ -218,3 +218,8 @@ code:not(.ex):not(.md-code__content) {
     color: #b88b22;
     font-family: "Longjf Nerd Font";
 }
+
+b,
+strong:not(h3 strong) {
+    color: #582846;
+}
