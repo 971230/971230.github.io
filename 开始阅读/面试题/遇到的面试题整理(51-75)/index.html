@@ -1,0 +1,5130 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="放一些自己面试时候遇到的面试题，总结一下">
+      
+      
+        <meta name="author" content="long">
+      
+      
+        <link rel="canonical" href="https://github.com/971230/971230.github.io/%E5%BC%80%E5%A7%8B%E9%98%85%E8%AF%BB/%E9%9D%A2%E8%AF%95%E9%A2%98/%E9%81%87%E5%88%B0%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86%2851-75%29/">
+      
+      
+        <link rel="prev" href="../%E9%81%87%E5%88%B0%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86%2826-50%29/">
+      
+      
+        <link rel="next" href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">
+      
+      
+      <link rel="icon" href="../../../assets/images/logo.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.40">
+    
+    
+      
+        <title>遇到的面试题(51-75) - Loong的博客</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/animate.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/lenis.css">
+    
+      <link rel="stylesheet" href="../../../assets/css/essay_sketch_poem.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#51kafka" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="Loong的博客" class="md-header__button md-logo" aria-label="Loong的博客" data-md-component="logo">
+      
+  <img src="../../../assets/images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Loong的博客
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              遇到的面试题(51-75)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="白色主题"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="白色主题" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="黑色主题"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="黑色主题" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="跟随系统"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="跟随系统" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/squidfunk/mkdocs-material" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    博客出自/mkdocs-material
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    
+  
+  首页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M160 96a96 96 0 1 1 192 0 96 96 0 1 1-192 0m80 152v264l-48.4-24.2c-20.9-10.4-43.5-17-66.8-19.3l-96-9.6C12.5 457.2 0 443.5 0 427V224c0-17.7 14.3-32 32-32h30.3c63.6 0 125.6 19.6 177.7 56m32 264V248c52.1-36.4 114.1-56 177.7-56H480c17.7 0 32 14.3 32 32v203c0 16.4-12.5 30.2-28.8 31.8l-96 9.6c-23.2 2.3-45.9 8.9-66.8 19.3z"/></svg>
+    
+  
+  开始阅读
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E6%97%A5%E5%B8%B8/" class="md-tabs__link">
+          
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40H64C28.7 64 0 92.7 0 128v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64h-40V24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40H152zM48 192h80v56H48zm0 104h80v64H48zm128 0h96v64h-96zm144 0h80v64h-80zm80-48h-80v-56h80zm0 160v40c0 8.8-7.2 16-16 16h-64v-56zm-128 0v56h-96v-56zm-144 0v56H64c-8.8 0-16-7.2-16-16v-40zm144-160h-96v-56h96z"/></svg>
+    
+  
+  日常生活
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../%E6%B8%B8%E6%88%8F/" class="md-tabs__link">
+          
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 1c-1.1 0-2 .9-2 2v18a2 2 0 0 0 2 2h7c2.76 0 5-2.24 5-5V3a2 2 0 0 0-2-2zm1 3h8v7H8zm1 10h1v2h2v1h-2v2H9v-2H7v-1h2zm7 1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1m-2 2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1"/></svg>
+    
+  
+  游戏世界
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Loong的博客" class="md-nav__button md-logo" aria-label="Loong的博客" data-md-component="logo">
+      
+  <img src="../../../assets/images/favicon.png" alt="logo">
+
+    </a>
+    Loong的博客
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/squidfunk/mkdocs-material" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    博客出自/mkdocs-material
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../.." class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+  
+  <span class="md-ellipsis">
+    首页
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            首页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M160 96a96 96 0 1 1 192 0 96 96 0 1 1-192 0m80 152v264l-48.4-24.2c-20.9-10.4-43.5-17-66.8-19.3l-96-9.6C12.5 457.2 0 443.5 0 427V224c0-17.7 14.3-32 32-32h30.3c63.6 0 125.6 19.6 177.7 56m32 264V248c52.1-36.4 114.1-56 177.7-56H480c17.7 0 32 14.3 32 32v203c0 16.4-12.5 30.2-28.8 31.8l-96 9.6c-23.2 2.3-45.9 8.9-66.8 19.3z"/></svg>
+  
+  <span class="md-ellipsis">
+    开始阅读
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            开始阅读
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 3C9.23 3 6.19 5.95 6 9.66l-1.92 2.53c-.24.31 0 .81.42.81H6v3c0 1.11.89 2 2 2h1v3h7v-4.69c2.37-1.12 4-3.51 4-6.31 0-3.86-3.12-7-7-7m1 11h-2v-2h2zm1.75-5.19c-.29.4-.66.69-1.11.93-.25.16-.42.33-.51.52-.09.18-.13.43-.13.74h-2c0-.5.11-.92.31-1.18.19-.27.54-.57 1.05-.91.26-.16.47-.36.61-.59.16-.23.23-.5.23-.82 0-.3-.08-.56-.26-.75-.18-.18-.44-.28-.75-.28a1 1 0 0 0-.66.23c-.18.16-.27.39-.28.69h-1.93l-.01-.03c-.01-.79.25-1.36.77-1.77.54-.39 1.24-.59 2.11-.59.93 0 1.66.23 2.19.68.54.45.81 1.06.81 1.82 0 .5-.15.91-.44 1.31"/></svg>
+  
+  <span class="md-ellipsis">
+    面试题
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            面试题
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E4%B8%80%E4%BA%9B%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.226 19.857H1.353l1.79-4.225h4.812L13.308 3.21H7.564l-4.226 9.82h2.587c.18.3.511.51.887.51a1.04 1.04 0 0 0 1.038-1.037c0-.572-.467-1.023-1.038-1.023-.421 0-.767.24-.932.602H4.647l3.503-7.94h3.76L7.383 14.684l-4.766.03L0 20.79h8.842L10 18.263h3.835l1.278 2.526H24L15.985 3.211Zm2.27-2.586 1.384-3.023 1.503 3.023zm5.218 2.691-.872-1.759h2.737c.18.33.526.556.917.556a1.04 1.04 0 0 0 1.038-1.037 1.04 1.04 0 0 0-1.038-1.038c-.42 0-.782.256-.947.617H14.42l-2.09-4.06 1.534-3.369 1.729 3.519h.812c.165.346.526.601.932.601a1.04 1.04 0 0 0 1.038-1.037 1.04 1.04 0 0 0-1.038-1.038 1.03 1.03 0 0 0-.962.662h-.3l-1.79-3.64 1.699-3.728 6.677 14.751Z"/></svg>
+  
+  <span class="md-ellipsis">
+    一些排序算法
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%81%87%E5%88%B0%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86%281-25%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    遇到的面试题(1-25)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%81%87%E5%88%B0%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86%2826-50%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    遇到的面试题(26-50)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    遇到的面试题(51-75)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    遇到的面试题(51-75)
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      51.消息队列(Kafka)的应用场景
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      52.消息队列的两种模式
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      53.kafka消息堆积怎么解决
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      54.kafka重复消费怎么解决
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      55.Kafka消息乱序怎么办
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      56.Kafka消息丢失怎么办
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57mysqlb" class="md-nav__link">
+    <span class="md-ellipsis">
+      57.说说MySQL中的B+树
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="57.说说MySQL中的B+树">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#innodb-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      InnoDB 存储引擎中的B+树
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#58redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      58.Redis缓存击穿、穿透、雪崩概念及解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="58.Redis缓存击穿、穿透、雪崩概念及解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存击穿的概念
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存击穿的解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="缓存击穿的解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1、方案一 互斥锁
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2、方案二 后台续命
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3、方案三 永不过期
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、缓存穿透
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、缓存穿透">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存穿透的概念
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存穿透的解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="缓存穿透的解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1、方案一 缓存空对象
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2、方案二 布隆过滤器
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      三、缓存雪崩
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、缓存雪崩">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存雪崩的概念
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存雪崩的解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="缓存雪崩的解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      1、方案一 加互斥锁
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2、方案二 "错峰"过期
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3、方案三 缓存集群
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4、方案四 限流器+本地缓存
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5、方案五 尽快恢复
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#59redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      59.Redis持久化机制
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="59.Redis持久化机制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1rdb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣RDB
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1️⃣RDB">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rdb" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDB优点
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rdb_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDB缺点
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2aof" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣AOF
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2️⃣AOF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aof" class="md-nav__link">
+    <span class="md-ellipsis">
+      AOF的优点
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aof_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      AOF缺点
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#60jvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      60.JVM内存模型 常见参数设置
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#61mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      61.MySQL最左匹配原则
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="61.MySQL最左匹配原则">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#btree" class="md-nav__link">
+    <span class="md-ellipsis">
+      B+Tree 索引结构
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      复合索引
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62springboot" class="md-nav__link">
+    <span class="md-ellipsis">
+      62.SpringBoot事务什么情况下会失效
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#63spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      63.spring事务隔离级别
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#64spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      64.spring事务特性
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#65springtransactional" class="md-nav__link">
+    <span class="md-ellipsis">
+      65.spring中@Transactional注解失效的情况
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#66spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      66.Spring事务传播机制
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#67" class="md-nav__link">
+    <span class="md-ellipsis">
+      67.分布式锁相关
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#68" class="md-nav__link">
+    <span class="md-ellipsis">
+      68.索引失效场景
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#69sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      69.SQL什么时候会锁表
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#70sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      70.SQL的执行过程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="70.SQL的执行过程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣连接建立
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mysql-80" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣查询缓存（适用于 MySQL 8.0 之前的版本）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣SQL 解析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4️⃣查询优化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5️⃣执行计划生成
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      6️⃣SQL 执行
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      7️⃣权限验证
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      8️⃣结果返回
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      9️⃣资源释放
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔟结束执行
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#71arraylistlinkedlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      71.ArrayList和LinkedList区别
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="71.ArrayList和LinkedList区别">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arraylist" class="md-nav__link">
+    <span class="md-ellipsis">
+      ArrayList
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linkedlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      LinkedList
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72springiocaop" class="md-nav__link">
+    <span class="md-ellipsis">
+      72.说说对Spring中IOC和AOP的理解
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="72.说说对Spring中IOC和AOP的理解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ioc" class="md-nav__link">
+    <span class="md-ellipsis">
+      IOC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aop" class="md-nav__link">
+    <span class="md-ellipsis">
+      AOP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AOP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jdkcglib" class="md-nav__link">
+    <span class="md-ellipsis">
+      JDK和Cglib动态代理
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      73.对MySQL读写分离有了解过么？
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="73.对MySQL读写分离有了解过么？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1mysql-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣基于MySQL Proxy代理的方式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mysql-connectorj-jdbc" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣基于 MySQL Connector/J 的 JDBC 驱动方式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-sharding-jdbc" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣基于 Sharding-JDBC 方式
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#74spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      74.spring框架的启动流程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="74.spring框架的启动流程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❶主方法
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#springapplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❷创建 SpringApplication 实例
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❸创建应用上下文
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❹设置上下文环境
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❺加载配置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bean" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❻注册 Bean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❼处理条件注解
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❽事件发布
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commandlinerunner-applicationrunner" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❾执行 CommandLineRunner 和 ApplicationRunner
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❿启动 Web 服务器
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⓫应用就绪
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⓬自动配置
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 0v7l-7-7zm-9 0 9 9v12c0 1.662-1.338 3-3 3H5c-1.662 0-3-1.338-3-3V3c0-1.662 1.338-3 3-3zM7 17H6v1h1zm0-2H6v1h1zm0-2H6v1h1zm3 4H8v1h2zm0-2H8v1h2zm0-2H8v1h2zm6-1v-1H8v1zm2 1h-7v5h7zm0-4H6v1h12zm-4 6.707 1 1 2.207-2.207-.707-.707-1.5 1.5-1-1-2.207 2.207.707.707z"/></svg>
+  
+  <span class="md-ellipsis">
+    设计模式
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            设计模式
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    策略模式
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    建造者模式
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    单例模式
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    模板方法模式
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    责任链模式
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    观察者模式
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E6%95%B0%E6%8D%AE%E5%BA%93/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4"/></svg>
+  
+  <span class="md-ellipsis">
+    数据库
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            数据库
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a51 51 0 0 0-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a73 73 0 0 0-.195 4.41H0q.083-2.95.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095q.363 3.024.428 5.53zm4.017-4.08q-.567 3.069-1.492 4.46-.723 1.074-1.583 1.073-.228 0-.566-.138v-.494q.166.026.386.026.402 0 .647-.222.295-.27.295-.605 0-.233-.23-.944L6.23 14.615h.91l.727 2.36q.247.804.205 1.123.6-1.598.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135-1.016-.5q.136-.113.255-.25.649-.76.648-2.253 0-2.745-2.155-2.746-1.056 0-1.65.697-.646.762-.646 2.245-.001 1.459.574 2.14.524.615 1.583.615.396 0 .725-.098l1.325.772.36-.622zM15.5 17.588q-.337-.541-.337-1.736 0-2.09 1.27-2.09.666 0 .977.5.336.543.336 1.723 0 2.107-1.27 2.108-.667 0-.978-.5zm-1.658-.425q0 .706-.516 1.156-.514.45-1.384.45c-.543 0-1.064-.172-1.573-.515l.237-.476q.656.329 1.19.328.498 0 .783-.22a.75.75 0 0 0 .3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177q0-.674.47-1.085.471-.416 1.22-.415.769 0 1.4.41l-.213.476a2.7 2.7 0 0 0-1.064-.23q-.425 0-.654.206a.69.69 0 0 0-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407q.208.167.427.31c.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.2 3.2 0 0 0-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106q.16-.042.32-.094v-.06c-.12-.12-.21-.283-.334-.395a9 9 0 0 0-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a18 18 0 0 1-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.5 3.5 0 0 1-.35-.4 9 9 0 0 1-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.5 2.5 0 0 1-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.95 5.95 0 0 1 2.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378"/></svg>
+  
+  <span class="md-ellipsis">
+    Mysql笔记
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v4c0 .372-.116.717-.314 1 .198.283.314.628.314 1v4a1.75 1.75 0 0 1-1.75 1.75H1.75A1.75 1.75 0 0 1 0 12.75v-4c0-.358.109-.707.314-1a1.74 1.74 0 0 1-.314-1v-4C0 1.784.784 1 1.75 1M1.5 2.75v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25m.25 5.75a.25.25 0 0 0-.25.25v4c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-4a.25.25 0 0 0-.25-.25ZM7 4.75A.75.75 0 0 1 7.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 7 4.75M7.75 10h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5M3 4.75A.75.75 0 0 1 3.75 4h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 4.75M3.75 10h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5"/></svg>
+  
+  <span class="md-ellipsis">
+    JVM虚拟机
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            JVM虚拟机
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%B5%B0%E8%BF%9BJava/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第一章-走进Java
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E4%BA%8C%E7%AB%A0-Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F%E4%B8%8E%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E5%BC%82%E5%B8%B8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第二章-Java内存区域...
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E5%99%A8%E4%B8%8E%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E7%AD%96%E7%95%A5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第三章-垃圾收集器...
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E3%80%81%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第四章-虚拟机性能监控...
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E4%BA%94%E7%AB%A0-%E8%B0%83%E4%BC%98%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%88%98/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第五章-调优案例分析与实战
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E5%85%AD%E7%AB%A0-%E7%B1%BB%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第六章-类文件结构
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E4%B8%83%E7%AB%A0-%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第七章-虚拟机类加载机制
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E5%85%AB%E7%AB%A0-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%97%E8%8A%82%E7%A0%81%E6%89%A7%E8%A1%8C%E5%BC%95%E6%93%8E/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第八章-虚拟机字节码执行引擎
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E4%B9%9D%E7%AB%A0-%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%8F%8A%E6%89%A7%E8%A1%8C%E5%AD%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A1%88%E4%BE%8B%E4%B8%8E%E5%AE%9E%E6%88%98/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第九章-类加载及执行子系统...
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E5%8D%81%E7%AB%A0-%E5%89%8D%E7%AB%AF%E7%BC%96%E8%AF%91%E4%B8%8E%E4%BC%98%E5%8C%96/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第十章-前端编译与优化
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0-%E5%90%8E%E7%AB%AF%E7%BC%96%E8%AF%91%E4%B8%8E%E4%BC%98%E5%8C%96/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第十一章-后端编译与优化
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0-Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第十二章-Java内存模型与线程
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../JVM%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0-%E7%BA%BF%E7%A8%8B%E4%BC%98%E5%8C%96%E4%B8%8E%E9%94%81%E4%BC%98%E5%8C%96/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    第十三章-线程优化与锁优化
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ArchLinux/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c-.89 2.18-1.43 3.61-2.42 5.73.61.64 1.35 1.39 2.56 2.24-1.3-.54-2.19-1.07-2.85-1.63C8 11 6.03 14.75 2 22c3.17-1.83 5.63-2.96 7.92-3.39-.1-.42-.16-.88-.15-1.36v-.1c.05-2.03 1.11-3.59 2.36-3.48 1.25.1 2.22 1.83 2.17 3.87-.01.38-.05.75-.12 1.09 2.26.44 4.69 1.56 7.82 3.37-.62-1.14-1.17-2.16-1.69-3.13-.81-.64-1.7-1.48-3.46-2.37 1.21.3 2.08.66 2.76 1.07C14.26 7.62 13.83 6.3 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    ArchLinux
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            ArchLinux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ArchLinux/Arch%20Linux%E5%AE%89%E8%A3%85/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ArchLinux安装
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E5%B7%A5%E4%BD%9C%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.76 2.76 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6 6 0 0 0-.26.16 1 1 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661q.154-.1.313-.195l.007-.004c.1-.061.182-.11.258-.161a1 1 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.61.61 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1 1 0 0 0-.34.398M9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>
+  
+  <span class="md-ellipsis">
+    工作问题记录
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            工作问题记录
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%B7%A5%E4%BD%9C%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/%E9%97%AE%E9%A2%98%E9%9B%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    问题集
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../%E7%BD%91%E7%AB%99%E6%89%80%E6%9C%89%E6%A0%B7%E5%BC%8F/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.5 10.37a1.87 1.87 0 1 0 0-3.74c-1.04 0-1.87.83-1.87 1.87a1.87 1.87 0 0 0 1.87 1.87m0-9.37A7.5 7.5 0 0 1 22 8.5c0 2.17-.92 4.13-2.4 5.5H9.4A7.5 7.5 0 0 1 7 8.5C7 4.35 10.36 1 14.5 1M6 21v1H4v-1H2v-6h20v6h-2v1h-2v-1zm-2-3v1h9v-1zm11-1v2h2v-2zm4 0a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1"/></svg>
+  
+  <span class="md-ellipsis">
+    网站样式展示
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            网站样式展示
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%BD%91%E7%AB%99%E6%89%80%E6%9C%89%E6%A0%B7%E5%BC%8F/demo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    网站样式展示
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%97%A5%E5%B8%B8/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40H64C28.7 64 0 92.7 0 128v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64h-40V24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40H152zM48 192h80v56H48zm0 104h80v64H48zm128 0h96v64h-96zm144 0h80v64h-80zm80-48h-80v-56h80zm0 160v40c0 8.8-7.2 16-16 16h-64v-56zm-128 0v56h-96v-56zm-144 0v56H64c-8.8 0-16-7.2-16-16v-40zm144-160h-96v-56h96z"/></svg>
+  
+  <span class="md-ellipsis">
+    日常生活
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            日常生活
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.33 12.91c.09 1.55-.62 3.04-1.89 3.95l.77 1.49c.23.45.26.98.06 1.45-.19.47-.58.84-1.06 1l-.79.25a1.687 1.687 0 0 1-1.86-.55L14.44 18c-.89-.15-1.73-.53-2.44-1.1-.5.15-1 .23-1.5.23-.88 0-1.76-.27-2.5-.79-.53.16-1.07.23-1.62.22-.79.01-1.57-.15-2.3-.45a4.1 4.1 0 0 1-2.43-3.61c-.08-.72.04-1.45.35-2.11-.29-.75-.32-1.57-.07-2.33C2.3 7.11 3 6.32 3.87 5.82c.58-1.69 2.21-2.82 4-2.7 1.6-1.5 4.05-1.66 5.83-.37.42-.11.86-.17 1.3-.17 1.36-.03 2.65.57 3.5 1.64 2.04.53 3.5 2.35 3.58 4.47.05 1.11-.25 2.2-.86 3.13.07.36.11.72.11 1.09m-5-1.41c.57.07 1.02.5 1.02 1.07a1 1 0 0 1-1 1h-.63c-.32.9-.88 1.69-1.62 2.29.25.09.51.14.77.21 5.13-.07 4.53-3.2 4.53-3.25a2.59 2.59 0 0 0-2.69-2.49 1 1 0 0 1-1-1 1 1 0 0 1 1-1c1.23.03 2.41.49 3.33 1.3.05-.29.08-.59.08-.89-.06-1.24-.62-2.32-2.87-2.53-1.25-2.96-4.4-1.32-4.4-.4-.03.23.21.72.25.75a1 1 0 0 1 1 1c0 .55-.45 1-1 1-.53-.02-1.03-.22-1.43-.56-.48.31-1.03.5-1.6.56-.57.05-1.04-.35-1.07-.9a.97.97 0 0 1 .88-1.1c.16-.02.94-.14.94-.77 0-.66.25-1.29.68-1.79-.92-.25-1.91.08-2.91 1.29C6.75 5 6 5.25 5.45 7.2 4.5 7.67 4 8 3.78 9c1.08-.22 2.19-.13 3.22.25.5.19.78.75.59 1.29-.19.52-.77.78-1.29.59-.73-.32-1.55-.34-2.3-.06-.32.27-.32.83-.32 1.27 0 .74.37 1.43 1 1.83.53.27 1.12.41 1.71.4q-.225-.39-.39-.81a1.038 1.038 0 0 1 1.96-.68c.4 1.14 1.42 1.92 2.62 2.05 1.37-.07 2.59-.88 3.19-2.13.23-1.38 1.34-1.5 2.56-1.5m2 7.47-.62-1.3-.71.16 1 1.25zm-4.65-8.61a1 1 0 0 0-.91-1.03c-.71-.04-1.4.2-1.93.67-.57.58-.87 1.38-.84 2.19a1 1 0 0 0 1 1c.57 0 1-.45 1-1 0-.27.07-.54.23-.76.12-.1.27-.15.43-.15.55.03 1.02-.38 1.02-.92"/></svg>
+  
+  <span class="md-ellipsis">
+    文字
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            文字
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E8%AF%97-%E7%9B%92%E5%AD%90/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《诗-盒子》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E7%AB%A5%E5%B9%B4-%E9%9D%99%E6%9E%97%E5%AF%BA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《童年-静林寺》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E7%AB%A5%E5%B9%B4-%E5%88%86%E6%B0%B4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《童年-分水》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E7%AB%A5%E5%B9%B4-%E5%90%8E%E5%A5%96/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《童年-后奖》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E4%BA%BA%E7%89%A9-%E5%A5%BD%E5%8F%8B-%E6%96%B9%E6%B3%BD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《人物-好友-方泽》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E4%BA%BA%E7%89%A9-%E5%A5%BD%E5%8F%8B-%E9%92%9F%E6%84%8F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《人物-好友-钟意》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E5%9B%9E%E5%BF%86-%E5%A5%B6%E5%A5%B6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《回忆-奶奶》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E5%9B%9E%E5%BF%86-%E7%88%B7%E7%88%B7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《回忆-爷爷》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E5%9B%9E%E5%BF%86-%E5%A4%96%E5%85%AC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《回忆-外公》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E6%96%87%E5%AD%97/%E6%96%87-%E9%A1%B9%E8%84%8A%E8%BD%A9%E5%BF%97/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《项脊轩志》
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%97%A5%E5%B8%B8/%E5%8E%A8%E8%89%BA/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 18a4 4 0 0 1-4 4h-3a4 4 0 0 1-4-4v-2h6.79l2.76-4.77 1.56.9L19.87 16H22zM9 22H2c0-3 0-6 .33-9.17C2.6 10.3 3.08 7.66 3.6 5H3V3h5v2h-.6c.52 2.66 1 5.3 1.27 7.83C9 16 9 19 9 22"/></svg>
+  
+  <span class="md-ellipsis">
+    黑暗料理
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            黑暗料理
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E5%8E%A8%E8%89%BA/%E9%9D%92%E6%A4%92%E7%82%92%E8%82%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    青椒炒肉
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E5%8E%A8%E8%89%BA/%E7%BA%A2%E7%83%A7%E8%82%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    红烧肉
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E5%8E%A8%E8%89%BA/%E7%95%AA%E8%8C%84%E9%B8%A1%E8%83%B8%E8%82%89/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    番茄鸡胸肉
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%97%A5%E5%B8%B8/%E5%85%B6%E4%BB%96/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-9 9H0l4 4 4-4H5a7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7c-1.5 0-2.91-.5-4.06-1.3L6.5 19.14A9.1 9.1 0 0 0 12 21a9 9 0 0 0 9-9 9 9 0 0 0-9-9m2 9a2 2 0 0 0-2-2 2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2"/></svg>
+  
+  <span class="md-ellipsis">
+    其他
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            其他
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E5%85%B6%E4%BB%96/%E8%BE%93%E5%85%A5%E6%B3%95%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 10h-2V8h2m0 5h-2v-2h2m-3-1h-2V8h2m0 5h-2v-2h2m0 6H8v-2h8m-9-5H5V8h2m0 5H5v-2h2m1 0h2v2H8m0-5h2v2H8m3 1h2v2h-2m0-5h2v2h-2m9-5H4c-1.11 0-2 .89-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2"/></svg>
+  
+  <span class="md-ellipsis">
+    输入法
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%97%A5%E5%B8%B8/%E5%85%B6%E4%BB%96/%E5%AE%88%E5%88%99/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 19.88V22l-1.8-1.17-4.79-9a4.9 4.9 0 0 0 1.78-1M15 7a3 3 0 0 1-3 3 3 3 0 0 1-.44 0L5.8 20.83 4 22v-2.12L9.79 9A3 3 0 0 1 12 4V2a1 1 0 0 1 1 1v1.18A3 3 0 0 1 15 7m-2 0a1 1 0 1 0-1 1 1 1 0 0 0 1-1m-8.78 3L6 11.8l-1.44 2.76L2.1 12.1m9.9 5.66-1.5-1.51L9 19l3 3 3-3-1.47-2.77M19.78 10 18 11.8l1.5 2.76 2.4-2.46Z"/></svg>
+  
+  <span class="md-ellipsis">
+    守则
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%B8%B8%E6%88%8F/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 1c-1.1 0-2 .9-2 2v18a2 2 0 0 0 2 2h7c2.76 0 5-2.24 5-5V3a2 2 0 0 0-2-2zm1 3h8v7H8zm1 10h1v2h2v1h-2v2H9v-2H7v-1h2zm7 1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1m-2 2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1"/></svg>
+  
+  <span class="md-ellipsis">
+    游戏世界
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            游戏世界
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%B8%B8%E6%88%8F/%E7%BC%BA%E6%B0%A7/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.89 12c0-6.627-5.324-12-11.89-12S.109 5.373.109 12 5.433 24 12 24c2.014 0 3.91-.508 5.573-1.4.62.354 1.338.558 2.105.558 2.326 0 4.212-1.865 4.212-4.165 0-.946-.319-1.818-.857-2.517.552-1.383.857-2.894.857-4.476m-21.402.005c0-5.448 4.269-9.864 9.535-9.864s9.535 4.416 9.535 9.864c0 1.07-.166 2.099-.471 3.063a4.2 4.2 0 0 0-1.408-.239c-2.326 0-4.212 1.865-4.212 4.165 0 .72.185 1.397.51 1.988a9.2 9.2 0 0 1-3.953.888c-5.267-.001-9.536-4.418-9.536-9.865m17.191 9.864c-1.514.021-2.84-1.267-2.819-2.788 0-1.54 1.262-2.788 2.819-2.788 1.507-.025 2.843 1.27 2.819 2.788 0 1.54-1.263 2.788-2.819 2.788"/></svg>
+  
+  <span class="md-ellipsis">
+    缺氧
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            缺氧
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%B8%B8%E6%88%8F/%E7%BC%BA%E6%B0%A7/%E5%AD%98%E6%B0%94%E7%9B%B8%E5%85%B3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    存气相关
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%B8%B8%E6%88%8F/%E7%BC%BA%E6%B0%A7/%E7%81%AB%E6%A4%92%E9%9D%A2%E5%8C%85%E6%A8%A1%E5%9D%97/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    火椒面包
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%B8%B8%E6%88%8F/%E7%BC%BA%E6%B0%A7/%E6%B0%B4%E6%B3%89%E7%B1%BB%E5%BC%80%E5%8F%91/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    水泉类开发
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%B8%B8%E6%88%8F/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.163 13.184a2.9 2.9 0 0 0-.678.084 8.74 8.74 0 0 0-6.917-6.445 8 8 0 0 0-.441-.067c.026-.825.064-1.779 1.278-2.636l-.192-.484s-2.37.735-2.639 2.76c-.117-.551-1.22-1.24-1.767-1.371l-.272.438s.724.362.901 1.361a8.74 8.74 0 0 0-6.92 6.44 2.834 2.834 0 1 0-1.362 5.502 2.84 2.84 0 0 0 1.72-.114 8.7 8.7 0 0 0 .92 1.712l2.352-1.585c-.638-.807-1.02-1.988-1.087-3.173-.07-1.294.244-2.576 1.07-3.33 1.702-1.449 3.556-.788 4.713.6h.312c1.16-1.388 3.017-2.048 4.713-.6.825.754 1.14 2.038 1.07 3.33-.065 1.185-.448 2.366-1.087 3.173l2.353 1.585a8.7 8.7 0 0 0 .922-1.712 2.833 2.833 0 0 0 2.082-5.27 2.8 2.8 0 0 0-1.044-.198M2.786 16.848a.836.836 0 0 1 0-1.672.84.84 0 0 1 .469.144q.01.66.09 1.314c-.148.134-.374.233-.559.214m18.427 0a.84.84 0 0 1-.558-.215 13 13 0 0 0 .09-1.314.835.835 0 0 1 1.304.693c.007.457-.383.858-.836.836"/></svg>
+  
+  <span class="md-ellipsis">
+    黑神话悟空
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            黑神话悟空
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%B8%B8%E6%88%8F/%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA/%E5%85%A8%E6%88%90%E5%B0%B1%E6%94%BB%E7%95%A5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    全成就攻略
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%B8%B8%E6%88%8F/%E7%A9%BA%E6%B4%9E%E9%AA%91%E5%A3%AB/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 22H5v-2h14zM13 2c-1.25 0-2.42.62-3.11 1.66L7 8l2 2 2.06-1.37c.44-.31 1.08-.19 1.39.27.02.03.05.06.05.1.3.59.19 1.3-.28 1.77l-4.8 4.8c-.55.56-.55 1.46.01 2.01.26.26.62.42.99.42H17V6a4 4 0 0 0-4-4"/></svg>
+  
+  <span class="md-ellipsis">
+    空洞骑士
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            空洞骑士
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%B8%B8%E6%88%8F/%E7%A9%BA%E6%B4%9E%E9%AA%91%E5%A3%AB/%E7%A9%BA%E6%B4%9E%E9%AA%91%E5%A3%AB%E5%9C%B0%E5%9B%BE%E5%85%A8%E6%94%B6%E9%9B%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    空洞骑士地图全收集
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../%E6%B8%B8%E6%88%8F/%E6%88%B4%E6%A3%AE%E7%90%83%E8%AE%A1%E5%88%92/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 17h8v2h-8zm6-5c0-3.36-2.07-6.23-5-7.41V5c0 1.1-.9 2-2 2h-2v2c0 .55-.45 1-1 1H8v2h6c.5 0 .9.35 1 .81-1.8 1.04-3 2.98-3 5.19 0 1.5.54 2.85 1.44 3.9L12 22C6.5 22 2 17.5 2 12S6.5 2 12 2s10 4.5 10 10l-.1 1.44c-.56-.48-1.2-.85-1.9-1.1zm-9 7.93V18c-1.1 0-2-.9-2-2v-1l-4.79-4.79C4.08 10.78 4 11.38 4 12c0 4.08 3.06 7.44 7 7.93"/></svg>
+  
+  <span class="md-ellipsis">
+    戴森球计划
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            戴森球计划
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      51.消息队列(Kafka)的应用场景
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52" class="md-nav__link">
+    <span class="md-ellipsis">
+      52.消息队列的两种模式
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      53.kafka消息堆积怎么解决
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      54.kafka重复消费怎么解决
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      55.Kafka消息乱序怎么办
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      56.Kafka消息丢失怎么办
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57mysqlb" class="md-nav__link">
+    <span class="md-ellipsis">
+      57.说说MySQL中的B+树
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="57.说说MySQL中的B+树">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#innodb-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      InnoDB 存储引擎中的B+树
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#58redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      58.Redis缓存击穿、穿透、雪崩概念及解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="58.Redis缓存击穿、穿透、雪崩概念及解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存击穿的概念
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存击穿的解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="缓存击穿的解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1、方案一 互斥锁
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2、方案二 后台续命
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3、方案三 永不过期
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      二、缓存穿透
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、缓存穿透">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存穿透的概念
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存穿透的解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="缓存穿透的解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1、方案一 缓存空对象
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      2、方案二 布隆过滤器
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      三、缓存雪崩
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、缓存雪崩">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存雪崩的概念
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      缓存雪崩的解决方案
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="缓存雪崩的解决方案">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      1、方案一 加互斥锁
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2、方案二 "错峰"过期
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      3、方案三 缓存集群
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4、方案四 限流器+本地缓存
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5、方案五 尽快恢复
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#59redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      59.Redis持久化机制
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="59.Redis持久化机制">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1rdb" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣RDB
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1️⃣RDB">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rdb" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDB优点
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rdb_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDB缺点
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2aof" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣AOF
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2️⃣AOF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aof" class="md-nav__link">
+    <span class="md-ellipsis">
+      AOF的优点
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aof_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      AOF缺点
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#60jvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      60.JVM内存模型 常见参数设置
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#61mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      61.MySQL最左匹配原则
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="61.MySQL最左匹配原则">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#btree" class="md-nav__link">
+    <span class="md-ellipsis">
+      B+Tree 索引结构
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      复合索引
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62springboot" class="md-nav__link">
+    <span class="md-ellipsis">
+      62.SpringBoot事务什么情况下会失效
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#63spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      63.spring事务隔离级别
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#64spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      64.spring事务特性
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#65springtransactional" class="md-nav__link">
+    <span class="md-ellipsis">
+      65.spring中@Transactional注解失效的情况
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#66spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      66.Spring事务传播机制
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#67" class="md-nav__link">
+    <span class="md-ellipsis">
+      67.分布式锁相关
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#68" class="md-nav__link">
+    <span class="md-ellipsis">
+      68.索引失效场景
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#69sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      69.SQL什么时候会锁表
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#70sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      70.SQL的执行过程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="70.SQL的执行过程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣连接建立
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mysql-80" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣查询缓存（适用于 MySQL 8.0 之前的版本）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣SQL 解析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      4️⃣查询优化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5️⃣执行计划生成
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      6️⃣SQL 执行
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      7️⃣权限验证
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      8️⃣结果返回
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      9️⃣资源释放
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔟结束执行
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#71arraylistlinkedlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      71.ArrayList和LinkedList区别
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="71.ArrayList和LinkedList区别">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arraylist" class="md-nav__link">
+    <span class="md-ellipsis">
+      ArrayList
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linkedlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      LinkedList
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72springiocaop" class="md-nav__link">
+    <span class="md-ellipsis">
+      72.说说对Spring中IOC和AOP的理解
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="72.说说对Spring中IOC和AOP的理解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ioc" class="md-nav__link">
+    <span class="md-ellipsis">
+      IOC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aop" class="md-nav__link">
+    <span class="md-ellipsis">
+      AOP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AOP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jdkcglib" class="md-nav__link">
+    <span class="md-ellipsis">
+      JDK和Cglib动态代理
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      73.对MySQL读写分离有了解过么？
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="73.对MySQL读写分离有了解过么？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1mysql-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣基于MySQL Proxy代理的方式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mysql-connectorj-jdbc" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣基于 MySQL Connector/J 的 JDBC 驱动方式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-sharding-jdbc" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣基于 Sharding-JDBC 方式
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#74spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      74.spring框架的启动流程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="74.spring框架的启动流程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❶主方法
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#springapplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❷创建 SpringApplication 实例
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❸创建应用上下文
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❹设置上下文环境
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❺加载配置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bean" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❻注册 Bean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❼处理条件注解
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❽事件发布
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commandlinerunner-applicationrunner" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❾执行 CommandLineRunner 和 ApplicationRunner
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❿启动 Web 服务器
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⓫应用就绪
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⓬自动配置
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>遇到的面试题(51-75)</h1>
+
+<h2 id="51kafka">51.消息队列(Kafka)的应用场景<a class="headerlink" href="#51kafka" title="Permanent link">&para;</a></h2>
+<p>传统的消息队列的主要应用场景：<u><strong>缓存/消峰、解耦和异步通信</strong></u></p>
+<div class="admonition note">
+<ol>
+<li><strong>缓冲/消峰</strong>：有助于控制和优化数据流经过系统的速度，解决生产消息和消费消息的处理速度不一致的情况。</li>
+<li><strong>解耦</strong>：允许你独立的扩展或修改两边的处理过程，只要确保它们遵守同样的接口约束</li>
+<li><strong>异步通信</strong>：允许用户把一个消息放入队列，但并不立即处理它，然后在需要的时候再去处理它们</li>
+</ol>
+</div>
+<hr />
+<h2 id="52">52.消息队列的两种模式<a class="headerlink" href="#52" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>点对点模式</strong>：消费者主动拉取数据，消息收到后清除消息</p>
+</li>
+<li>
+<p><strong>发布/订阅模式</strong>：</p>
+</li>
+<li>
+<p>可以有多个topic主题（<code>分期信息上送同步流水号至订单系统返回</code>、<code>调用订单系统保存申请编码</code>、<code>请求订单系统获取材料信息</code>、<code>银数影像上送</code>、<code>获取金融网关服务编码</code>）</p>
+</li>
+<li>消费者消费数据之后，不删除数据</li>
+<li>每个消费者相互独立，都可以消费到数据</li>
+</ol>
+<hr />
+<h2 id="53kafka">53.kafka消息堆积怎么解决<a class="headerlink" href="#53kafka" title="Permanent link">&para;</a></h2>
+<p>1️⃣、理论上：当Kafka消息堆积时，可能会导致消费者无法及时处理消息，影响系统的性能和可用性。以下是一些解决堆积问题的常见方法：</p>
+<ol>
+<li><strong>增加消费者数量</strong>：可以通过增加消费者的数量来提高消息的处理速度。每个消费者可以并行处理多个分区的消息，从而提高整体的消费能力。 </li>
+<li><strong>调整分区数量</strong>：可以根据消息的产生速率和消费能力调整Kafka的分区数量。增加分区数量可以增加消息的并行处理能力，减少单个分区的消息堆积。 </li>
+<li><strong>提高消费者的处理能力</strong>：可以优化消费者的处理逻辑，提高消费者的处理能力。例如，使用多线程或多进程来并行处理消息，优化消费者的算法和性能等。 </li>
+<li><strong>增加Kafka的吞吐量和性能</strong>：可以通过调整Kafka的配置参数来提高其吞吐量和性能。例如，增加Kafka的副本数量、调整消息的批处理大小、调整Kafka的缓冲区大小等。 </li>
+<li><strong>设置适当的消息超时时间</strong>：可以设置适当的消息超时时间，当消息在一定时间内没有被消费者处理时，可以进行重试或其他处理，避免消息长时间堆积。 </li>
+<li><strong>监控和报警</strong>：可以设置监控和报警机制，及时发现消息堆积的情况，并采取相应的措施进行处理。 需要根据具体的业务场景和需求来选择合适的解决方法。</li>
+</ol>
+<p>同时，还需要综合考虑系统的 <strong>硬件资源、网络带宽、数据量</strong> 等因素，以及平衡消费者的处理能力和Kafka的吞吐量，以达到合理的消息处理效率。</p>
+<p>2️⃣、根据生产经验：数据积压（消费者如何提高吞吐量）</p>
+<ol>
+<li>如果是Kafka消费能力不足，则可以考虑 <strong>增加Topic的分区数</strong> ，并且同时提升消费组的消费者</li>
+<li>如果是下游的数据处理不及时：<strong>提高每批次拉取的数量</strong>。批次拉取数据过少（拉取数据/处理时间 &lt; 生产速度），使处理的数据小于生产的数据，也会造成数据积压。</li>
+</ol>
+<hr />
+<h2 id="54kafka">54.kafka重复消费怎么解决<a class="headerlink" href="#54kafka" title="Permanent link">&para;</a></h2>
+<p>Kafka的重复消费问题是指消费者在处理消息时，由于一些原因（如消费者故障、网络问题等）导致消息被重复消费。以下是一些解决Kafka重复消费问题的方法： </p>
+<ol>
+<li><strong>设置消费者的消费位移提交方式（自动提交-&gt;手动提交）</strong>：Kafka提供了两种消费位移提交方式，分别是自动提交和手动提交。如果使用自动提交方式，当消费者处理完消息后，Kafka会自动提交消费位移。但如果消费者在处理消息之后发生故障，可能会导致消息被重复消费。因此，建议使用手动提交方式，即消费者在处理完消息后手动提交消费位移，确保消息被正确处理。 </li>
+<li><strong>设置消费者的消费位移存储方式</strong>：Kafka支持将消费位移存储在ZooKeeper或者Kafka自身的__consumer_offsets主题中。如果使用ZooKeeper来存储消费位移，可以通过设置合适的ZooKeeper会话超时时间和心跳间隔来减少重复消费的可能性。 </li>
+<li><strong>使用幂等消费</strong>：Kafka 0.11版本及以上的版本支持幂等消费，即消费者可以通过设置enable.idempotence=true来确保消息的幂等性。这样即使消费者在处理消息时发生重试，也不会导致消息被重复消费。 </li>
+<li><strong>使用唯一标识符进行消息去重</strong>：在消费者处理消息时，可以为每条消息生成一个唯一的标识符，并将该标识符与已消费的消息进行比对，避免重复消费。</li>
+<li><strong>使用消息的业务主键进行去重</strong>：如果消息中包含有业务主键，可以通过在消费者端维护一个已处理的业务主键列表，避免重复消费相同的业务主键对应的消息。</li>
+<li><strong>监控和报警</strong>：可以设置监控和报警机制，及时发现重复消费的情况，并采取相应的措施进行处理。</li>
+</ol>
+<p>需要根据具体的业务场景和需求来选择合适的解决方法，并综合考虑消息处理的幂等性、性能开销等因素。</p>
+<hr />
+<h2 id="55kafka">55.Kafka消息乱序怎么办<a class="headerlink" href="#55kafka" title="Permanent link">&para;</a></h2>
+<p>当Kafka消息乱序时，可以采取以下几种方法来解决： </p>
+<ol>
+<li><strong>使用消息的时间戳</strong>：在消息中添加时间戳，消费者可以根据时间戳来对消息进行排序和处理。这种方法适用于消息的时间戳与消息的顺序相关的场景。</li>
+<li><strong>使用消息的序列号</strong>：在消息中添加序列号，消费者可以根据序列号来对消息进行排序和处理。这种方法适用于消息的序列号与消息的顺序相关的场景。</li>
+<li><strong>使用分区</strong>：将消息分发到不同的分区中，每个分区只能由一个消费者进行消费。这样可以保证每个分区内的消息是有序的，但不同分区之间的消息可能是乱序的。</li>
+<li><strong>使用全局顺序</strong>：将所有消息发送到同一个分区中，这样可以保证所有消息的全局顺序。但是这种方法可能会导致性能瓶颈，因为只有一个消费者可以消费该分区。</li>
+<li><strong>使用有序消息中间件</strong>：使用支持有序消息的中间件，如RocketMQ等。这些中间件可以保证消息的有序性，但是需要引入新的中间件。</li>
+</ol>
+<p>总之，根据具体的业务场景和需求，可以选择适合的方法来解决Kafka消息乱序的问题。</p>
+<hr />
+<h2 id="56kafka">56.Kafka消息丢失怎么办<a class="headerlink" href="#56kafka" title="Permanent link">&para;</a></h2>
+<hr />
+<h2 id="57mysqlb">57.说说MySQL中的B+树<a class="headerlink" href="#57mysqlb" title="Permanent link">&para;</a></h2>
+<ol>
+<li><wavy><strong>所有叶子节点包含数据</strong></wavy>：在 B+Tree 中，所有的数据都存储在叶子节点上，而非叶子节点仅用于索引和导航。</li>
+<li><wavy><strong>叶子节点通过指针相连</strong></wavy>：这使得范围查询更加高效，因为可以沿着指针遍历叶子节点。</li>
+<li><wavy><strong>多路平衡查找树</strong></wavy>：每个节点可以拥有多个子节点，这减少了树的高度，从而减少了磁盘 I/O 的次数。</li>
+<li><wavy><strong>自平衡</strong></wavy>：在插入或删除节点时，B+树会通过分裂或合并节点来保持树的平衡。</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">B+树的优点</p>
+<ul>
+<li><strong>减少磁盘 I/O</strong>：B+树的每个节点可以存储更多的键值对，从而减少了树的高度，进而减少了磁盘 I/O 次数。</li>
+<li><strong>范围查询高效</strong>：叶子节点之间的链接使得范围查询非常高效。</li>
+<li><strong>自平衡</strong>：B+树通过分裂和合并节点保持平衡，从而保证了查询效率。</li>
+</ul>
+</div>
+<h4 id="innodb-b">InnoDB 存储引擎中的B+树<a class="headerlink" href="#innodb-b" title="Permanent link">&para;</a></h4>
+<p>在 MySQL 的 InnoDB 存储引擎中，B+树主要用于实现各种索引，包括主键索引、唯一索引和普通索引等。</p>
+<div class="admonition note">
+<p><strong>主键索引</strong>：InnoDB 表的<wavy>主键索引是一个B+树，存储了表中的所有行</wavy>。在 InnoDB 中，主键索引也被称为聚集索引，因为数据行实际存储在主键索引的叶子节点上。<br>
+<strong>辅助索引</strong>：除了主键索引外，InnoDB 还可以创建其他索引，这些索引称为辅助索引或二级索引（Secondary Indexes）。辅助索引的叶子节点存储了主键值和索引列的值。</p>
+</div>
+<hr />
+<h2 id="58redis">58.Redis缓存击穿、穿透、雪崩概念及解决方案<a class="headerlink" href="#58redis" title="Permanent link">&para;</a></h2>
+<h3 id="_1">缓存击穿的概念<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<p><wavy>​缓存击穿是指一个请求要访问的数据，<strong>缓存中没有，但数据库中有</strong></wavy>。</p>
+<p><wavy>这种情况一般来说就是缓存过期了</wavy>。但是这时由于并发访问这个缓存的用户特别多，<strong>这是一个热点key</strong>，这么多用户的请求同时过来，在缓存里面都没有取到数据，所以又同时去访问数据库取数据，引起数据库流量激增，压力瞬间增大，直接崩溃给你看。</p>
+<p>​所以一个数据有缓存，每次请求都从缓存中快速的返回了数据，但是某个时间点缓存失效了，某个请求在缓存中没有请求到数据，这时候我们就说这个请求就"击穿"了缓存。</p>
+<p><a class="glightbox" href="../img/缓存击穿.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/缓存击穿.png" style="zoom: 50%;" /></a></p>
+<h3 id="_2">缓存击穿的解决方案<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<h4 id="1">1、方案一 互斥锁<a class="headerlink" href="#1" title="Permanent link">&para;</a></h4>
+<p>互斥锁方案的思路就是如果从redis中没有获取到数据，就让一个线程去数据库查询数据，然后构建缓存，其他的线程就等着，过一段时间后再从redis中去获取。</p>
+<p><a class="glightbox" href="../img/缓存击穿解决方案之互斥锁.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/缓存击穿解决方案之互斥锁.png" style="zoom: 50%;" /></a></p>
+<p>伪代码如下:</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">String</span><span class="w"> </span><span class="nf">get</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">ycf</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">music</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">redis</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">ycf</span><span class="p">);</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">music</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="c1">//nx的方式设置一个key=ycf_lock,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="c1">//value=y_lock的数据，60秒后过期</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">redis</span><span class="p">.</span><span class="na">set</span><span class="p">(</span><span class="s">&quot;ycf_lock&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;y_lock&quot;</span><span class="p">,</span><span class="s">&quot;nx&quot;</span><span class="p">,</span><span class="mi">60</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">            </span><span class="c1">//从数据库里获取数据</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">            </span><span class="n">music</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">db</span><span class="p">.</span><span class="na">query</span><span class="p">(</span><span class="n">ycf</span><span class="p">);</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">            </span><span class="c1">//构建数据,24*60*60s后过期</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">            </span><span class="n">redis</span><span class="p">.</span><span class="na">set</span><span class="p">(</span><span class="n">ycf</span><span class="p">,</span><span class="w"> </span><span class="n">music</span><span class="p">,</span><span class="mi">24</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">60</span><span class="p">);</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">            </span><span class="c1">//构建成功，可以删除互斥锁</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">            </span><span class="n">redis</span><span class="p">.</span><span class="na">delete</span><span class="p">(</span><span class="s">&quot;ycf_lock&quot;</span><span class="p">);</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">            </span><span class="c1">//其他线程休息100ms后重试</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">            </span><span class="n">Thread</span><span class="p">.</span><span class="na">sleep</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">            </span><span class="c1">//再次获取数据，如果前面在100ms内设置成功,则有数据</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">            </span><span class="n">music</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">redis</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="n">ycf</span><span class="p">);</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>这个方案能解决问题，但是一个线程构建缓存的时候，另外的线程都在睡眠或者轮询。</p>
+<p>而且在这个四处宣讲高并发,低延时的时代，你居然让你的用户等待了宝贵的100ms。有可能别人比你快100ms，就抢走了大批用户。</p>
+<h4 id="2">2、方案二 后台续命<a class="headerlink" href="#2" title="Permanent link">&para;</a></h4>
+<p>后台续命方案的思想就是，<strong>后台开一个定时任务，专门主动更新即将过期的数据。</strong></p>
+<p>比如程序猿设置jay这个热点key的时候，同时设置了过期时间为60分钟，那后台程序在第55分钟的时候，会去数据库查询数据并重新放到缓存中，同时再次设置缓存为60分钟。</p>
+<h4 id="3">3、方案三 永不过期<a class="headerlink" href="#3" title="Permanent link">&para;</a></h4>
+<p>这个方案就有点简单粗暴了。</p>
+<p>见名知意，如果结合实际场景你用脚趾头都能想到这个key是一个热点key，会有大量的请求来访问这个数据。对于这样的数据你还设置过期时间干什么？直接放进去，永不过期。</p>
+<p><a class="glightbox" href="../img/缓存击穿解决方案之永不过期.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/缓存击穿解决方案之永不过期.png" style="zoom: 50%;" /></a></p>
+<p>但是具体情况具体分析，没有一套方案走天下的。</p>
+<p>​比如，如果这个key是属于被各种"自来水"活生生的炒热的呢？就像哪吒一样，你预想不到这个key会闹出这么大的动静。这种情况你这么处理？</p>
+<p>​所以，具体情况，具体分析。但是思路要清晰，最终方案都是常规方案的组合或者变种。</p>
+<h2 id="_3">二、缓存穿透<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="_4">缓存穿透的概念<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>缓存穿透是指一个请求要访问的数据，<strong>缓存和数据库中都没有</strong>，而用户短时间、高密度的发起这样的请求，每次都打到数据库服务上，给数据库造成了压力。一般来说这样的请求属于恶意请求。</p>
+<p><a class="glightbox" href="../img/缓存穿透.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/缓存穿透.png" style="zoom: 50%;" /></a></p>
+<p>根据图片显示的，缓存中没有获取到数据，然后去请求数据库，没想到数据库里面也没有。</p>
+<h3 id="_5">缓存穿透的解决方案<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<h4 id="1_1">1、方案一 缓存空对象<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h4>
+<p>缓存空对象就是在数据库即使查到的是空对象，我们也把这个空对象缓存起来。</p>
+<p><a class="glightbox" href="../img/缓存穿透的解决方案之缓存空对象.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/缓存穿透的解决方案之缓存空对象.png" style="zoom: 50%;" /></a></p>
+<p>缓存空对象，下次同样请求就会命中这个空对象，缓存层就处理了这个请求，不会对数据库产生压力。</p>
+<p>​这样实现起来简单，开发成本很低。但这样随之而来的问题必须要注意一下：</p>
+<div class="admonition question">
+<p class="admonition-title">第一个问题</p>
+<p><strong>如果在某个时间，缓存为空的记录，在数据库里面有值了，你怎么办？</strong></p>
+</div>
+<p>​我知道三个解决方法：</p>
+<div class="admonition note">
+<p>解决方法一：设置缓存的时候，同时设置一个过期时间，这样过期之后，就会重新去数据库查询最新的数据并缓存起来。<br>
+解决方法二：如果对实时性要求非常高的话，那就写数据库的时候，同时写缓存。这样可以保障实时性。<br>
+解决方法三：如果对实时性要求不是那么高，那就写数据库的时候给消息队列发一条数据，让消息队列再通知处理缓存的逻辑去数据库取出最新的数据。</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">第二个问题</p>
+<p><strong>对于恶意攻击，请求的时候key往往各不相同，且只请求一次，那你要把这些key都缓存起来的话，因为每个key都只请求一次，那还是每次都会请求数据库，没有保护到数据库呀？</strong></p>
+</div>
+<p>​    这个时候，你就告诉他:"布隆过滤器，了解一下"。</p>
+<h4 id="2_1">2、方案二  布隆过滤器<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h4>
+<div class="admonition question">
+<p class="admonition-title">​什么是布隆过滤器?"</p>
+<p><wavy>本质上布隆过滤器是一种数据结构</wavy>，比较巧妙的概率型数据结构，特点是高效地插入和查询，可以用来告诉你 “某样东西一定不存在或者可能存在”。<br>
+相比于传统的 List、Set、Map 等数据结构，<wavy>它更高效、占用空间更少，但是缺点是其返回的结果是概率性的，而不是确切的</wavy>。</p>
+</div>
+<p><a class="glightbox" href="../img/布隆过滤器.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/布隆过滤器.png" style="zoom: 50%;" /></a></p>
+<div class="admonition danger">
+<p><wavy><strong>当布隆过滤器说某个值存在时，这个值可能不存在；当它说不存在时，那就肯定不存在。</strong></wavy></p>
+</div>
+<p>​所以布隆过滤器返回的结果是概率性的，所以它能缓解数据库的压力，并不能完全挡住，这点必须要明确。<br>
+​guava组件可以开箱即用的实现一个布隆过滤器，但是guava是基于内存的，所以不太适用于分布式环境下。<br>
+​要在分布式环境下使用布隆过滤器，那还得redis出马，redis可以用来实现布隆过滤器。<br>
+看到了吗，redis不仅仅是拿来做缓存的。这就是一个知识点呀。</p>
+<h2 id="_6">三、缓存雪崩<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h3 id="_7">缓存雪崩的概念<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>​缓存雪崩是指缓存中 <strong>大多数的数据</strong> 在同一时间到达过期时间，而查询数据量巨大，这时候，又是 <strong>缓存中没有，数据库中有</strong> 的情况了。请求都打到数据库上，引起数据库流量激增，压力瞬间增大，直接崩溃给你看。</p>
+<p>​和前面讲的缓存击穿不同的是，<wavy>缓存击穿指大量的请求并发查询同一条数据。</wavy></p>
+<p>​<wavy>缓存雪崩是不同数据都到了过期时间，导致这些数据在缓存中都查询不到，</wavy></p>
+<p><a class="glightbox" href="../img/缓存雪崩1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/缓存雪崩1.png" style="zoom: 50%;" /></a></p>
+<p>或是缓存服务直接挂掉了，所以缓存都没有了。</p>
+<p><a class="glightbox" href="../img/缓存雪崩2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/缓存雪崩2.png" style="zoom: 50%;" /></a></p>
+<h3 id="_8">缓存雪崩的解决方案<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h4 id="1_2">1、方案一 加互斥锁<a class="headerlink" href="#1_2" title="Permanent link">&para;</a></h4>
+<p>​如果是大量缓存在同一时间过期的情况，那么我们可以加互斥锁。<br>
+​等等，互斥锁不是前面介绍过了吗？<br>
+​是的，缓存雪崩可以看成多个缓存击穿，所以也可以使用互斥锁的解决方案，这里就不再赘述。</p>
+<h4 id="2_2">2、方案二 "错峰"过期<a class="headerlink" href="#2_2" title="Permanent link">&para;</a></h4>
+<p>​如果是大量缓存在同一时间过期的情况，我们还有一种解决方案就是在设置key过期时间的时候，在加上一个短的随机过期时间，这样就能避免大量缓存在同一时间过期，引起的缓存雪崩。<br>
+比如设置一类key的过期时间是10分钟，在10分钟的基础上再加上60秒的随机事件，就像这样：</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">redis</span><span class="p">.</span><span class="na">set</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="n">value</span><span class="p">,</span><span class="mi">10</span><span class="o">*</span><span class="mi">60</span><span class="o">+</span><span class="n">RandomUtils</span><span class="p">.</span><span class="na">nextInt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">60</span><span class="p">),</span><span class="n">TimeUnit</span><span class="p">.</span><span class="na">SECONDS</span><span class="p">)</span>
+</span></code></pre></div>
+<h4 id="3_1">3、方案三  缓存集群<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h4>
+<p>​如果对于缓存服务挂掉的情况，大多原因是单点应用。那么我们可以引入redis集群，使用主从加哨兵。用Redis Cluster部署集群很方便的，可以了解一下。<br>
+当然这是属于一种事前方案，在使用单点的时候，你就得考虑服务宕机后引起的问题。所以，事前部署集群，提高服务的可用性。</p>
+<h4 id="4">4、方案四   限流器+本地缓存<a class="headerlink" href="#4" title="Permanent link">&para;</a></h4>
+<p>​那你要说如果Cluster集群也挂了怎么办呢？其实这就是对服务鲁棒性的考虑：</p>
+<div class="admonition note inline end">
+<p><strong>鲁棒性</strong>（robustness）就是<wavy>系统的健壮性</wavy>。它是指一个程序中对可能导致程序崩溃的各种情况都充分考虑到，并且作相应的处理，在程序遇到异常情况时还能正常工作，而不至于死机。</p>
+</div>
+<p>​这个时候，可以考虑一下 <strong>引入限流器</strong>，比如 <strong>Hystrix</strong>，然后实现服务降级。
+​假设你的限流器设置的一秒钟最多5千个请求，那么这个时候来了8千个请求，多出来的3000个就走降级流程，对用户进行友好提示。
+​进来的这5000个请求，如果redis挂了，还是有可能会干翻数据库的，那么这个时候我们在加上如果redis挂了，
+就查询类似于echcache或者guava cache本地缓存的逻辑，则可以帮助数据库减轻压力，挺过难关。</p>
+<h4 id="5">5、方案五  尽快恢复<a class="headerlink" href="#5" title="Permanent link">&para;</a></h4>
+<p>​这个没啥说的了吧?大哥，你服务挂了诶？赶紧恢复服务啊。</p>
+<h2 id="59redis">59.Redis持久化机制<a class="headerlink" href="#59redis" title="Permanent link">&para;</a></h2>
+<h3 id="1rdb">1️⃣RDB<a class="headerlink" href="#1rdb" title="Permanent link">&para;</a></h3>
+<h4 id="rdb">RDB优点<a class="headerlink" href="#rdb" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<ol>
+<li><strong>体积更小</strong>：相同的数据量rdb数据比aof的小，因为rdb是紧凑型文件。</li>
+<li><strong>恢复更快</strong>：因为rdb是数据的快照，基本上就是数据的复制，不用重新读取再写入内存。</li>
+<li><strong>性能更高</strong>：父进程在保存rdb时候只需要fork一个子进程，无需父进程的进行其他io操作，也保证了服务器的性能。</li>
+</ol>
+</div>
+<h4 id="rdb_1">RDB缺点<a class="headerlink" href="#rdb_1" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<ol>
+<li><strong>故障丢失</strong>：因为rdb是全量的，我们一般是使用shell脚本实现30分钟或者1小时或者每天对redis进行rdb备份，（注，也可以是用自带的策略），但是最少也要5分钟进行一次的备份，所以当服务死掉后，最少也要丢失5分钟的数据。</li>
+<li><strong>耐久性差</strong>：相对aof的异步策略来说，因为rdb的复制是全量的，即使是fork的子进程来进行备份，当数据量很大的时候对磁盘的消耗也是不可忽视的，尤其在访问量很高的时候，fork的时间也会延长，导致cpu吃紧，耐久性相对较差。</li>
+</ol>
+</div>
+<h3 id="2aof">2️⃣AOF<a class="headerlink" href="#2aof" title="Permanent link">&para;</a></h3>
+<h4 id="aof">AOF的优点<a class="headerlink" href="#aof" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<ol>
+<li><strong>数据保证</strong>：我们可以设置fsync策略，一般默认是everysec，也可以设置每次写入追加，所以即使服务死掉了，也最多丢失一秒数据</li>
+<li><strong>自动缩小</strong>：当aof文件大小到达一定程度的时候，后台会自动的去执行aof重写，此过程不会影响主进程，重写完成后，新的写入将会写到新的aof中，旧的就会被删除掉。但是此条如果拿出来对比rdb的话还是没有必要算成优点，只是官网显示成优点而已。</li>
+</ol>
+</div>
+<h4 id="aof_1">AOF缺点<a class="headerlink" href="#aof_1" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<ol>
+<li><strong>性能相对较差</strong>：它的操作模式决定了它会对redis的性能有所损耗。</li>
+<li><strong>体积相对更大</strong>：尽管是将aof文件重写了，但是毕竟是操作过程和操作结果仍然有很大的差别，体积也毋庸置疑的更大。</li>
+<li><strong>恢复速度更慢</strong>：AOF 在过去曾经发生过这样的 bug： 因为个别命令的原因，导致 AOF 文件在重新载入时，无法将数据集恢复成保存时的原样。测试套件里为这种情况添加了测试： 它们会自动生成随机的、复杂的数据集， 并通过重新载入这些数据来确保一切正常。 虽然这种 bug 在 AOF 文件中并不常见， 但是对比来说， RDB 几乎是不可能出现这种 bug 的。</li>
+</ol>
+</div>
+<h2 id="60jvm">60.JVM内存模型 常见参数设置<a class="headerlink" href="#60jvm" title="Permanent link">&para;</a></h2>
+<p>方法区、堆、虚拟机栈、本地方法栈、程序计数器</p>
+<p><a class="glightbox" href="../../JVM虚拟机/img/2/JavaMemoryArea.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../../JVM虚拟机/img/2/JavaMemoryArea.png" style="zoom: 50%;" /></a></p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>-Xmx4096m<span class="w"> </span>//<span class="w"> </span>设置堆内存最大值
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>-Xms4096m<span class="w"> </span>//<span class="w"> </span>初始化堆内存大小
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>-Xmn512m<span class="w">  </span>//<span class="w"> </span>新生代内存配置
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>-Xss256k<span class="w"> </span>//<span class="w"> </span>每个线程堆栈最大值
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>-XX:NewRatio<span class="o">=</span><span class="m">4</span><span class="w"> </span>//<span class="w"> </span>设置年轻代与年老代的比值。设置为4，则年轻代与年老代所占比值为1：4
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>-XX:MaxDirectMemorySize<span class="o">=</span>1G<span class="w"> </span>//直接内存，报java.lang.OutOfMemoryError:<span class="w"> </span>Direct<span class="w"> </span>buffer<span class="w"> </span>memory异常可以上调这个值
+</span></code></pre></div>
+<h2 id="61mysql">61.MySQL最左匹配原则<a class="headerlink" href="#61mysql" title="Permanent link">&para;</a></h2>
+<p>MySQL 的最左匹配原则是指在<wavy>使用复合索引（即由多个列组成的索引）进行查询时，MySQL 会从索引的最左边开始匹配条件</wavy>。这一原则是基于 B+Tree 索引的特性而来的，因为 B+Tree 是按顺序存储数据的，因此最左边的列决定了索引的“入口”。</p>
+<h4 id="btree">B+Tree 索引结构<a class="headerlink" href="#btree" title="Permanent link">&para;</a></h4>
+<p>在 MySQL 中，索引通常使用 B+Tree 结构来实现。B+Tree 的特点是<wavy><strong>所有叶子节点都包含数据，并且通过指针链接在一起。每个非叶子节点包含指向子节点的指针，并且每个节点的键按照顺序存储</strong></wavy>。</p>
+<h4 id="_9">复合索引<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<p><wavy>复合索引是指由多个列组成的索引</wavy>。例如，一个复合索引 (col1, col2, col3) 表示索引包含三个列，按照从左到右的顺序存储数据。<wavy>在 B+Tree 中，索引的构建是从最左边的列开始的，因此最左边的列决定了索引的“入口”</wavy>。</p>
+<p>假设有一个复合索引 <code>(col1, col2, col3)</code>，那么</p>
+<div class="admonition note">
+<p class="admonition-title">1️⃣有效的使用</p>
+<div class="language-sql highlight"><span class="filename">这个查询可以有效地使用索引 (col1, col2, col3)，因为它是从最左边的列 col1 开始匹配。</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">table</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">col1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+<div class="language-sql highlight"><span class="filename">这个查询也可以有效地使用索引 (col1, col2, col3)，因为它从最左边的列 col1 开始匹配，并且向右延伸到了第二列 col2</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">table</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">col1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">col2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value2&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+<div class="language-sql highlight"><span class="filename">这个查询同样可以有效地使用索引 (col1, col2, col3)，因为它从最左边的列 col1 开始匹配，并且向右延伸到了第三列 col3</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">table</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">col1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">col2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value2&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">col3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value3&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">2️⃣部分使用</p>
+<div class="language-sql highlight"><span class="filename">这个查询可以部分地使用索引 (col1, col2, col3)，因为它从最左边的列 col1 开始匹配，但是没有使用中间的 col2 列。尽管如此，MySQL 仍然可以使用索引的前两列来加速查询。</span><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">table</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">col1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">col3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value3&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">3️⃣无效使用</p>
+<div class="language-sql highlight"><span class="filename">这个查询无法有效地使用索引 (col1, col2, col3)，因为它没有从最左边的列 col1 开始匹配。MySQL 优化器可能会选择全表扫描或者其他索引（如果有适用的单列索引的话）。</span><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="k">table</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">col2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value2&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">col3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;value3&#39;</span><span class="p">;</span>
+</span></code></pre></div>
+</div>
+<hr />
+<h2 id="62springboot">62.SpringBoot事务什么情况下会失效<a class="headerlink" href="#62springboot" title="Permanent link">&para;</a></h2>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzkwNjMwMTgzMQ==&amp;mid=2247490414&amp;idx=1&amp;sn=b232e8931fbc754a255bde93a5a810e5&amp;chksm=c0ebc386f79c4a9079f096acc8e5836cab99746689309c293900488a538b7489dc7d64b0ae0a&amp;token=751314179&amp;lang=zh_CN#rd">文章讲解</a></p>
+<p><a class="glightbox" href="../img/spring事务失效场景.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/spring事务失效场景.jpg" style="zoom: 40%;" /></a></p>
+<hr />
+<h2 id="63spring">63.spring事务隔离级别<a class="headerlink" href="#63spring" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>DEFAULT（默认）</strong>：使用数据库默认的隔离级别。对于大多数数据库而言，通常是 READ_COMMITTED（读已提交）。</li>
+<li><strong>READ_UNCOMMITTED（读未提交）</strong>：最低的隔离级别，允许一个事务读取另一个事务尚未提交的数据。这可能导致脏读、不可重复读和幻读问题。</li>
+<li><strong>READ_COMMITTED（读已提交）</strong>：确保一个事务只能读取另一个事务已提交的数据。这样可以避免脏读，但仍可能出现不可重复读和幻读问题。</li>
+<li><strong>REPEATABLE_READ（可重复读）</strong>：确保一个事务执行期间多次读取相同记录的数据时，得到的结果是一致的。这可以避免脏读和不可重复读，但仍可能出现幻读问题。</li>
+<li><strong>SERIALIZABLE（串行化）</strong>：最高的隔离级别，确保事务之间的执行是串行化的，完全隔离了事务。这可以避免脏读、不可重复读和幻读，但性能开销较高。</li>
+</ol>
+<hr />
+<h2 id="64spring">64.spring事务特性<a class="headerlink" href="#64spring" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>原子性</strong>：一个事务中的所有操作，要么全部成功，要么全部失败，没有中间状态。</li>
+<li><strong>一致性</strong>：事务执行结束后，数据库的完整性约束没有被破坏，事务执行的前后都是合法的数据状态，这是事务追求的最终状态，可以说其他的三个特性都是为了保证事务的一致性。</li>
+<li><strong>隔离性</strong>：事务内部的操作与其他事务是隔离的，并发执行的各个事务之间不能互相干扰，严格的隔离性对应了串行化执行，但是实际操作中很少会用到串行化的隔离级别，一般来说可以分两个方面来保证隔离性。<ul>
+<li>A事务写对B事务写的影响：通过锁来保证</li>
+<li>A事务写对B事务读的影响：通过MVCC来保证</li>
+</ul>
+</li>
+<li><strong>持久性</strong>：事务一旦提交，对数据库的影响应该是永久性的。</li>
+</ul>
+<hr />
+<h2 id="65springtransactional">65.spring中@Transactional注解失效的情况<a class="headerlink" href="#65springtransactional" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>未被 Spring 管理的类中使用</strong>：如果 <code>@Transactional</code> 注解被用在一个未被 Spring 管理的类或方法上，它将无效，因为 Spring 无法拦截并管理这些方法的事务。</li>
+<li><strong>对自身类内部调用</strong>：在同一个类中的一个 <code>@Transactional</code> 注解的方法调用另一个 <code>@Transactional</code> 注解的方法，事务可能无法正常工作。这是因为 Spring 通过代理实现事务管理，对于自身类内部的方法调用，代理可能不会被触发。</li>
+<li><strong>异常未被正确捕获</strong>：如果在事务方法中抛出的异常被捕获并处理而不再抛出，事务可能不会回滚。确保异常能够正确地传播出去以触发事务回滚。</li>
+<li><strong>运行时异常未标记为回滚异常</strong>：默认情况下，<code>@Transactional</code> 注解仅对抛出的未检查异常（继承自 RuntimeException）进行回滚。如果自定义异常未标记为回滚异常（通过 <code>@Transactional(rollbackFor = YourException.class)</code>），事务可能不会回滚。</li>
+<li><strong>同类中调用非 public 方法</strong>：如果在同一类中调用另一个非 public 的方法，Spring 的代理可能无法截获该方法调用，导致事务失效。</li>
+</ol>
+<hr />
+<h2 id="66spring">66.Spring事务传播机制<a class="headerlink" href="#66spring" title="Permanent link">&para;</a></h2>
+<ol>
+<li><code>PROPAGATION_REQUIRED</code>：Spring的默认传播级别，如果上下文中存在事务则加入当前事务，如果不存在事务则新建事务执行。</li>
+<li><code>PROPAGATION_SUPPORTS</code>：如果上下文中存在事务则加入当前事务，如果没有事务则以非事务方式执行。</li>
+<li><code>PROPAGATION_MANDATORY</code>：该传播级别要求上下文中必须存在事务，否则抛出异常。</li>
+<li><code>PROPAGATION_REQUIRES_NEW</code>：每次执行都会创建新事务，并同时将上下文中的事务挂起，执行完当前线程后再恢复上下文中事务。</li>
+<li><code>PROPAGATION_NOT_SUPPORTED</code>：当上下文中有事务则挂起当前事务，执行完当前逻辑后再恢复上下文事务。</li>
+<li><code>PROPAGATION_NEVER</code>：该传播级别要求上下文中不能存在事务，否则抛出异常。</li>
+<li><code>PROPAGATION_NESTED</code>：嵌套事务，如果上下文中存在事务则嵌套执行，如果不存在则新建事务</li>
+</ol>
+<hr />
+<h2 id="67">67.分布式锁相关<a class="headerlink" href="#67" title="Permanent link">&para;</a></h2>
+<h2 id="68">68.索引失效场景<a class="headerlink" href="#68" title="Permanent link">&para;</a></h2>
+<p><a href="https://cloud.tencent.com/developer/article/1992920">https://cloud.tencent.com/developer/article/1992920</a>  看文章，文章会全一些</p>
+<div class="admonition note">
+<ol>
+<li>联合索引不满足最左匹配原则</li>
+<li>使用了select *</li>
+<li>索引列参与运算</li>
+<li>索引列参使用了函数</li>
+<li>错误的Like使用：字段开头模糊查询</li>
+<li>类型隐式转换</li>
+<li>使用OR操作</li>
+<li>两列做比较：如果两个列数据都有索引，但在查询条件中对两列数据进行了对比操作，则会导致索引失效。</li>
+<li>不等于比较</li>
+<li>is not null</li>
+<li>not in和not exists</li>
+<li>order by导致索引失效</li>
+<li>参数不同导致索引失效</li>
+</ol>
+</div>
+<hr />
+<h2 id="69sql">69.SQL什么时候会锁表<a class="headerlink" href="#69sql" title="Permanent link">&para;</a></h2>
+<h2 id="70sql">70.SQL的执行过程<a class="headerlink" href="#70sql" title="Permanent link">&para;</a></h2>
+<p><a class="glightbox" href="../img/MySQL执行过程.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/MySQL执行过程.png" style="zoom: 50%;" /></a></p>
+<details class="info">
+<summary>简化版</summary>
+<p><a class="glightbox" href="../img/SQL执行过程.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img src="../img/SQL执行过程.png" style="zoom: 50%;" /></a></p>
+</details>
+<div class="admonition warning">
+<p><strong>①连接建立 ➡ ②查询缓存 ➡ ③SQL解析 ➡ ④查询优化 ➡ ⑤执行计划生成</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬇<br>
+<strong>⑩结束执行 ⬅ ⑨资源释放 ⬅ ⑧结果返回 ⬅ ⑦权限验证 ⬅ ⑥ SQL执行</strong></p>
+</div>
+<h4 id="1_3">1️⃣连接建立<a class="headerlink" href="#1_3" title="Permanent link">&para;</a></h4>
+<p>当客户端（如命令行工具、应用程序或其他数据库客户端）试图与 MySQL 服务器建立连接时，<wavy>首先会遇到连接器，连接器负责处理客户端的连接请求，并进行身份验证</wavy>。</p>
+<div class="admonition note">
+<p><strong>身份验证</strong>：连接器会验证客户端提供的用户名和密码是否正确。如果验证失败，则会返回错误信息。<br>
+<strong>权限检查</strong>：一旦身份验证通过，连接器会检查用户的权限，确定用户是否有权执行后续操作。</p>
+</div>
+<h4 id="2-mysql-80">2️⃣查询缓存（适用于 MySQL 8.0 之前的版本）<a class="headerlink" href="#2-mysql-80" title="Permanent link">&para;</a></h4>
+<p>如果查询缓存功能开启，并且查询命中缓存（即查询语句和结果已经在缓存中），那么 MySQL 直接从缓存中返回结果。注意，<wavy>从 MySQL 8.0 开始，查询缓存已经被移除</wavy>，因为它的维护成本较高且在高写负载下效果不佳。</p>
+<h4 id="3sql">3️⃣SQL 解析<a class="headerlink" href="#3sql" title="Permanent link">&para;</a></h4>
+<p><wavy>如果查询未命中缓存，MySQL 会解析 SQL 语句</wavy>。</p>
+<div class="admonition note">
+<p><strong>词法分析</strong>：将 SQL 字符串分解成一个个的标记（tokens）。<br>
+<strong>语法分析</strong>：检查 SQL 语句是否符合 MySQL 的语法规则，如果不符合，则会返回语法错误。<br>
+<strong>预处理</strong>：在此阶段，MySQL 会进一步检查 SQL 语句的合法性，如表名是否存在，列名是否存在等。</p>
+</div>
+<h4 id="4_1">4️⃣查询优化<a class="headerlink" href="#4_1" title="Permanent link">&para;</a></h4>
+<p><wavy>优化器会对 SQL 语句进行优化，生成执行计划<wavy>。</p>
+<div class="admonition note">
+<p><strong>选择索引</strong>：如果查询可以使用多个索引，优化器会选择最佳的索引。<br>
+<strong>确定连接顺序</strong>：对于涉及多表的查询，优化器会决定表的连接顺序。<br>
+<strong>选择执行算法</strong>：优化器选择最有效的算法来执行查询，如嵌套循环连接、哈希连接等。</p>
+</div>
+<h4 id="5_1">5️⃣执行计划生成<a class="headerlink" href="#5_1" title="Permanent link">&para;</a></h4>
+<p>根据优化器生成的执行计划，MySQL 生成具体的执行计划，包括但不限于：</p>
+<ul>
+<li><strong>选择的数据读取方式</strong>（如全表扫描、索引扫描）。</li>
+<li><strong>表之间的连接顺序和方法</strong>。</li>
+<li><strong>应用的过滤条件</strong>（WHERE 子句）。</li>
+<li><strong>聚合、排序等操作的执行顺序</strong>。</li>
+</ul>
+<h4 id="6sql">6️⃣SQL 执行<a class="headerlink" href="#6sql" title="Permanent link">&para;</a></h4>
+<p>执行器根据生成的执行计划执行 SQL 语句：</p>
+<div class="admonition note">
+<p><strong>存储引擎层</strong>：执行器调用存储引擎的 API 来访问数据，不同的存储引擎有不同的接口和实现方式。<br>
+<strong>事务管理</strong>：如果 SQL 语句是事务的一部分，存储引擎会进行相应的事务管理，如事务开始、提交、回滚等。</p>
+</div>
+<h4 id="7">7️⃣权限验证<a class="headerlink" href="#7" title="Permanent link">&para;</a></h4>
+<p>在执行 SQL 语句之前，执行器会再次检查用户是否有执行该操作的权限。如果权限不足，会返回错误信息。</p>
+<h4 id="8">8️⃣结果返回<a class="headerlink" href="#8" title="Permanent link">&para;</a></h4>
+<p>一旦 SQL 语句被执行完毕，MySQL 会将结果集返回给客户端。如果是查询操作，结果集将包含符合条件的数据行；如果是插入、更新或删除操作，结果集通常包含受影响的行数。</p>
+<h4 id="9">9️⃣资源释放<a class="headerlink" href="#9" title="Permanent link">&para;</a></h4>
+<p>执行完 SQL 语句后，MySQL 会释放执行过程中占用的资源，如内存、锁等。</p>
+<h4 id="_10">🔟结束执行<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
+<p>如果 SQL 语句是事务的一部分，事务的处理可能会继续等待其他 SQL 语句，直到事务提交或回滚。</p>
+<h2 id="71arraylistlinkedlist">71.ArrayList和LinkedList区别<a class="headerlink" href="#71arraylistlinkedlist" title="Permanent link">&para;</a></h2>
+<p><wavy>ArrayList适合随机访问，LinkedList适合插入和删除操作</wavy>。</p>
+<h4 id="arraylist">ArrayList<a class="headerlink" href="#arraylist" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>底层数据结构</strong>：<wavy>ArrayList基于 <strong>动态数组</strong> 实现</wavy>，内部维护一个Object数组，默认初始容量为10，当元素数量超过当前容量时会自动扩容。</li>
+<li><strong>随机访问效率高</strong>：由于基于数组，ArrayList支持通过索引快速访问元素，时间复杂度为O(1)。</li>
+<li><strong>插入和删除效率低</strong>：在中间或开头插入/删除元素时，需要移动后续元素，时间复杂度为O(n)。</li>
+<li><strong>适合随机访问</strong>：<wavy>对于频繁随机访问元素的场景，ArrayList性能更好</wavy>。</li>
+</ul>
+<h4 id="linkedlist">LinkedList<a class="headerlink" href="#linkedlist" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>底层数据结构</strong>：<wavy>LinkedList基于 <strong>双向链表</strong> 实现</wavy>，每个节点包含数据元素和指向前后节点的引用。</li>
+<li><strong>插入和删除效率高</strong>：在任意位置插入/删除元素时，只需调整相邻节点的引用，时间复杂度为O(1)。</li>
+<li><strong>顺序访问效率低</strong>：由于基于链表，LinkedList不支持随机访问，需要从头或尾开始遍历，时间复杂度为O(n)。</li>
+<li><strong>适合频繁插入和删除</strong>：<wavy>对于频繁插入和删除元素的场景，LinkedList性能更好</wavy>。</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">特殊情况</p>
+<p><strong>头插法插入数据</strong>：<br>
+<code>ArrayList</code>：使用头插法插入数据时，需要将已有元素依次向后移动，因为ArrayList在中间或开头插入元素的时间复杂度为O(n)，效率较低。<br>
+<code>LinkedList</code>：LinkedList在头部插入元素时效率较高，只需要调整指针即可，时间复杂度为O(1)。<br>
+由于LinkedList在头部插入元素时效率更高，因此使用头插法插入数据时，应该选择LinkedList。</p>
+<p><strong>尾插法插入数据</strong>：<br>
+<code>ArrayList</code>：使用尾插法插入数据时，由于ArrayList在末尾添加元素的时间复杂度为O(1)，效率较高。<br>
+<code>LinkedList</code>：LinkedList在末尾插入元素时也需要调整指针，但时间复杂度也为O(1)。<br>
+<wavy>对于尾插法插入数据，无论是ArrayList还是LinkedList都能够以较高的效率进行插入操作。</wavy></p>
+</div>
+<hr />
+<h2 id="72springiocaop">72.说说对Spring中IOC和AOP的理解<a class="headerlink" href="#72springiocaop" title="Permanent link">&para;</a></h2>
+<h3 id="ioc">IOC<a class="headerlink" href="#ioc" title="Permanent link">&para;</a></h3>
+<p><code>IOC</code>(Inversion of Control)，即“<code>控制反转</code>”，不是什么技术，而是一种设计思想。在Java开发中，Ioc意味着将你设计好的对象交给容器控制，而不是传统的在你的对象内部直接控制。</p>
+<div class="admonition note">
+<p><strong>谁控制谁，控制什么</strong>：传统Java SE程序设计，我们直接在对象内部通过new进行创建对象，是程序主动去创建依赖对象；
+而<wavy>IoC是有专门一个容器来创建这些对象，即由Ioc容器来控制对象的创建</wavy>；<br>
+<strong>谁控制谁</strong>？当然是IoC 容器控制了对象；<strong>控制什么</strong>？那就是主要控制了外部资源获取（不只是对象包括比如文件等）。</p>
+<p><strong>为何是反转，哪些方面反转了</strong>：有反转就有正转，传统应用程序是由我们自己在对象中主动控制去直接获取依赖对象，也就是正转；
+而反转则是<wavy>由容器来帮忙创建及注入依赖对象，及DI</wavy>；<br>
+<strong>为何是反转</strong>？因为由容器帮我们查找及注入依赖对象，对象只是被动的接受依赖对象，所以是反转；<strong>哪些方面反转了</strong>？依赖对象的获取被反转了。</p>
+</div>
+<figure>
+  <a class="glightbox" href="../img/%E4%BC%A0%E7%BB%9F%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%AF%B9%E8%B1%A1%E5%88%9B%E5%BB%BA.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../img/%E4%BC%A0%E7%BB%9F%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%AF%B9%E8%B1%A1%E5%88%9B%E5%BB%BA.png" width="300" /></a>
+  <figcaption>1️⃣传统应用程序对象创建</figcaption>
+</figure>
+<figure>
+  <a class="glightbox" href="../img/IOC-DI%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86%E5%AF%B9%E8%B1%A1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="../img/IOC-DI%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86%E5%AF%B9%E8%B1%A1.png" width="300" /></a>
+  <figcaption>2️⃣IOC-DI容器管理对象</figcaption>
+</figure>
+<p><code>DI</code>(Dependency Injection)，即“<code>依赖注入</code>”：组件之间依赖关系由容器在运行期决定，形象的说，<wavy>即由容器动态的将某个依赖关系注入到组件之中</wavy>。
+依赖注入的目的并非为软件系统带来更多功能，而是<wavy>为了提升组件重用的频率</wavy>，并为系统搭建一个灵活、可扩展的平台。
+通过依赖注入机制，我们只需要通过简单的配置，而无需任何代码就可指定目标需要的资源，完成自身的业务逻辑，而不需要关心具体的资源来自何处，由谁实现。</p>
+<p>理解DI的关键是：“谁依赖谁，为什么需要依赖，谁注入谁，注入了什么”，那我们来深入分析一下：</p>
+<div class="admonition note">
+<ul>
+<li><strong>谁依赖于谁</strong>：当然是<wavy>应用程序依赖于IoC容器</wavy>；<br></li>
+<li><strong>为什么需要依赖</strong>：<wavy>应用程序需要IoC容器来提供对象需要的外部资源</wavy>；<br></li>
+<li><strong>谁注入谁</strong>：很明显是<wavy>IoC容器注入应用程序某个对象</wavy>，应用程序依赖的对象；<br></li>
+<li><strong>注入了什么</strong>：就是<wavy>注入某个对象所需要的外部资源</wavy>（包括对象、资源、常量数据）。</li>
+</ul>
+</div>
+<p><a href="https://www.martinfowler.com/articles/injection.html">2004年Martin Fowler提出DI概念🔗</a>
+<a href="https://www.cnblogs.com/xdp-gacl/p/4249939.html">相关链接🔗</a></p>
+<h3 id="aop">AOP<a class="headerlink" href="#aop" title="Permanent link">&para;</a></h3>
+<p>Spring AOP(面向切面编程)，就是在<wavy>不改变原有方法的基础上，对方法进行增强</wavy>，添加额外的功能。
+可以做 <strong>日志记录</strong>、<strong>性能监控</strong>、<strong>异常处理</strong>。</p>
+<h4 id="jdkcglib">JDK和Cglib动态代理<a class="headerlink" href="#jdkcglib" title="Permanent link">&para;</a></h4>
+<p><strong>JDK原生</strong><wavy>需要被代理的目标类必须实现接口</wavy>，因为这个技术要求代理对象和目标对象实现同样的接口。<br>
+适用于接口代理，创建代理实例速度较快，适合代理接口的方法调用频率不高的场景。</p>
+<div class="admonition note">
+<p><strong>优点</strong>：实现简单，使用Java内置API；无需依赖第三方库。
+<strong>缺点</strong>：只能代理接口，不能代理普通类；方法调用时使用反射，性能相对较低。</p>
+</div>
+<p><strong>cglib动态代理</strong><wavy>通过继承被代理的目标类实现代理</wavy>，所以不需要目标类实现接口。<br>
+适用于没有接口的类代理，方法调用性能较高，适合方法调用频率较高的场景。</p>
+<div class="admonition note">
+<p><strong>优点</strong>：可以代理没有接口的类；方法调用性能较高，避免了反射调用。
+<strong>缺点</strong>：创建代理类时需要进行字节码操作，性能开销较大；需要依赖cglib和ASM库。</p>
+</div>
+<p>其中<wavy>JDK动态代理虽启动快，但在创建代理实例时的性能优于Cglib；而Cglib启动慢，但在方法调用时，Cglib的性能则优于JDK动态代理</wavy>。</p>
+<h2 id="73mysql">73.对MySQL读写分离有了解过么？<a class="headerlink" href="#73mysql" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">优点</p>
+<p><strong>提高读性能</strong>：通过将读操作分布到多个从节点上执行，可以有效分散主数据库的压力，提升读操作的吞吐量。<br>
+<strong>增强可靠性</strong>：由于写操作集中在主数据库上，可以减少因频繁读取造成的锁竞争，从而降低主数据库的负担，提高其稳定性。<br>
+<strong>容错能力</strong>：即使某个从数据库出现故障，也不会影响到主数据库的工作，而且可以根据业务需求进行快速切换，提高系统的可用性。<br>
+<strong>数据备份与恢复</strong>：从数据库可以作为备份数据库使用，便于进行数据恢复和灾难恢复。</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">缺点</p>
+<p><strong>数据一致性延迟</strong>：由于从数据库的数据是通过主数据库复制过来的，所以存在一定的数据延迟。在某些场景下，这种延迟可能会影响应用的一致性。<br>
+<strong>管理复杂度增加</strong>：随着从数据库数量的增加，管理这些数据库的复杂度也会增加，包括但不限于配置、监控、维护等工作。<br>
+<strong>事务处理复杂</strong>：如果一个事务需要同时涉及读写操作，那么如何保证这些操作都在同一个数据库上完成就变得复杂。<br>
+<strong>网络延迟</strong>：读写分离通常意味着客户端请求需要跨越网络到达目标数据库，这可能会引入额外的网络延迟。<br>
+<strong>负载均衡挑战</strong>：需要合理分配读请求到各个从数据库，以避免某些从数据库过载，而其他从数据库却处于空闲状态。<br></p>
+</div>
+<h3 id="1mysql-proxy">1️⃣基于MySQL Proxy代理的方式<a class="headerlink" href="#1mysql-proxy" title="Permanent link">&para;</a></h3>
+<p>通过在应用程序和数据库之间增加一个代理层，MySQL Proxy 能够根据请求类型（读或写）将请求转发到不同的实例。这种方式对于应用程序来说是透明的，只需要连接到 MySQL Proxy 的监听端口即可。<wavy>MySQL Proxy 通过 Lua 脚本实现读写语句的判断，将写请求转发到主库，读请求转发到从库</wavy>。</p>
+<div class="admonition warning">
+<p class="admonition-title">注意事项</p>
+<p><wavy>Proxy 可能成为单点故障</wavy>，因此建议配置多个 Proxy 作为冗余。<br>
+应用服务器的连接池配置中应配置多个 Proxy 的连接参数以确保高可用性。<br>
+基于 MySQL Proxy 代理的方式对于应用来说相对简单，但<wavy>在项目稳定性、事务支持性等方面可能存在不足</wavy>；</p>
+</div>
+<h3 id="2-mysql-connectorj-jdbc">2️⃣基于 MySQL Connector/J 的 JDBC 驱动方式<a class="headerlink" href="#2-mysql-connectorj-jdbc" title="Permanent link">&para;</a></h3>
+<p>使用 MySQL 驱动 Connector/J 的特性，可以在 JDBC URL 中配置主库和从库地址，从而实现读写分离。<br>
+在 JDBC URL 中配置主库与从库地址，例如：<code>jdbc:mysql:replication://master,slave1,slave2,slave3/test</code>。<br>
+Java 程序通过在连接 MySQL 的 JDBC 中配置主库与从库等地址，JDBC 会自动将读请求发送给从库，将写请求发送给主库，并能实现多个从库的负载均衡。</p>
+<h3 id="3-sharding-jdbc">3️⃣基于 Sharding-JDBC 方式<a class="headerlink" href="#3-sharding-jdbc" title="Permanent link">&para;</a></h3>
+<p>Sharding-JDBC 可以与 SpringBoot 集成，<wavy>通过 <strong>配置文件</strong> 来指定读写分离的规则</wavy>。</p>
+<hr />
+<h2 id="74spring">74.spring框架的启动流程<a class="headerlink" href="#74spring" title="Permanent link">&para;</a></h2>
+<p>Spring Boot 的启动流程可以概括为：<wavy><strong>加载配置 -&gt; 创建上下文 -&gt; 执行自动配置 -&gt; 初始化各种组件 -&gt; 启动应用</strong></wavy>。</p>
+<h4 id="_11">❶主方法<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h4>
+<p>Spring Boot 应用程序从 <code>main</code> 方法开始，调用 <code>SpringApplication.run()</code>，传入主类和命令行参数。</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nd">@SpringBootApplication</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">DemoApplication</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">        </span><span class="n">SpringApplication</span><span class="p">.</span><span class="na">run</span><span class="p">(</span><span class="n">DemoApplication</span><span class="p">.</span><span class="na">class</span><span class="p">,</span><span class="w"> </span><span class="n">args</span><span class="p">);</span>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="p">}</span>
+</span></code></pre></div>
+<h4 id="springapplication">❷创建 SpringApplication 实例<a class="headerlink" href="#springapplication" title="Permanent link">&para;</a></h4>
+<p><code>SpringApplication.run()</code> 方法创建了一个 <code>SpringApplication</code> 实例。构造函数初始化了一些基本信息，比如确定应用程序类型（Web 应用、命令行应用等）。</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kd">public</span><span class="w"> </span><span class="nf">SpringApplication</span><span class="p">(</span><span class="n">Class</span><span class="o">&lt;?&gt;</span><span class="p">...</span><span class="w"> </span><span class="n">primarySources</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">primarySources</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">LinkedHashSet</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">Arrays</span><span class="p">.</span><span class="na">asList</span><span class="p">(</span><span class="n">primarySources</span><span class="p">));</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h4 id="_12">❸创建应用上下文<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h4>
+<p>创建 <code>ApplicationContext</code> 实例，通常是 <code>AnnotationConfigApplicationContext</code> 或 <code>WebApplicationContext</code></p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">ConfigurableApplicationContext</span><span class="w"> </span><span class="nf">run</span><span class="p">(</span><span class="n">Class</span><span class="o">&lt;?&gt;</span><span class="w"> </span><span class="n">primarySource</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="p">...</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">SpringApplication</span><span class="p">(</span><span class="n">primarySource</span><span class="p">).</span><span class="na">run</span><span class="p">(</span><span class="n">args</span><span class="p">);</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h4 id="_13">❹设置上下文环境<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h4>
+<p>通过 <code>prepareEnvironment()</code> 方法配置 <code>Environment</code>，加载系统属性、环境变量、配置文件等，确保环境在应用启动时可用。</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kd">private</span><span class="w"> </span><span class="n">ConfigurableApplicationContext</span><span class="w"> </span><span class="nf">run</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="w">    </span><span class="n">ConfigurableApplicationContext</span><span class="w"> </span><span class="n">context</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">createApplicationContext</span><span class="p">();</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="w">    </span><span class="n">prepareEnvironment</span><span class="p">(</span><span class="n">context</span><span class="p">.</span><span class="na">getEnvironment</span><span class="p">());</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">    </span><span class="n">context</span><span class="p">.</span><span class="na">refresh</span><span class="p">();</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">context</span><span class="p">;</span>
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="p">}</span>
+</span></code></pre></div>
+<h4 id="_14">❺加载配置<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h4>
+<p>加载配置类、配置文件（如 <code>application.properties</code> 或 <code>application.yml</code>）以及 <code>@PropertySource</code> 注解加载的属性，准备应用配置。</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kd">protected</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">prepareContext</span><span class="p">(</span><span class="n">ConfigurableApplicationContext</span><span class="w"> </span><span class="n">context</span><span class="p">,</span><span class="w"> </span><span class="n">Environment</span><span class="w"> </span><span class="n">environment</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="w">    </span><span class="n">context</span><span class="p">.</span><span class="na">setEnvironment</span><span class="p">(</span><span class="n">environment</span><span class="p">);</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="w">    </span><span class="c1">// 处理配置文件</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="w">    </span><span class="k">new</span><span class="w"> </span><span class="n">ApplicationConfigFileApplicationListener</span><span class="p">().</span><span class="na">onApplicationEvent</span><span class="p">(</span><span class="n">event</span><span class="p">);</span>
+</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="p">}</span>
+</span></code></pre></div>
+<h4 id="bean">❻注册 Bean<a class="headerlink" href="#bean" title="Permanent link">&para;</a></h4>
+<p>执行 <code>registerBean()</code>，扫描 <code>@ComponentScan</code> 指定的包，查找并注册被 <code>@Component</code>、<code>@Service</code>、<code>@Repository</code>、<code>@Controller</code> 等注解标记的类为 Spring Bean。</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">refresh</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">    </span><span class="c1">// 创建并注册所有Bean</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">beanFactory</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">createBeanFactory</span><span class="p">();</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">    </span><span class="n">registerBeanDefinitions</span><span class="p">();</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="p">}</span>
+</span></code></pre></div>
+<h4 id="_15">❼处理条件注解<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h4>
+<p>使用 <code>@Conditional</code> 等注解进行条件判断，决定是否加载特定的 Bean。这一过程涉及到 <code>ConditionEvaluator</code>，它根据条件逻辑判断 Bean 的注册。</p>
+<h4 id="_16">❽事件发布<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
+<p>发布 <code>ApplicationEnvironmentPreparedEvent</code> 事件，允许监听器在上下文环境准备后进行配置。发布 <code>ApplicationPreparedEvent</code> 事件，表示上下文已准备好，但尚未刷新。</p>
+<h4 id="commandlinerunner-applicationrunner">❾执行 CommandLineRunner 和 ApplicationRunner<a class="headerlink" href="#commandlinerunner-applicationrunner" title="Permanent link">&para;</a></h4>
+<p>在上下文刷新后，执行实现了 <code>CommandLineRunner</code> 或 <code>ApplicationRunner</code> 接口的 <code>run</code> 方法，用于执行自定义的初始化逻辑。</p>
+<h4 id="web">❿启动 Web 服务器<a class="headerlink" href="#web" title="Permanent link">&para;</a></h4>
+<p>对于 <code>Web</code> <code>应用，SpringApplication</code> 会创建并启动嵌入式 Web 服务器（如 <code>Tomcat</code>、<code>Jetty</code>），调用 <code>WebServerFactory</code> 进行配置。</p>
+<h4 id="_17">⓫应用就绪<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h4>
+<p>最后发布 <code>ApplicationReadyEvent</code>，标志着应用已完全启动，所有 <code>Bean</code> 均已初始化并可供使用。</p>
+<h4 id="_18">⓬自动配置<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h4>
+<p>Spring Boot 的自动配置是通过 <code>@EnableAutoConfiguration</code> 实现的，Spring Boot 会根据项目依赖自动配置 Spring 框架，极大减少了手动配置的需要。
+这一过程涉及到 <code>SpringFactoriesLoader</code>，它加载 <code>META-INF/spring.factories</code> 文件中的配置，并反射创建实现类。</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="c1">// 示例：自动配置流程</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="n">SpringFactoriesLoader</span><span class="p">.</span><span class="na">loadFactoryNames</span><span class="p">(</span><span class="n">YourFactoryInterface</span><span class="p">.</span><span class="na">class</span><span class="p">,</span><span class="w"> </span><span class="n">classLoader</span><span class="p">)</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="w">    </span><span class="p">.</span><span class="na">forEach</span><span class="p">(</span><span class="n">factoryName</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="w">        </span><span class="n">Class</span><span class="o">&lt;?&gt;</span><span class="w"> </span><span class="n">factoryClass</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Class</span><span class="p">.</span><span class="na">forName</span><span class="p">(</span><span class="n">factoryName</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="n">classLoader</span><span class="p">);</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="w">        </span><span class="n">YourFactoryInterface</span><span class="w"> </span><span class="n">factory</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">YourFactoryInterface</span><span class="p">)</span><span class="w"> </span><span class="n">factoryClass</span><span class="p">.</span><span class="na">newInstance</span><span class="p">();</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="w">        </span><span class="n">factory</span><span class="p">.</span><span class="na">configure</span><span class="p">(</span><span class="n">beanFactory</span><span class="p">);</span>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="p">});</span>
+</span></code></pre></div>
+<p><a href="https://developer.aliyun.com/article/1351974">相关链接🔗</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../%E9%81%87%E5%88%B0%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86%2826-50%29/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 遇到的面试题(26-50)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                遇到的面试题(26-50)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" class="md-footer__link md-footer__link--next" aria-label="下一页: 设计模式">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                设计模式
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 longjf<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/971230" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://space.bilibili.com/491580862" target="_blank" rel="noopener" title="space.bilibili.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92.02c-26.45-.8-48.21-9.8-65.28-27.2C9.682 419.4.767 396.5 0 368.2V169.8c.767-26 9.682-47.6 26.74-65.7C43.81 87.75 65.57 78.77 92.02 78h29.38L96.05 52.19c-5.75-5.73-8.63-13-8.63-21.79 0-8.8 2.88-16.06 8.63-21.797C101.8 2.868 109.1 0 117.9 0q13.2 0 21.9 8.603L213.1 78h88l74.5-69.397C381.7 2.868 389.2 0 398 0q13.2 0 21.9 8.603c5.7 5.737 8.6 12.997 8.6 21.797 0 8.79-2.9 16.06-8.6 21.79L394.6 78h29.3c26.4.77 48 9.75 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96.05c-9.59.4-17.45 3.7-23.58 9.8-6.14 6.1-9.4 13.9-9.78 23.5v194.4c0 9.2 3.26 17 9.78 23.5s14.38 9.8 23.58 9.8H416.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.select", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.footer", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.path"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../../../assets/js/extra.js"></script>
+      
+        <script src="../../../assets/js/mathjax.js"></script>
+      
+        <script src="../../../assets/js/tablesort.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+      
+        <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+      
+        <script src="../../../assets/js/lenis.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "none"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
