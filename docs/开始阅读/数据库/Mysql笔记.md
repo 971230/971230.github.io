@@ -194,12 +194,12 @@ drop table if exists stu;
 
 ```sql
 create table stu(
-		id int,
-		name varchar(50), -- 50表示最多存50个字符
-		gender varchar(10), 
-		birthday date,
-		score double
-	);-- mysql中也有数据类型,这里先使用,后面再做说明!
+	id int,
+	name varchar(50), -- 50表示最多存50个字符
+	gender varchar(10), 
+	birthday date,
+	score double
+);-- mysql中也有数据类型,这里先使用,后面再做说明!
 ```
 
 ### ⑨查看stu学生表结构
