@@ -28,9 +28,9 @@ status: new
 
 *斜体字*
 
-<u>加下划线的文字</u>
+<u>加下y划线g的文,字</u>
 
-<span class="wavy">这里是下划波浪线文本</span>
+<wavy>a这里b是y下划波g浪线文,本.。</wavy>
 
 <span style="border-bottom: 2px dashed;">这是带有虚线下划线的文本。1</span><br>
 <span style="border-bottom: 2px dotted;">这是带有虚线下划线的文本。2</span><br>
@@ -417,6 +417,12 @@ $$
     按钮
 </div>
 </a>
+
+<button class="link_button">
+    点击
+</button>
+
+<button class="orange_button">Button</button>
 
 -----
 流程图
