@@ -4,7 +4,9 @@ description: 日常随想
 icon: material/brain
 ---
 
-# 《写文字的原因》
+<div class="essay_sketch">
+<div class="essay_sketch_margin"></div>
+<h1>《写文字的原因》</h1>
 <p style="text-align: center;font-size: 23px;font-weight: bold;">
 《临江仙·送钱穆父》
 </p>
@@ -39,4 +41,5 @@ icon: material/brain
 更要珍惜自己拥有的，把握生活的每一个时刻。
 </p>
 
-<p style="text-indent:30em;">--2024年8月26号--杭州</p>
+<p style="text-indent:20em;">--2024年8月26号--杭州</p>
+</div>

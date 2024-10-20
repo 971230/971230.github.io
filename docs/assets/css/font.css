@@ -17,3 +17,8 @@
     font-family: "PingFang-Bold";
     src: url("../fonts/PINGFANG-BOLD.TTF");
 }
+
+@font-face {
+    font-family: "LXGW-Marker";
+    src: url("../fonts/LxgwMarkerGothic-Regular.ttf");
+}
