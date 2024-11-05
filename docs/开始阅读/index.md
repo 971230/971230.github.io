@@ -19,22 +19,24 @@ hide:
     有引用的话我都会标注。
     至于有没有人看，别人如何评价就随他去吧。
 
-- <a class="navigation" href="面试题/">一、面试题</a>
+- <a class="navigation" href="技术研究/">一、技术研究</a>
+    - [x] <a class="navigation" href="技术研究/多线程批量插入大量数据/">多线程批量插入大量数据</a>
+- <a class="navigation" href="面试题/">二、面试题</a>
     - [x] <a class="navigation" href="面试题/一些排序算法/">一些排序算法</a>
     - [x] <a class="navigation" href="面试题/遇到的面试题整理(1-25)/">遇到的面试题整理(1-25)</a>
     - [x] <a class="navigation" href="面试题/遇到的面试题整理(26-50)/">遇到的面试题整理(26-50)</a>
     - [x] <a class="navigation" href="面试题/遇到的面试题整理(51-75)/">遇到的面试题整理(51-75)</a>
     - [x] <a class="navigation" href="面试题/遇到的面试题整理(76-100)/">遇到的面试题整理(76-100)</a>
-- <a class="navigation" href="设计模式/">二、设计模式</a>
+- <a class="navigation" href="设计模式/">三、设计模式</a>
     - [x] <a class="navigation" href="设计模式/策略模式/">策略模式</a>
     - [x] <a class="navigation" href="设计模式/建造者模式/">建造者模式</a>
     - [x] <a class="navigation" href="设计模式/单例模式/">单例模式</a>
     - [x] <a class="navigation" href="设计模式/模板方法模式/">模板方法模式</a>
     - [x] <a class="navigation" href="设计模式/责任链模式/">责任链模式</a>
     - [x] <a class="navigation" href="设计模式/观察者模式/">观察者模式</a>
-- <a class="navigation" href="数据库/">三、数据库</a>
+- <a class="navigation" href="数据库/">四、数据库</a>
     - [x] <a class="navigation" href="数据库/Mysql笔记/">Mysql笔记</a>
-- <a class="navigation" href="JVM虚拟机/">四、JVM虚拟机</a>
+- <a class="navigation" href="JVM虚拟机/">五、JVM虚拟机</a>
     - [x] <a class="navigation" href="JVM虚拟机/第一章-走进Java/">第一章-走进Java</a>
     - [x] <a class="navigation" href="JVM虚拟机/第二章-Java内存区域与内存溢出异常/">第二章-Java内存区域与内存溢出异常</a>
     - [x] <a class="navigation" href="JVM虚拟机/第三章-垃圾收集器与内存分配策略/">第三章-垃圾收集器与内存分配策略</a>
@@ -48,11 +50,11 @@ hide:
     - [ ] <a class="navigation" href="JVM虚拟机/第十一章-后端编译与优化/">第十一章-后端编译与优化</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第十二章-Java内存模型与线程/">第十二章-Java内存模型与线程</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第十三章-线程优化与锁优化/">第十三章-线程优化与锁优化</a>
-- <a class="navigation" href="ArchLinux/">五、Arch Linux</a>
+- <a class="navigation" href="ArchLinux/">六、Arch Linux</a>
     - [x] <a class="navigation" href="ArchLinux/Arch Linux安装/">Arch Linux安装</a>
-- <a class="navigation" href="工作问题记录/">六、工作问题记录</a>
+- <a class="navigation" href="工作问题记录/">七、工作问题记录</a>
     - [x] <a class="navigation" href="工作问题记录/问题集/">问题集</a>
-- <a class="navigation" href="小Tips/">七、开发中的小Tips</a>
+- <a class="navigation" href="小Tips/">八、开发中的小Tips</a>
     - [x] <a class="navigation" href="小Tips/Windows/">Windows相关</a>
-- <a class="navigation" href="网站所有样式/">八、网站样式展示</a>
+- <a class="navigation" href="网站所有样式/">九、网站样式展示</a>
     - [x] <a class="navigation" href="网站所有样式/demo/">网站样式展示</a>
