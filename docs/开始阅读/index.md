@@ -20,7 +20,7 @@ hide:
     至于有没有人看，别人如何评价就随他去吧。
 
 - <a class="navigation" href="技术研究/">一、技术研究</a>
-    - [ ] <a class="navigation" href="技术研究/多线程批量插入大量数据/">多线程批量插入大量数据</a>
+    - [x] <a class="navigation" href="技术研究/线程池批量插入大量数据/">线程池批量插入大量数据</a>
     - [ ] <a class="navigation" href="技术研究/Spring事务传播机制/">Spring事务传播机制</a>
 - <a class="navigation" href="面试题/">二、面试题</a>
     - [x] <a class="navigation" href="面试题/一些排序算法/">一些排序算法</a>
