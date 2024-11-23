@@ -37,7 +37,9 @@ hide:
     - [x] <a class="navigation" href="设计模式/观察者模式/">观察者模式</a>
 - <a class="navigation" href="数据库/">四、数据库</a>
     - [x] <a class="navigation" href="数据库/Mysql笔记/">Mysql笔记</a>
-- <a class="navigation" href="JVM虚拟机/">五、JVM虚拟机</a>
+- <a class="navigation" href="运维相关/">五、运维相关</a>
+    - [x] <a class="navigation" href="运维相关/Ubuntu 22.04 LTS 上安装MySQL/">Ubuntu 22.04 LTS 上安装MySQL</a>
+- <a class="navigation" href="JVM虚拟机/">六、JVM虚拟机</a>
     - [x] <a class="navigation" href="JVM虚拟机/第一章-走进Java/">第一章-走进Java</a>
     - [x] <a class="navigation" href="JVM虚拟机/第二章-Java内存区域与内存溢出异常/">第二章-Java内存区域与内存溢出异常</a>
     - [x] <a class="navigation" href="JVM虚拟机/第三章-垃圾收集器与内存分配策略/">第三章-垃圾收集器与内存分配策略</a>
@@ -51,11 +53,11 @@ hide:
     - [ ] <a class="navigation" href="JVM虚拟机/第十一章-后端编译与优化/">第十一章-后端编译与优化</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第十二章-Java内存模型与线程/">第十二章-Java内存模型与线程</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第十三章-线程优化与锁优化/">第十三章-线程优化与锁优化</a>
-- <a class="navigation" href="ArchLinux/">六、Arch Linux</a>
+- <a class="navigation" href="ArchLinux/">七、Arch Linux</a>
     - [x] <a class="navigation" href="ArchLinux/Arch Linux安装/">Arch Linux安装</a>
-- <a class="navigation" href="工作问题记录/">七、工作问题记录</a>
+- <a class="navigation" href="工作问题记录/">八、工作问题记录</a>
     - [x] <a class="navigation" href="工作问题记录/问题集/">问题集</a>
-- <a class="navigation" href="小Tips/">八、开发中的小Tips</a>
+- <a class="navigation" href="小Tips/">九、开发中的小Tips</a>
     - [x] <a class="navigation" href="小Tips/Windows/">Windows相关</a>
-- <a class="navigation" href="网站所有样式/">九、网站样式展示</a>
+- <a class="navigation" href="网站所有样式/">十、网站样式展示</a>
     - [x] <a class="navigation" href="网站所有样式/demo/">网站样式展示</a>
