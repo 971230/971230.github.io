@@ -39,6 +39,7 @@ hide:
     - [x] <a class="navigation" href="数据库/Mysql笔记/">Mysql笔记</a>
 - <a class="navigation" href="运维相关/">五、运维相关</a>
     - [x] <a class="navigation" href="运维相关/Ubuntu 22.04 LTS 上安装MySQL/">Ubuntu 22.04 LTS 上安装MySQL</a>
+    - [ ] <a class="navigation" href="运维相关/Nginx配置文件怎么写/">Nginx配置文件怎么写</a>
 - <a class="navigation" href="JVM虚拟机/">六、JVM虚拟机</a>
     - [x] <a class="navigation" href="JVM虚拟机/第一章-走进Java/">第一章-走进Java</a>
     - [x] <a class="navigation" href="JVM虚拟机/第二章-Java内存区域与内存溢出异常/">第二章-Java内存区域与内存溢出异常</a>

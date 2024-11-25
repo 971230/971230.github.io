@@ -178,6 +178,7 @@ nav:
     - 运维相关:
       - 开始阅读/运维相关/index.md
       - Ubuntu22.04上安装MySQL: 开始阅读/运维相关/Ubuntu 22.04 LTS 上安装MySQL.md
+      - Nginx配置文件怎么写: 开始阅读/运维相关/Nginx配置文件怎么写.md
     - JVM虚拟机:
       - 开始阅读/JVM虚拟机/index.md
       - 第一章-走进Java: 开始阅读/JVM虚拟机/第一章-走进Java.md
