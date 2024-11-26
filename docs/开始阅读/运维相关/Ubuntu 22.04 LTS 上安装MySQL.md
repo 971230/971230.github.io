@@ -85,3 +85,39 @@ bind-address = 127.0.0.1
 ``` shell
 sudo systemctl restart mysql
 ```
+
+## MySQL修改用户密码
+
+```shell
+# 语法
+mysqladmin -u username -h hostname -p password "新密码"
+# 示例
+mysqladmin -u root -h localhost -p password "new_password"
+```
+
+## MySQL创建新用户并设置权限
+
+```shell
+# 语法
+create user [用户名]@[访问地址] identified by [密码]
+# 创建仅支持本地连接的用户
+CREATE USER 'ach'@'localhost' IDENTIFIED BY 'password123';
+# 创建可远程连接的用户，%表示支持任何地址的连接
+CREATE USER 'ach'@'%' IDENTIFIED BY 'password123';
+```
+
+授予权限的语法就复杂一些，你要受哪些权限，如增删改查，授予哪些库的哪些表的权限[^1]
+[^1]: 参考链接：https://cloud.tencent.com/developer/article/1656008
+
+```shell
+# 看你的类型支不支持远程连接，这里是所有权限
+GRANT ALL PRIVILEGES ON *.* TO 'ach'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'ach'@'%' WITH GRANT OPTION;
+```
+
+!!! Danger ""
+
+    一定要记得刷新权限!
+    ```shell
+    FLUSH PRIVILEGES;
+    ```
