@@ -54,8 +54,6 @@ hide:
     - [ ] <a class="navigation" href="JVM虚拟机/第十一章-后端编译与优化/">第十一章-后端编译与优化</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第十二章-Java内存模型与线程/">第十二章-Java内存模型与线程</a>
     - [ ] <a class="navigation" href="JVM虚拟机/第十三章-线程优化与锁优化/">第十三章-线程优化与锁优化</a>
-- <a class="navigation" href="ArchLinux/">七、Arch Linux</a>
-    - [x] <a class="navigation" href="ArchLinux/Arch Linux安装/">Arch Linux安装</a>
 - <a class="navigation" href="工作问题记录/">八、工作问题记录</a>
     - [x] <a class="navigation" href="工作问题记录/问题集/">问题集</a>
 - <a class="navigation" href="小Tips/">九、开发中的小Tips</a>

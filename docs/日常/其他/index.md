@@ -11,3 +11,4 @@ icon: material/backup-restore
 
 - <a class="navigation" href="输入法相关配置/">① 输入法相关配置</a>
 - <a class="navigation" href="守则/">② 守则</a>
+- <a class="navigation" href="Arch Linux安装/">③ Arch Linux安装</a>

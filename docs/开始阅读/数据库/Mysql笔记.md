@@ -2,7 +2,6 @@
 title: Mysql笔记
 description: Mysql笔记-大学期间笔记
 icon: simple/mysql
-status: new
 ---
 
 ## 一.数据库概述

@@ -30,3 +30,4 @@ hide:
 - <a class="navigation" href="其他/">三、其他</a>
     - [x] <a class="navigation" href="其他/输入法相关配置/">输入法相关配置</a>
     - [x] <a class="navigation" href="其他/守则/">守则</a>
+    - [x] <a class="navigation" href="其他/Arch Linux安装/">Arch Linux安装</a>
