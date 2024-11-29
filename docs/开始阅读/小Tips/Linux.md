@@ -45,4 +45,50 @@ protected-mode no
 sudo ufw allow 6379/tcp
 ```
 
+## Ubuntu系统的时间同步
 
+查看系统时间,看到 `System clock synchronized: yes`，表示已经开启同步，改一下时区即可
+
+```shell
+timedatectl status
+```
+
+![图片的样式](./img/status.png)
+
+```shell
+sudo timedatectl set-timezone Asia/Shanghai
+```
+
+查看系统时间同步情况，里面会显示同步的时间和服务器，不对就是要改的
+
+```shell
+# 检查状态
+systemctl status systemd-timesyncd
+# 开启同步
+sudo timedatectl set-ntp on
+```
+
+![图片的样式](./img/systemd-timesyncd.png)
+
+去修改同步时间的文件，添加同步用的服务器，可用于国内的，原来默认的是 `ntp.ubuntu.com`，不灵
+
+```shell
+vim /etc/systemd/timesyncd.conf
+```
+
+原来都是注释的
+
+```properties
+[Time]
+NTP=ntp.aliyun.com
+FallbackNTP=ntp.tencent.com,ntp1.tencent.com,ntp2.tencent.com,ntp3.tencent.com,ntp.ubuntu.com
+RootDistanceMaxSec=5
+PollIntervalMinSec=32
+PollIntervalMaxSec=2048
+```
+
+之后重启生效，线上的服务打印的日志也要重启后才可以获取到新的
+
+```shell
+sudo systemctl restart systemd-timesyncd
+```
