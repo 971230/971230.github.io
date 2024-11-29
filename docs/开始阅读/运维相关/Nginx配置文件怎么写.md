@@ -27,7 +27,10 @@ Nginx("engine x")就是一个服务器反响代理的工具，因为性能好，
 
 ## 启动、关闭和重启服务等常用命令
 
-一般默认安装的Nginx，如Ubuntu使用命令 `apt-get install nginx` ，安装好就是开启状态，直接访问本机IP,会出现如下画面：
+一般默认安装的Nginx，如Ubuntu使用命令 `apt-get install nginx` ，安装好就是开启状态，直接访问本机IP,这种方式的好处是一键安装，
+按时我踩了一个坑，就是默认安装的nginx，分布在系统的各个模块，没有upstream，nginx就用不了，但是实测其他功能是好的。
+
+会出现如下画面：
 
 ![图片的样式](./img/nginx.png)
 
