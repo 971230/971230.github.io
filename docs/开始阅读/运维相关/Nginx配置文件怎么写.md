@@ -315,6 +315,38 @@ ssl_protocols TLSv1.2 TLSv1.3;
 ssl_ciphers 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384';
 # 强制浏览器仅通过HTTPS访问网站，提升安全性。
 add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+
+#----------------------------------- 8️⃣限流配置 ---------------------------------
+# 一般和server块配合使用
+# 限制请求数：定义一个名为 one 的速率限制区，使用 $binary_remote_addr 变量（即客户端IP地址）作为键。
+# 区域大小为 10m，意味着可以存储大约 160,000 个状态（10 MB / 64 bytes per state）。
+# 速率限制为每秒10个请求 (burst=20) 允许突发流量达到20个请求，同时 nodelay 参数表示不延迟处理这些额外的请求。
+limit_req_zone $binary_remote_addr zone=one:10m rate=10r/s;
+
+# 限制连接数：定义了一个名为 addr 的共享内存区域，用来存储连接状态信息
+limit_conn_zone $binary_remote_addr zone=addr:10m;
+
+server {
+    listen 80;
+    server_name example.com;
+
+    location / {
+        # 应用上面定义的 'one' 限流区
+        limit_req zone=one burst=20 nodelay;
+        # Nginx 对于每个由 limit_conn_zone 定义的 addr 区域中的键（即每个客户端IP地址），
+        # 最多允许同时存在 10 个并发连接
+        limit_conn addr 10;
+        # 设置读取客户端请求体（body）时的超时时间，适用于上传文件、提交表单等场景
+        client_body_timeout 5s;
+        # 定义读取客户端请求头（headers）时的超时时间，适用于所有类型的HTTP请求
+        client_header_timeout 5s;
+        # 拒绝来自固定IP的请求
+        deny 123.123.123.3;
+        # 允许来自固定IP的请求
+        allow 192.168.1.0;
+        proxy_pass http://localhost;
+    }
+}
 ```
 
 ### server块配置
@@ -523,3 +555,7 @@ upstream backend {
 [Nginx基础配置-官网](https://nginx.org/en/docs/beginners_guide.html){ .md-button .md-button--primary }
 [Nginx http块配置-官网](https://nginx.org/en/docs/http/ngx_http_core_module.html){ .md-button .md-button--primary }
 [Nginx中文文档](https://github.com/DocsHome/nginx-docs){ .md-button .md-button--primary }
+
+
+[Nginx预防DDoS](https://blog.nginx.org/blog/mitigating-ddos-attacks-with-nginx-and-nginx-plus){ .md-button .md-button--primary }
+[Nginx限流](https://blog.nginx.org/blog/rate-limiting-nginx){ .md-button .md-button--primary }
