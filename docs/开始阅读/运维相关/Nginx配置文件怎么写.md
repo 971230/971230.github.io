@@ -6,7 +6,8 @@ description: Nginx配置文件怎么写
 # Nginx配置文件怎么写
 
 !!! Note ""
-    只是个人实战经验，牵涉的东西不是那么全面，完整
+    只是个人的一些运维经验，牵涉的东西不是那么全面，完整，这个东西一般还是要自己不停测试才知道到底配置是怎么运作的，
+    才容易有一个清晰的概念，不然容易停留在知道而非理解的阶段。
 
 ## 介绍
 
@@ -253,12 +254,26 @@ gzip_min_length 1k;
 # 指定哪些MIME类型的数据应该被压缩。
 gzip_types text/plain text/css application/json application/javascript;
 
+# 下面的配置需要搭建FastCGI服务器
+# 设置FastCGI服务器地址
+fastcgi_pass   127.0.0.1:9000;
+# 设置FastCGI服务器访问入口文件
+fastcgi_index  index.html;
+# 定义一个FastCGI环境变量，并为其赋值。FastCGI环境变量是传递给FastCGI服务器的参数，用于控制脚本的执行环境。
+fastcgi_param  SCRIPT_FILENAME  /home/www/html$fastcgi_script_name;
+# 设置Nginx与FastCGI服务器建立连接的超时时间。
 fastcgi_connect_timeout 300;
+# 设置Nginx向FastCGI服务器发送请求数据的超时时间。
 fastcgi_send_timeout 300;
+# 设置Nginx从FastCGI服务器读取响应数据的超时时间。
 fastcgi_read_timeout 300;
+# 设置用于读取FastCGI响应的第一个部分的缓冲区大小。
 fastcgi_buffer_size 64k;
+# 设置用于读取FastCGI响应的缓冲区数量和每个缓冲区的大小。
 fastcgi_buffers 4 64k;
+# 设置在响应数据尚未完全读取时，Nginx可以使用的最大缓冲区大小。
 fastcgi_busy_buffers_size 128k;
+# 设置当FastCGI响应数据被写入临时文件时的最大写入大小。
 fastcgi_temp_file_write_size 128k;
 
 #----------------------------------- 5️⃣其他设置 ---------------------------------
@@ -503,7 +518,7 @@ upstream backend {
 
 ## 官网教程和相关资源
 
-其实Nginx的配置项还有很多很多，只要看官网的文档一点点核对。
+其实Nginx的配置项还有很多很多，只有看官网的文档一点点核对。
 
 [Nginx基础配置-官网](https://nginx.org/en/docs/beginners_guide.html){ .md-button .md-button--primary }
 [Nginx http块配置-官网](https://nginx.org/en/docs/http/ngx_http_core_module.html){ .md-button .md-button--primary }
