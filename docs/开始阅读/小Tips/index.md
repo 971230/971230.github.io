@@ -11,3 +11,4 @@ icon: material/tooltip-plus
 
 - <a class="navigation" href="Windows/">① Windows</a>
 - <a class="navigation" href="Linux/">② Linux</a>
+- <a class="navigation" href="Vim/">③ Vim</a>

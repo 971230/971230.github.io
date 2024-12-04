@@ -59,5 +59,6 @@ hide:
 - <a class="navigation" href="小Tips/">九、开发中的小Tips</a>
     - [x] <a class="navigation" href="小Tips/Windows/">Windows相关</a>
     - [x] <a class="navigation" href="小Tips/Linux/">Linux相关</a>
+    - [ ] <a class="navigation" href="小Tips/Vim/">Vim相关</a>
 - <a class="navigation" href="网站所有样式/">十、网站样式展示</a>
     - [x] <a class="navigation" href="网站所有样式/demo/">网站样式展示</a>
