@@ -176,6 +176,7 @@ nav:
     - 数据库:
       - 开始阅读/数据库/index.md
       - Mysql笔记: 开始阅读/数据库/Mysql笔记.md
+      - MySQL的功能语句: 开始阅读/数据库/MySQL的功能语句.md
     - 运维相关:
       - 开始阅读/运维相关/index.md
       - Ubuntu22.04上安装MySQL: 开始阅读/运维相关/Ubuntu 22.04 LTS 上安装MySQL.md

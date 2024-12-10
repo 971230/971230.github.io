@@ -1,7 +1,6 @@
 ---
 title: Mysql笔记
 description: Mysql笔记-大学期间笔记
-icon: simple/mysql
 ---
 
 ## 一.数据库概述

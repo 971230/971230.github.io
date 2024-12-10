@@ -37,6 +37,7 @@ hide:
     - [x] <a class="navigation" href="设计模式/工厂方法模式/">工厂方法模式</a>
 - <a class="navigation" href="数据库/">四、数据库</a>
     - [x] <a class="navigation" href="数据库/Mysql笔记/">Mysql笔记</a>
+    - [x] <a class="navigation" href="数据库/MySQL的功能语句/">MySQL的功能语句</a>
 - <a class="navigation" href="运维相关/">五、运维相关</a>
     - [x] <a class="navigation" href="运维相关/Ubuntu 22.04 LTS 上安装MySQL/">Ubuntu 22.04 LTS 上安装MySQL</a>
     - [x] <a class="navigation" href="运维相关/Nginx配置文件怎么写/">Nginx配置文件怎么写</a>
