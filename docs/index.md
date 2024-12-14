@@ -37,5 +37,5 @@ Github
 
 <br><br>
 
-<!-- 打字机 -->
-<img alt="" src="https://readme-typing-svg.demolab.com/?font=Roboto&amp;weight=400&amp;duration=3500&amp;pause=2000&amp;color=808080&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=200&amp;lines=Hello,World!" style="height: min(9vh, 12vw);"/>
+<!-- 打字机 https://readme-typing-svg.demolab.com/demo -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+Simplified+Chinese&size=28&duration=2000&pause=1000&color=808080&background=BEFF4900&center=true&repeat=false&width=450&lines=%E5%B1%B1%E9%87%8D%E6%B0%B4%E5%A4%8D%E7%96%91%E6%97%A0%E8%B7%AF%EF%BC%8C%E6%9F%B3%E6%9A%97%E8%8A%B1%E6%98%8E%E5%8F%88%E4%B8%80%E6%9D%91%E3%80%82" alt="Typing SVG" /></a>

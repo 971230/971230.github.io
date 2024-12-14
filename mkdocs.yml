@@ -1,8 +1,8 @@
-site_name: Loong的博客
+site_name: RiverLong的博客
 site_url: https://github.com/971230/971230.github.io
-site_author: long
-site_description: Loong的博客-高山仰止，景行行止
-copyright: Copyright &copy; 2024 longjf<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
+site_author: RiverLong
+site_description: RiverLong的博客-高山仰止，景行行止
+copyright: Copyright &copy; 2024 RiverLong<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
 theme:
   # 使用的网站主题
   name: material
@@ -75,8 +75,8 @@ extra_javascript:
   - assets/js/tablesort.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
-  - https://unpkg.com/lenis@1.1.13/dist/lenis.min.js
-  - assets/js/lenis.js
+  # - https://unpkg.com/lenis@1.1.13/dist/lenis.min.js
+  # - assets/js/lenis.js
 
 # 添加中英文字体
 extra:
