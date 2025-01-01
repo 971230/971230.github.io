@@ -21,6 +21,7 @@ hide:
 - <a class="navigation" href="技术研究/">一、技术研究</a>
     - [x] <a class="navigation" href="技术研究/线程池批量插入大量数据/">线程池批量插入大量数据</a>
     - [x] <a class="navigation" href="技术研究/Spring事务传播机制/">Spring事务传播机制</a>
+    - [x] <a class="navigation" href="技术研究/Java中的空值处理和工具类/">Java中的空值处理和工具类</a>
 - <a class="navigation" href="面试题/">二、面试题</a>
     - [x] <a class="navigation" href="面试题/一些排序算法/">一些排序算法</a>
     - [x] <a class="navigation" href="面试题/遇到的面试题整理(1-25)/">遇到的面试题整理(1-25)</a>

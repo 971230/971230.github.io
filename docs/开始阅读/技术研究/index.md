@@ -9,3 +9,4 @@ icon: material/language-java
 
 - <a class="navigation" href="线程池批量插入大量数据/">线程池批量插入大量数据</a>
 - <a class="navigation" href="Spring事务传播机制/">Spring事务传播机制</a>
+- <a class="navigation" href="Java中的空值处理和工具类/">Java中的空值处理和工具类</a>
