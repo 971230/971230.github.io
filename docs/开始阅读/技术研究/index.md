@@ -11,3 +11,4 @@ icon: material/language-java
 - <a class="navigation" href="Spring事务传播机制/">Spring事务传播机制</a>
 - <a class="navigation" href="Java中的空值处理和工具类/">Java中的空值处理和工具类</a>
 - <a class="navigation" href="规则表达式的临时方案/">规则表达式的临时方案</a>
+- <a class="navigation" href="增删改查应该怎么写/">增删改查应该怎么写</a>

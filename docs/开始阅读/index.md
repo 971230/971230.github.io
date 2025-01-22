@@ -23,6 +23,7 @@ hide:
     - [x] <a class="navigation" href="技术研究/Spring事务传播机制/">Spring事务传播机制</a>
     - [x] <a class="navigation" href="技术研究/Java中的空值处理和工具类/">Java中的空值处理和工具类</a>
     - [x] <a class="navigation" href="技术研究/规则表达式的临时方案/">规则表达式的临时方案</a>
+    - [ ] <a class="navigation" href="技术研究/增删改查应该怎么写/">增删改查应该怎么写</a>
 - <a class="navigation" href="面试题/">二、面试题</a>
     - [x] <a class="navigation" href="面试题/一些排序算法/">一些排序算法</a>
     - [x] <a class="navigation" href="面试题/遇到的面试题整理(1-25)/">遇到的面试题整理(1-25)</a>
