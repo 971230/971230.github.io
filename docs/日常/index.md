@@ -13,7 +13,6 @@ hide:
     记录个人日常生活
 
 - <a class="navigation" href="文字/">一、随笔</a>
-    - [x] <a class="navigation" href="文字/诗-盒子/">诗-盒子</a>
     - [x] <a class="navigation" href="文字/童年-静林寺/">童年-静林寺</a>
     - [ ] <a class="navigation" href="文字/童年-分水/">童年-分水</a>
     - [ ] <a class="navigation" href="文字/童年-后奖/">童年-后奖</a>
@@ -23,6 +22,12 @@ hide:
     - [ ] <a class="navigation" href="文字/回忆-爷爷/">回忆-爷爷</a>
     - [ ] <a class="navigation" href="文字/回忆-外公/">回忆-外公</a>
     - [x] <a class="navigation" href="文字/文-项脊轩志/">项脊轩志</a>
+    - [x] <a class="navigation" href="文字/诗-盒子/">诗-盒子</a>
+    - [x] <a class="navigation" href="文字/诗-记一次黑夜中的痛苦/">诗-记一次黑夜中的痛苦</a>
+    - [x] <a class="navigation" href="文字/诗-什么叫醒我/">诗-什么叫醒我</a>
+    - [x] <a class="navigation" href="文字/诗-无题1/">诗-无题1</a>
+    - [x] <a class="navigation" href="文字/诗-无题2/">诗-无题2</a>
+    - [x] <a class="navigation" href="文字/诗-意象组合/">诗-意象组合</a>
 - <a class="navigation" href="厨艺/">二、黑暗料理</a>
     - [ ] <a class="navigation" href="厨艺/青椒炒肉/">青椒炒肉</a>
     - [ ] <a class="navigation" href="厨艺/红烧肉/">红烧肉</a>
