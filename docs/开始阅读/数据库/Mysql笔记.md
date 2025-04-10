@@ -41,12 +41,12 @@ description: Mysql笔记-大学期间笔记
 !!! Note "比如：装好的mysql服务器中自带了四个数据库"
 	```shell
 	+-----------------------------+
-	| Database                    |
+	| Database                                        |
 	+-----------------------------+
-	| information_schema          |
-	| mysql                       |
-	| performance_schema          |
-	| test                        |
+	| information_schema                         |
+	| mysql                                             |
+	| performance_schema                       |
+	| test                                                |
 	+-----------------------------+
 	```
 
