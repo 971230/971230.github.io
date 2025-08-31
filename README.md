@@ -33,7 +33,7 @@ git clone git@github.com:971230/971230.github.io.git
 
 > [!TIP]
 >
-> 🍎如果你想要从0开始创建，可以参考：[官方教程](https://squidfunk.github.io/mkdocs-material/getting-started/) 已经写的很详细了。很多特性技巧都在这里
-> 🍓使用到的项目参考: https://www.hello-algo.com/
-> 🍏[官方图标搜索](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
-> 🍑[符号大全索引](https://shijianchuo.net/tesufuhao/)
+> 1. 🍎如果你想要从0开始创建，可以参考：[官方教程](https://squidfunk.github.io/mkdocs-material/getting-started/) 已经写的很详细了。很多特性技巧都在这里
+> 2. 🍓使用到的项目参考: https://www.hello-algo.com/
+> 3. 🍏[官方图标搜索](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+> 4. 🍑[符号大全索引](https://shijianchuo.net/tesufuhao/)
