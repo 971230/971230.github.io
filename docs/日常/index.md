@@ -22,6 +22,7 @@ hide:
     - [ ] <a class="navigation" href="文字/回忆-爷爷/">回忆-爷爷</a>
     - [ ] <a class="navigation" href="文字/回忆-外公/">回忆-外公</a>
     - [x] <a class="navigation" href="文字/文-项脊轩志/">项脊轩志</a>
+    - [x] <a class="navigation" href="文字/文-九歌·少司命/">九歌·少司命</a>
     - [x] <a class="navigation" href="文字/诗-盒子/">诗-盒子</a>
     - [x] <a class="navigation" href="文字/诗-记一次黑夜中的痛苦/">诗-记一次黑夜中的痛苦</a>
     - [x] <a class="navigation" href="文字/诗-什么叫醒我/">诗-什么叫醒我</a>
