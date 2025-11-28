@@ -29,6 +29,7 @@ hide:
     - [x] <a class="navigation" href="文字/诗-无题1/">诗-无题1</a>
     - [x] <a class="navigation" href="文字/诗-无题2/">诗-无题2</a>
     - [x] <a class="navigation" href="文字/诗-意象组合/">诗-意象组合</a>
+    - [x] <a class="navigation" href="文字/诗-五月/">诗-五月</a>
 - <a class="navigation" href="厨艺/">二、黑暗料理</a>
     - [ ] <a class="navigation" href="厨艺/青椒炒肉/">青椒炒肉</a>
     - [ ] <a class="navigation" href="厨艺/红烧肉/">红烧肉</a>
