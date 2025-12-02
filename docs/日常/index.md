@@ -10,7 +10,7 @@ hide:
 # 目录
 
 !!! Abstract "日常"
-    记录个人日常生活
+    记录个人日常生活，写写东西，记一些容易忘记的事
 
 - <a class="navigation" href="文字/">一、随笔</a>
     - [x] <a class="navigation" href="文字/童年-静林寺/">童年-静林寺</a>
