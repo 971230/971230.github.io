@@ -15,7 +15,7 @@ hide:
 - <a class="navigation" href="文字/">一、随笔</a>
     - [x] <a class="navigation" href="文字/童年-静林寺/">童年-静林寺</a>
     - [x] <a class="navigation" href="文字/童年-分水/">童年-分水</a>
-    - [ ] <a class="navigation" href="文字/童年-后奖/">童年-后奖</a>
+    - [x] <a class="navigation" href="文字/童年-后奖/">童年-后奖</a>
     - [ ] <a class="navigation" href="文字/人物-好友-小方/">人物-好友-小方</a>
     - [ ] <a class="navigation" href="文字/人物-好友-钟意/">人物-好友-钟意</a>
     - [ ] <a class="navigation" href="文字/回忆-奶奶/">回忆-奶奶</a>
