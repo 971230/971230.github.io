@@ -1,0 +1,285 @@
+@import "./font.css";
+
+[data-md-color-primary=P] {
+    --md-primary-fg-color: #FFACA6;
+}
+
+[data-md-color-accent=P] {
+    --md-accent-fg-color: #FFACA6;
+}
+
+[data-md-color-scheme=default] {
+    --md-typeset-a-color: #000000;
+    --my-changlog-color: #EFEFEF;
+}
+
+[data-md-color-scheme=slate] {
+    --md-typeset-a-color: #FFFFFF;
+    --my-changlog-color: #161616;
+}
+
+.md-grid {
+    max-width: 61rem;
+}
+
+/* make the page wider */
+/* changelog config*/
+.timeline-card {
+    background-color: var(--my-changlog-color);
+}
+
+.timeline-content::before {
+    background-color: var(--my-changlog-color);
+}
+
+.changelog-type {
+    background-color: #CC9052;
+}
+
+.changelog-type-newpage {
+    background-color: #FF9C80;
+}
+
+.changelog-type-refactor::before {
+    content: "文档更新";
+}
+
+/* 图片的样式 */
+img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+img:hover:not(.zoomable) {
+    filter: saturate(1.1) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
+    transform: scale(1.03);
+}
+
+/* 导航栏排除大标题 */
+.md-ellipsis:hover:not(.md-header__topic .md-ellipsis),
+.md-tabs__link:hover {
+    filter: brightness(1.15) saturate(1.1) drop-shadow(0 0 0.5rem rgba(255, 255, 255, 0.2));
+    transform: scale(1.03);
+}
+
+/* new admonitions */
+:root {
+    --md-admonition-icon--definition: url('../icons/define.svg')
+}
+
+.md-typeset .admonition.definition,
+.md-typeset details.definition {
+    border-color: rgb(43, 155, 70);
+}
+
+.md-typeset .definition>.admonition-title,
+.md-typeset .definition>summary {
+    background-color: rgba(43, 155, 70, 0.1);
+}
+
+.md-typeset .definition>.admonition-title::before,
+.md-typeset .definition>summary::before {
+    background-color: rgb(43, 155, 70);
+    -webkit-mask-image: var(--md-admonition-icon--definition);
+    mask-image: var(--md-admonition-icon--definition);
+}
+
+:root {
+    --md-admonition-icon--reference: url('../icons/reference.svg')
+}
+
+.md-typeset .admonition.reference,
+.md-typeset details.reference {
+    border-color: rgb(223, 251, 13);
+}
+
+.md-typeset .reference>.admonition-title,
+.md-typeset .reference>summary {
+    background-color: rgba(249, 249, 90, 0.1);
+}
+
+.md-typeset .reference>.admonition-title::before,
+.md-typeset .reference>summary::before {
+    background-color: rgb(223, 251, 13);
+    -webkit-mask-image: var(--md-admonition-icon--reference);
+    mask-image: var(--md-admonition-icon--reference);
+}
+
+/* new code highlight lines*/
+span.hll {
+    width: 150%;
+}
+
+/*see https://xuan-insr.github.io/%E6%9D%82%E9%A1%B9/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/#%E8%A7%A3%E5%86%B3%E5%85%AC%E5%BC%8F%E5%B8%A6%E7%BA%B5%E5%90%91%E6%BB%9A%E5%8A%A8%E6%9D%A1%E7%9A%84%E9%97%AE%E9%A2%98*/
+.md-typeset div.arithmatex {
+    overflow-y: hidden;
+}
+
+/* 各个标题样式 */
+h1 {
+    text-align: center;
+    font-family: "PingFang-Bold";
+}
+
+h2 {
+    color: #669999;
+    text-align: center;
+    font-family: "PingFang-Bold";
+}
+
+h3 {
+    color: rgb(105, 186, 101);
+    font-family: "PingFang-Bold";
+}
+
+h4 {
+    color: rgb(68, 102, 174);
+    font-family: "PingFang-Bold";
+}
+
+md-header__button md-logo {
+    width: 150%;
+    height: 150%;
+}
+
+/* 改表情包颜色 */
+.youtube {
+    color: #EE0F0F;
+}
+
+/* 代码的配色 */
+:root>* {
+    --md-code-hl-string-color: #0eb49b;
+    --md-code-hl-comment-color: #0e8941;
+    --md-code-hl-number-color: #e6695b;
+    --md-code-hl-special-color: #f06090;
+    --md-code-hl-constant-color: #9383e2;
+    --md-code-hl-variable-color: #92915b;
+    --md-code-hl-name-color: #c48a3a;
+    --md-code-hl-function-color: #c973d9;
+}
+
+:root {
+    /* 普通文字 */
+    --md-text-font: "PingFang";
+    /* 代码字体 */
+    --md-code-font: "Longjf Nerd Font";
+}
+
+.yellow {
+    color: orange;
+}
+
+.blue {
+    color: #87CEEB;
+}
+
+.green {
+    color: #1CB28A;
+}
+
+.wavy {
+    text-decoration: 2px underline wavy rgb(200, 0, 0);
+}
+
+wavy {
+    text-decoration: 2px underline wavy orange;
+}
+
+/* 表格 */
+.md-typeset__table {
+    filter: brightness(1.2);
+}
+
+/* 所有目录的配置 */
+.navigation {
+    font-size: 23px;
+}
+
+.navigation:hover {
+    text-decoration: underline;
+}
+
+/* 引用的设置 */
+blockquote {
+    padding: 10px 0px 10px 15px;
+    background-color: rgba(66, 185, 131, 0.1);
+    position: relative;
+    /* 右上角圆角 */
+    border-top-right-radius: 5px;
+    /* 右下角圆角 */
+    border-bottom-right-radius: 5px;
+}
+
+code:not(.ex):not(.md-code__content) {
+    color: #b88b22;
+    font-family: "Longjf Nerd Font";
+}
+
+/* 粗体字颜色 */
+b,
+strong:not(h3 strong) {
+    color: #582846;
+}
+
+/* 红色按钮 */
+.link_button {
+    --bg: #e74c3c;
+    --text-color: #fff;
+    position: relative;
+    width: 150px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;
+}
+
+.link_button:hover {
+    opacity: 1;
+}
+
+.link_button:active {
+    top: 4px;
+    box-shadow: #c0392b 0px 3px 2px, #000 0px 3px 5px;
+}
+
+/* 橙色按钮 */
+.orange_button {
+    background: #fbca1f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
+
+.orange_button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.orange_button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+.background_cell {
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+}
