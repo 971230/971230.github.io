@@ -21,7 +21,7 @@ hide:
     - [ ] <a class="navigation" href="文字/人物-好友-钟意/">人物-好友-钟意</a>
     - [ ] <a class="navigation" href="文字/回忆-奶奶/">回忆-奶奶</a>
     - [ ] <a class="navigation" href="文字/回忆-爷爷/">回忆-爷爷</a>
-    - [ ] <a class="navigation" href="文字/回忆-外公/">回忆-外公</a>
+    - [x] <a class="navigation" href="文字/回忆-外公/">回忆-外公</a>
     - [x] <a class="navigation" href="文字/文-项脊轩志/">项脊轩志</a>
     - [x] <a class="navigation" href="文字/文-九歌·少司命/">九歌·少司命</a>
     - [x] <a class="navigation" href="文字/诗-盒子/">诗-盒子</a>
