@@ -9,16 +9,11 @@
 }
 
 @font-face {
-    font-family: "PingFang";
-    src: url("../fonts/PINGFANG-MEDIUM.TTF");
-}
-
-@font-face {
-    font-family: "PingFang-Bold";
-    src: url("../fonts/PINGFANG-BOLD.TTF");
-}
-
-@font-face {
     font-family: "LXGW-Marker";
     src: url("../fonts/LxgwMarkerGothic-Regular.ttf");
+}
+
+@font-face {
+    font-family: "仓耳云黑-W04";
+    src: url("../fonts/仓耳云黑-W04.ttf");
 }

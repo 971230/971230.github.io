@@ -164,7 +164,7 @@ md-header__button md-logo {
 
 :root {
     /* 普通文字 */
-    --md-text-font: "PingFang";
+    --md-text-font: "仓耳云黑-W04";
     /* 代码字体 */
     --md-code-font: "Longjf Nerd Font";
 }
@@ -280,6 +280,6 @@ strong:not(h3 strong) {
     --color: #E1E1E1;
     background-color: #F3F3F3;
     background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
     background-size: 55px 55px;
 }
