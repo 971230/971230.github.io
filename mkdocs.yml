@@ -73,7 +73,6 @@ extra_javascript:
   - assets/js/extra.js
   - assets/js/mathjax.js
   - assets/js/tablesort.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
   # - https://unpkg.com/lenis@1.1.13/dist/lenis.min.js
   # - assets/js/lenis.js
