@@ -32,6 +32,7 @@ hide:
     - [x] <a class="navigation" href="文字/诗-五月/">诗-五月</a>
     - [x] <a class="navigation" href="文字/诗-鸟巢/">诗-鸟巢</a>
     - [x] <a class="navigation" href="文字/我为什么学习哲学/">我为什么学习哲学</a>
+    - [x] <a class="navigation" href="文字/临平与皋亭山/">临平与皋亭山</a>
 - <a class="navigation" href="厨艺/">二、黑暗料理</a>
     - [ ] <a class="navigation" href="厨艺/青椒炒肉/">青椒炒肉</a>
     - [ ] <a class="navigation" href="厨艺/红烧肉/">红烧肉</a>
