@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Longjf Nerd Font";
+    src: "../fonts/LONGJF-NF-REGULAR.OTF";
+}
+
+@font-face {
+    font-family: "LXGWZhenKai";
+    src: url("../fonts/LXGWZhenKai.ttf");
+}
+
+@font-face {
+    font-family: "LXGW-Marker";
+    src: url("../fonts/LxgwMarkerGothic-Regular.ttf");
+}
+
+@font-face {
+    font-family: "仓耳云黑-W04";
+    src: url("../fonts/仓耳云黑-W04.ttf");
+}
