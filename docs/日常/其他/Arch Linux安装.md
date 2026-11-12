@@ -72,7 +72,7 @@ ping www.baidu.com #测试网络连接
 nano /etc/pacman.d/mirrorlist
 ```
 
-<img src="..\img\nano_mirrors.png" style="zoom:80%;" />
+<img src=".\img\nano_mirrors.png" style="zoom:80%;" />
 
 ​	把下面这一行加入到第一位
 
@@ -107,7 +107,7 @@ archinstall #要等一会加载，物理机还是快的
 
 先进入Mirrors，再选中Mirror region后进入，选择China按空格选中，按enter确认返回上一级
 
-<img src="..\img\region.png" style="zoom:80%;" />
+<img src=".\img\region.png" style="zoom:80%;" />
 
 要是想自定义就自定义，选择custom mirrors开始。
 
@@ -141,7 +141,7 @@ archinstall #要等一会加载，物理机还是快的
 
 第一个手动分区，先创建一个，选择create a new partition，文件系统选fat32
 
-<img src="..\img\sector_boot.png" style="zoom:80%;" />
+<img src=".\img\sector_boot.png" style="zoom:80%;" />
 
 ​	之后就是选择扇区，开始在哪，结束在哪，挂载点什么的，这里没有相应的知识储备，可能会看不懂，需要额外学习。
 
@@ -179,7 +179,7 @@ TODO 自己分好区后在archinstall里面选择
 
 选择add a user，设置用户名密码这些，设置是否为root用户
 
-<img src="..\img\add_user.png" style="zoom: 80%;" />
+<img src=".\img\add_user.png" style="zoom: 80%;" />
 
 添加好就Confirm and exit
 
