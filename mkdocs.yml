@@ -6,8 +6,6 @@ copyright: Copyright &copy; 2024-2026 RiverLong<br>本网站遵循 <u><a href="h
 theme:
   # 使用的网站主题
   name: material
-  # 使用 Zensical 的经典外观，与 Material for MkDocs 保持一致
-  variant: classic
   # 开启这个重写网站首页
   # custom_dir: overrides
   # 网站语言
@@ -66,6 +64,7 @@ extra_css:
   - assets/css/animate.css
   - assets/css/lenis.css
   - assets/css/essay_sketch_poem.css
+  - assets/css/home.css
   # - assets/css/page.css
   # - aseets/css/main.50c56a3b.min.css
   # - assets/css/palette.06af60db.min.css
@@ -75,6 +74,7 @@ extra_javascript:
   - assets/js/extra.js
   - assets/js/mathjax.js
   - assets/js/tablesort.js
+  - assets/js/home-hero.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
   # - https://unpkg.com/lenis@1.1.13/dist/lenis.min.js
   # - assets/js/lenis.js
