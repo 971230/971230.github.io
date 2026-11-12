@@ -4,6 +4,6 @@
 echo "--------------↓↓↓starting↓↓↓--------------"
 
 .\venv\Scripts\activate
-mkdocs serve
+zensical serve
 
 echo "--------------↓↓↓runing↓↓↓--------------"

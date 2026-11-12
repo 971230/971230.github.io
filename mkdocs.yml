@@ -1,11 +1,13 @@
 site_name: RiverLong的博客
-site_url: https://github.com/971230/971230.github.io
+site_url: https://971230.github.io/
 site_author: RiverLong
 site_description: RiverLong的博客-高山仰止，景行行止
 copyright: Copyright &copy; 2024-2026 RiverLong<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
 theme:
   # 使用的网站主题
   name: material
+  # 使用 Zensical 的经典外观，与 Material for MkDocs 保持一致
+  variant: classic
   # 开启这个重写网站首页
   # custom_dir: overrides
   # 网站语言

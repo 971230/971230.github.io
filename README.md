@@ -26,8 +26,8 @@ git clone git@github.com:971230/971230.github.io.git
 > 1. 首先要有Python环境，这个项目底层用的是Python，没有它就做不了。
 > 2. 执行 `python -m venv venv` ，创建Python开发虚拟环境
 > 3. 激活虚拟环境：`cd venv/Script` 之后 运行activate
-> 4. 退出到根目录，执行 `pip install mkdocs-material` 和 `pip install glightbox`安装相关依赖
-> 5. 执行 mkdocs serve 启动环境
+> 4. 退出到根目录，执行 `pip install -r requirements.txt` 安装相关依赖
+> 5. 执行 `zensical serve` 启动环境
 > 6. 访问 http://127.0.0.1:8000/xxxxx/xxxxxx 一般终端会给出具体地址
 
 
