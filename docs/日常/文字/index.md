@@ -41,5 +41,5 @@ icon: material/brain
 更要珍惜自己拥有的，把握生活的每一个时刻。
 </p>
 
-<p style="text-indent:20em;">--2024年8月26号--杭州</p>
+<p style="text-indent:20em;">—— 2024年8月26号--杭州</p>
 </div>

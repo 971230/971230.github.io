@@ -1,3 +1,18 @@
+/* ============================================================
+    随笔 / 诗歌写作机制说明
+    ------------------------------------------------------------
+    1. 随笔（.essay_sketch）：在容器上加 markdown 属性，例如
+        <div class="essay_sketch" markdown>
+        内部按普通 Markdown 写作，空行会自动分段生成 <p>，
+        不需要手写 <p> 标签。
+       注意：开启 markdown 后，正文里的 * _ # 等字符会被当作
+        Markdown 语法解析，若排版异常请优先检查这些特殊符号。
+    2. 诗歌（.poem_page）：保持容器为纯 HTML（不加 markdown），
+        按行书写，用空行分节；下方 .poem_page 的 white-space:
+        pre-line 会把单换行显示为换行、空行显示为分节，
+        不需要手写 <br> / <br><br>。
+   ============================================================ */
+
 :root {
     --essay-paper-bg: #fff;
     --essay-paper-line-a: #f5f5f0;
@@ -23,6 +38,20 @@
     background-size: 100% 1.2rem;
     line-height: 1.2rem;
     padding: 1.4rem 0.5rem 0.3rem 4.5rem;
+}
+
+/* 诗歌：保留源码换行，空行即分节，免去 <br> / <br><br> */
+.poem_page {
+    white-space: pre-line;
+    color: var(--essay-paper-text);
+    line-height: 25px;
+}
+
+/* 随笔开启 markdown 后，h1 会被 toc 解析并自动加上 ¶ 锚点，
+   这里隐藏它，保持文章标题原本的干净外观 */
+.essay_sketch .headerlink,
+.poem_page .headerlink {
+    display: none;
 }
 
 /* 这些样式要用就要适配宽度 */
