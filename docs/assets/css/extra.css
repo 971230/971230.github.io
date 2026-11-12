@@ -166,7 +166,7 @@ md-header__button md-logo {
     /* 普通文字 */
     --md-text-font: "仓耳云黑-W04";
     /* 代码字体 */
-    --md-code-font: "Longjf Nerd Font";
+    --md-code-font: "MapleYunHeiMonoNerdFont-Regular";
 }
 
 .yellow {
@@ -216,7 +216,7 @@ blockquote {
 
 code:not(.ex):not(.md-code__content) {
     color: #b88b22;
-    font-family: "Longjf Nerd Font";
+    font-family: "MapleYunHeiMonoNerdFont-Regular";
 }
 
 /* 粗体字颜色 */

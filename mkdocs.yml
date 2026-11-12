@@ -62,12 +62,8 @@ repo_url: https://zensical.org/
 extra_css:
   - assets/css/extra.css
   - assets/css/animate.css
-  - assets/css/lenis.css
   - assets/css/essay_sketch_poem.css
   - assets/css/home.css
-  # - assets/css/page.css
-  # - aseets/css/main.50c56a3b.min.css
-  # - assets/css/palette.06af60db.min.css
 
 # 额外的js，顺序不可变
 extra_javascript:
@@ -76,8 +72,6 @@ extra_javascript:
   - assets/js/tablesort.js
   - assets/js/home-hero.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
-  # - https://unpkg.com/lenis@1.1.13/dist/lenis.min.js
-  # - assets/js/lenis.js
 
 # 添加中英文字体
 extra:
