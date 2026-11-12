@@ -338,4 +338,4 @@ public void methodB() {
 
 ## 附一张可能有一点参考意义的表格
 
-<img src="../img/事务传播机制.png" style="zoom: 50%;" />
+<img src="./img/事务传播机制.png" style="zoom: 50%;" />

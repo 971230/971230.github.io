@@ -7,7 +7,7 @@ description: 第二章-Java内存区域与内存溢出异常
 
 ## 2.1 运行时数据区
 
-<div style="text-align: center"><img src="../img/2/JavaMemoryArea.png" style="zoom: 60%;"/></div>
+<div style="text-align: center"><img src="./img/2/JavaMemoryArea.png" style="zoom: 60%;"/></div>
 
 !!! Note "概念解释"
     <u>线程共享</u>：随着虚拟机进程的启动而一直存在<br>
@@ -181,7 +181,7 @@ Java 堆是垃圾收集器管理的内存区域：
 - 「句柄访问」：Java 堆中将可能会划分出一块内存来作为句柄池，reference 中存储的就是对象的句柄地址，而句柄中包含了对象实例数据与类型数据各自具体的地址信息
 - 「直接指针访问」：Java 堆中对象的内存布局就必须考虑如何放置访问类型数据的相关信息，reference 中存储的直接就是对象地址，如果只是访问对象本身的话，就不需要多一次间接访问的开销。最大的好处就是速度更快，它节省了一次指针定位的时间开销，也是HotSpot的实现
 
-<div style="text-align: center"><img src="../img/2/AccessLocation.png" style="zoom: 60%;"/></div>
+<div style="text-align: center"><img src="./img/2/AccessLocation.png" style="zoom: 60%;"/></div>
 
 ## 2.3 实战 OutOfMemoryError 异常
 
