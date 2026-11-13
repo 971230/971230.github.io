@@ -24,10 +24,35 @@ body.md-home .md-header {
   z-index: 2;
 }
 
-/* 首页不需要交互参数条，隐藏它们 */
-body.md-home .mdx-parameters,
-body.md-home .mdx-position {
+/* 首页隐藏交互参数条，但保留右下角的 x/y/z 坐标读数 */
+body.md-home .mdx-parameters {
   display: none;
+}
+
+/* 右下角实时坐标读数 */
+body.md-home .mdx-position {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 16px;
+  color: hsla(0, 0%, 100%, 0.82);
+  font-family: var(--md-code-font, monospace);
+}
+
+body.md-home .mdx-position .md-grid {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 16px;
+}
+
+body.md-home .mdx-position code {
+  padding: 2px 4px;
+  color: #fff;
+}
+
+/* 右下角标颜色 */
+body.md-home .mdx-position sub {
+  color: #fff;
 }
 
 /* 头部透明，配合深色动画背景 */
