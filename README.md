@@ -40,4 +40,14 @@ git clone git@github.com:971230/971230.github.io.git
 
 ### 改动与升级
 
-由于官方项目mkdocs-material 在 2027-05-05 停止维护、官方后续项目是 Zensical，所以需要升级。官方已经给出了平滑的升级方案。可以去看教程，地址 https://zensical.org/ 
+由于官方项目mkdocs-material 在 2027-05-05 停止维护、官方后续项目是 Zensical，所以需要升级。官方已经给出了平滑的升级方案。可以去看教程，地址 https://zensical.org/
+
+## 许可证（License）
+
+本仓库采用**双许可证**，请务必区分使用对象：
+
+- **代码与站点配置**（`mkdocs.yml`、`docs/assets/` 下的 CSS/JS、`overrides/` 等）：遵循 [MIT License](./LICENSE)。
+- **文章内容**（`docs/` 目录下的原创文字、图片等）：遵循 [CC BY-NC-SA 4.0](./LICENSE-CONTENT.md)（署名-非商业性使用-相同方式共享）。
+
+简单说：**代码可自由复用；文章转载需署名、禁止商用、并以相同方式共享。**
+ 

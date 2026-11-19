@@ -2,7 +2,7 @@ site_name: RiverLong的博客
 site_url: https://971230.github.io/
 site_author: RiverLong
 site_description: RiverLong的博客-高山仰止，景行行止
-copyright: Copyright &copy; 2024-2026 RiverLong<br>本网站遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议，若要使用本网站的资源，都需要遵守此许可协议条款
+copyright: Copyright &copy; 2024-2026 RiverLong<br>本站文章内容遵循 <u><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a></u> 协议（署名-非商业性使用-相同方式共享），代码遵循 <u><a href="https://github.com/971230/971230.github.io/blob/main/LICENSE">MIT</a></u>
 theme:
   # 使用的网站主题
   name: material
