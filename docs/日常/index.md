@@ -20,7 +20,7 @@ hide:
     - [ ] <a class="navigation" href="文字/人物-好友-钟意/">人物-好友-钟意</a>
     - [x] <a class="navigation" href="文字/回忆-外公/">回忆-外公</a>
     - [x] <a class="navigation" href="文字/回忆-爷爷/">回忆-爷爷</a>
-    - [ ] <a class="navigation" href="文字/回忆-奶奶/">回忆-奶奶</a>
+    - [x] <a class="navigation" href="文字/回忆-奶奶/">回忆-奶奶</a>
     - [x] <a class="navigation" href="文字/诗-盒子/">诗-盒子</a>
     - [x] <a class="navigation" href="文字/诗-记一次黑夜中的痛苦/">诗-记一次黑夜中的痛苦</a>
     - [x] <a class="navigation" href="文字/诗-什么叫醒我/">诗-什么叫醒我</a>
