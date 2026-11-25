@@ -1,0 +1,127 @@
+/* zensical.org 首页黑洞背景动画，所有规则都限定在首页（body.md-home）下生效 */
+
+body.md-home {
+  background-color: #0b0c0f;
+}
+
+/* 全屏 WebGL 背景层，藏在内容后面 */
+body.md-home .mdx-hero {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(1200px 800px at 50% 35%, #1a1d24 0%, #0b0c0f 60%);
+}
+
+/* 页面内容浮在动画之上 */
+body.md-home .md-container {
+  position: relative;
+  z-index: 1;
+}
+
+body.md-home .md-header {
+  z-index: 2;
+}
+
+/* 首页隐藏交互参数条，但保留右下角的 x/y/z 坐标读数 */
+body.md-home .mdx-parameters {
+  display: none;
+}
+
+/* 右下角实时坐标读数 */
+body.md-home .mdx-position {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 16px;
+  color: hsla(0, 0%, 100%, 0.82);
+  font-family: var(--md-code-font, monospace);
+}
+
+body.md-home .mdx-position .md-grid {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 16px;
+}
+
+body.md-home .mdx-position code {
+  padding: 2px 4px;
+  color: #fff;
+}
+
+/* 右下角标颜色 */
+body.md-home .mdx-position sub {
+  color: #fff;
+}
+
+/* 头部透明，配合深色动画背景 */
+body.md-home .md-header {
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+
+body.md-home .md-header__option {
+  display: none;
+}
+
+body.md-home .md-tabs {
+  box-shadow: inset 0 -0.05rem 0 hsla(0, 0%, 100%, 0.1);
+}
+
+body.md-home .md-tabs__item {
+  color: #fff;
+}
+
+body.md-home .md-tabs__item--active {
+  border-bottom: 0.05rem solid #fff;
+}
+
+/* 保证正文和背景之间不会出现不透明的色块 */
+body.md-home .md-main,
+body.md-home .md-content {
+  background: transparent;
+}
+
+/* 把正文提到 WebGL 背景层之上，避免被 canvas 盖住 */
+body.md-home .md-main {
+  position: relative;
+  z-index: 1;
+}
+
+body.md-home .md-main__inner {
+  margin-top: 0;
+}
+
+/* 首页欢迎文案与按钮的可读性 */
+body.md-home .main-guide {
+  color: #fff;
+  text-shadow: 0 0 18px rgba(0, 0, 0, 0.85);
+}
+
+body.md-home .md-button {
+  backdrop-filter: blur(4px);
+  background-color: hsla(0, 0%, 90%, 0.12);
+  color: #fff;
+  transition: all 0.25s;
+}
+
+body.md-home .md-button:focus,
+body.md-home .md-button:hover {
+  color: #fff;
+}
+
+body.md-home .md-button--primary {
+  background: linear-gradient(
+    35deg,
+    rgba(255, 138, 140, 0.933),
+    rgba(255, 193, 32, 0.8)
+  );
+  color: #fff;
+}
+
+body.md-home .md-button--primary:focus,
+body.md-home .md-button--primary:hover {
+  color: #fff;
+}
